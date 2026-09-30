@@ -69,7 +69,10 @@ jobs:
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
-          else
-            git commit -m "Daily AI news $(date -u +%Y-%m-%d)"
-            git push
+            exit 0
           fi
+
+          git commit -m "Daily AI news $(date -u +%Y-%m-%d)"
+
+          git pull --rebase origin main
+          git push
