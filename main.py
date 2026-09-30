@@ -16,6 +16,7 @@ Needs one environment variable: GEMINI_API_KEY
 from __future__ import annotations
 
 import json
+import hashlib
 import os
 import re
 import sys
