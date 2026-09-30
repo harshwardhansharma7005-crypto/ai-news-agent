@@ -617,6 +617,152 @@ def build_post(stories: list[Article], headline: str, closing: str, date_str: st
     lines += [closing, "", make_hashtags(stories)]
     return "\n".join(lines).strip() + "\n"
 
+# --------------------------------------------------------------------------
+# STEP 7: PUBLISH TO FACEBOOK PAGE (official Graph API, text-only post)
+# --------------------------------------------------------------------------
+GRAPH_VERSION_RE = re.compile(r"^v\d+\.\d+$")
+PUBLISH_STATE_FILE = OUTPUT_DIR / "facebook_published.json"
+
+META_ERROR_HINTS = {
+    190: "Token is invalid/expired/revoked. Regenerate the System User token in Business Settings and update META_ACCESS_TOKEN.",
+    10: "Permission missing. Check pages_manage_posts is on the token and the Page is assigned to the System User with Content (CREATE_CONTENT) access.",
+    200: "Permission denied. Check pages_manage_posts and that the System User has Content access on this Page.",
+    100: "Invalid parameter. Check META_PAGE_ID and that this Page is assigned to the System User.",
+    368: "Facebook temporarily blocked this action (spam/abuse filter).",
+    506: "Facebook rejected this as a duplicate post.",
+}
+
+
+class FacebookPublishError(Exception):
+    """Raised when the post could not be published to Facebook."""
+
+
+def _redact(text: str, *secrets: str) -> str:
+    for s in secrets:
+        if s:
+            text = text.replace(s, "***")
+    return text
+
+
+def _load_publish_state() -> dict:
+    try:
+        data = json.loads(PUBLISH_STATE_FILE.read_text(encoding="utf-8"))
+        return data if isinstance(data, dict) else {}
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def _meta_error_message(resp: requests.Response, *secrets: str) -> str:
+    try:
+        data = resp.json()
+    except ValueError:
+        data = {}
+    err = data.get("error") if isinstance(data, dict) else None
+    if isinstance(err, dict):
+        code = err.get("code")
+        hint = META_ERROR_HINTS.get(code, "")
+        msg = (f"Meta API error (HTTP {resp.status_code}, code {code}, subcode {err.get('error_subcode')}, "
+               f"type {err.get('type')}): {err.get('message', '')} {hint} [fbtrace_id={err.get('fbtrace_id')}]")
+    else:
+        msg = f"Unexpected response (HTTP {resp.status_code}): {resp.text[:300]}"
+    return _redact(" ".join(msg.split()), *secrets)
+
+
+def _get_page_token(base_url: str, page_id: str, token: str) -> str:
+    """A System User token is not a Page token. Ask Meta for the Page's own token.
+    If Meta returns none (token already is a Page token), use the given token directly."""
+    try:
+        r = requests.get(f"{base_url}/{page_id}",
+                         params={"fields": "access_token", "access_token": token}, timeout=30)
+    except requests.RequestException as exc:
+        raise FacebookPublishError(
+            _redact(f"Network error while requesting the Page token ({type(exc).__name__}). "
+                    "Nothing was posted; safe to re-run.", token)
+        ) from None
+    if r.ok:
+        try:
+            data = r.json()
+        except ValueError:
+            data = {}
+        page_token = data.get("access_token") if isinstance(data, dict) else None
+        if page_token:
+            print(f"::add-mask::{page_token}", flush=True)  # hide derived token in GitHub logs too
+            log("Using Page access token derived from META_ACCESS_TOKEN.")
+            return page_token
+        log("Meta returned no separate Page token; using META_ACCESS_TOKEN directly.")
+        return token
+    warn(_meta_error_message(r, token) + " | Page-token lookup failed; trying META_ACCESS_TOKEN directly.")
+    return token
+
+
+def publish_to_facebook(post_text: str, now_ist: datetime) -> str:
+    """Publishes post_text to the Page. Returns the Facebook post id.
+    Raises FacebookPublishError on any failure. Never logs any token."""
+    token = os.environ.get("META_ACCESS_TOKEN", "").strip()
+    page_id = os.environ.get("META_PAGE_ID", "").strip()
+    version = os.environ.get("META_GRAPH_VERSION", "").strip()
+    missing = [n for n, v in (("META_ACCESS_TOKEN", token), ("META_PAGE_ID", page_id),
+                              ("META_GRAPH_VERSION", version)) if not v]
+    if missing:
+        raise FacebookPublishError(
+            f"Missing environment variable(s): {', '.join(missing)}. META_ACCESS_TOKEN and META_PAGE_ID are "
+            "repository secrets; META_GRAPH_VERSION is a repository variable (e.g. v25.0 - use the version "
+            "shown in your Meta App Dashboard). All three must be passed in the workflow.")
+    if not GRAPH_VERSION_RE.match(version):
+        raise FacebookPublishError(f"META_GRAPH_VERSION must look like 'v25.0', got '{version}'.")
+    if not page_id.isdigit():
+        raise FacebookPublishError("META_PAGE_ID must be the numeric Page ID (check for typos/extra text).")
+    if not post_text.strip():
+        raise FacebookPublishError("Post text is empty - nothing to publish.")
+
+    # ---- Duplicate prevention: one post per IST day, and never the same exact text twice ----
+    date_key = now_ist.strftime("%Y-%m-%d")
+    text_hash = hashlib.sha256(post_text.encode("utf-8")).hexdigest()
+    state = _load_publish_state()
+    if os.environ.get("FORCE_PUBLISH", "0").strip() != "1":
+        if state.get("ist_date") == date_key or state.get("text_sha256") == text_hash:
+            log(f"Already published for {state.get('ist_date')} (post id {state.get('post_id')}). "
+                "Skipping Facebook publish to avoid a duplicate.")
+            return str(state.get("post_id", ""))
+    else:
+        log("FORCE_PUBLISH=1 - duplicate protection bypassed.", "WARN")
+
+    # ---- Get the Page token, then publish (token goes in the POST body, never logged) ----
+    base_url = f"https://graph.facebook.com/{version}"
+    page_token = _get_page_token(base_url, page_id, token)
+    try:
+        resp = requests.post(f"{base_url}/{page_id}/feed",
+                             data={"message": post_text, "access_token": page_token}, timeout=30)
+    except requests.RequestException as exc:
+        # No automatic retry: a timeout may still have created the post, and a retry could duplicate it.
+        raise FacebookPublishError(
+            _redact(f"Network error while calling Meta API ({type(exc).__name__}). "
+                    "Check the Page before re-running - the post may have gone through.", token, page_token)
+        ) from None
+
+    if not resp.ok:
+        raise FacebookPublishError(_meta_error_message(resp, token, page_token))
+    try:
+        data = resp.json()
+    except ValueError:
+        data = {}
+    post_id = data.get("id") if isinstance(data, dict) else None
+    if not post_id:
+        raise FacebookPublishError(_meta_error_message(resp, token, page_token))
+
+    # ---- Remember it so a re-run does not post again ----
+    try:
+        PUBLISH_STATE_FILE.parent.mkdir(exist_ok=True)
+        PUBLISH_STATE_FILE.write_text(json.dumps({
+            "ist_date": date_key,
+            "post_id": post_id,
+            "text_sha256": text_hash,
+            "published_at_ist": now_ist.isoformat(timespec="seconds"),
+        }, indent=2), encoding="utf-8")
+    except OSError as exc:
+        warn(f"Post {post_id} was published but the duplicate-protection file could not be saved: {exc}")
+    return str(post_id)
+
 
 # --------------------------------------------------------------------------
 # MAIN
