@@ -1,0 +1,46 @@
+🤖 Top 10 AI updates today (30 Sep 2026)
+📅 30 Sep 2026 | Daily AI News Roundup
+
+1. DevDay 2026 Recap
+OpenAI held DevDay 2026, announcing over 20 updates including new models, agents called 'dots', and expanded developer tools for its ecosystem.
+🔗 Source: OpenAI - https://openai.com/index/devday-2026-recap
+
+2. AMD acquires World Labs AI startup, upping the ante against Nvidia
+Chipmaker AMD announced it will acquire AI company World Labs for $8.2 billion by year's end, pending regulatory approval. This acquisition aims to enhance AMD's capabilities in world models and compete with rivals.
+🔗 Source: Ars Technica AI - https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup/
+
+3. OpenAI’s Dots Are Always-On AI Agents—and Its Answer to Meta’s Muse
+OpenAI announced "Dots," new always-on AI agents powered by GPT-6 Astra, at its DevDay 2026 event. These agents are designed to connect to apps and complete multistep tasks for users.
+🔗 Source: WIRED AI - https://www.wired.com/story/openai-dots-always-on-ai-agents-that-proactively-help/
+
+4. From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI
+CoreWeave announced the availability of NVIDIA Vera Rubin NVL72 systems and the launch of CoreWeave Forge to support the development and production of agentic AI.
+🔗 Source: NVIDIA Blog - https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/
+
+5. Anthropic Says It Discovered a Crispr-Like System. Now What?
+Anthropic claimed its Claude large language model identified an enzyme system with properties similar to Crispr after running 950 agents. This marks a potential AI-driven scientific discovery in biology.
+🔗 Source: WIRED AI - https://www.wired.com/story/anthropic-says-it-discovered-a-crispr-like-system-now-what/
+
+6. Here’s how tech leaders will self-police AI safety under Trump’s deal
+Tech leaders including those from Google, Anthropic, and Meta signed a 'Joint Commitment on Frontier Responsibilities,' a self-regulatory AI safety agreement.
+🔗 Source: The Verge AI - https://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs
+
+7. Introducing SynthID Bio
+Google DeepMind introduced SynthID Bio, a watermarking technology for synthetic biology that embeds signatures into biological code to improve biosecurity and scientific integrity.
+🔗 Source: Google DeepMind - https://deepmind.google/blog/introducing-synthid-bio/
+
+8. Google figures out how to watermark AI-designed proteins
+Google's DeepMind team published research on a protein watermarking system intended to help identify and mitigate biosecurity risks associated with AI-designed proteins.
+🔗 Source: Ars Technica AI - https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins/
+
+9. Sep 30, 2026EconomicsWhat work can robots do?
+Anthropic published a study using its Claude model to measure job exposure to robots, finding that while robots can perform 74% of physical tasks, they are currently cost-competitive for only 0.3%.
+🔗 Source: Anthropic Research - https://www.anthropic.com/research/what-work-can-robots-do
+
+10. Meta disputes claim that Muse read a user’s private messages without permission
+Meta disputed claims that its Muse AI agent accessed private messages without user consent, stating that the feature requires explicit opt-in and system permissions.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/
+
+That's your daily AI roundup! Follow this page so you never miss an update.
+
+#AI #ArtificialIntelligence #AINews #TechNews #OpenAI #NVIDIA #Anthropic #Claude #GoogleAI #DeepMind #MetaAI

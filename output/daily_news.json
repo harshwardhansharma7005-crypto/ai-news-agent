@@ -1,0 +1,126 @@
+{
+  "generated_at_ist": "2026-09-30T23:11:48+05:30",
+  "story_count": 10,
+  "stories": [
+    {
+      "rank": 1,
+      "title": "DevDay 2026 Recap",
+      "company": "OpenAI",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/devday-2026-recap",
+      "published_utc": "2026-09-29T10:00:00+00:00",
+      "significance": 8,
+      "score": 88.1,
+      "verification": "article page",
+      "explanation": "OpenAI held DevDay 2026, announcing over 20 updates including new models, agents called 'dots', and expanded developer tools for its ecosystem."
+    },
+    {
+      "rank": 2,
+      "title": "AMD acquires World Labs AI startup, upping the ante against Nvidia",
+      "company": "NVIDIA",
+      "source": "Ars Technica AI",
+      "url": "https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup/",
+      "published_utc": "2026-09-29T21:14:49+00:00",
+      "significance": 8,
+      "score": 84.9,
+      "verification": "article page",
+      "explanation": "Chipmaker AMD announced it will acquire AI company World Labs for $8.2 billion by year's end, pending regulatory approval. This acquisition aims to enhance AMD's capabilities in world models and compete with rivals."
+    },
+    {
+      "rank": 3,
+      "title": "OpenAI’s Dots Are Always-On AI Agents—and Its Answer to Meta’s Muse",
+      "company": "OpenAI",
+      "source": "WIRED AI",
+      "url": "https://www.wired.com/story/openai-dots-always-on-ai-agents-that-proactively-help/",
+      "published_utc": "2026-09-29T17:15:00+00:00",
+      "significance": 8,
+      "score": 83.9,
+      "verification": "article page",
+      "explanation": "OpenAI announced \"Dots,\" new always-on AI agents powered by GPT-6 Astra, at its DevDay 2026 event. These agents are designed to connect to apps and complete multistep tasks for users."
+    },
+    {
+      "rank": 4,
+      "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+      "company": "NVIDIA",
+      "source": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
+      "published_utc": "2026-09-30T15:00:00+00:00",
+      "significance": 6,
+      "score": 75.3,
+      "verification": "article page",
+      "explanation": "CoreWeave announced the availability of NVIDIA Vera Rubin NVL72 systems and the launch of CoreWeave Forge to support the development and production of agentic AI."
+    },
+    {
+      "rank": 5,
+      "title": "Anthropic Says It Discovered a Crispr-Like System. Now What?",
+      "company": "Anthropic",
+      "source": "WIRED AI",
+      "url": "https://www.wired.com/story/anthropic-says-it-discovered-a-crispr-like-system-now-what/",
+      "published_utc": "2026-09-29T18:03:01+00:00",
+      "significance": 7,
+      "score": 74.1,
+      "verification": "article page",
+      "explanation": "Anthropic claimed its Claude large language model identified an enzyme system with properties similar to Crispr after running 950 agents. This marks a potential AI-driven scientific discovery in biology."
+    },
+    {
+      "rank": 6,
+      "title": "Here’s how tech leaders will self-police AI safety under Trump’s deal",
+      "company": "Other",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs",
+      "published_utc": "2026-09-30T12:24:32+00:00",
+      "significance": 6,
+      "score": 68.7,
+      "verification": "article page",
+      "explanation": "Tech leaders including those from Google, Anthropic, and Meta signed a 'Joint Commitment on Frontier Responsibilities,' a self-regulatory AI safety agreement."
+    },
+    {
+      "rank": 7,
+      "title": "Introducing SynthID Bio",
+      "company": "Google",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "published_utc": "2026-09-30T15:03:07+00:00",
+      "significance": 5,
+      "score": 65.3,
+      "verification": "article page",
+      "explanation": "Google DeepMind introduced SynthID Bio, a watermarking technology for synthetic biology that embeds signatures into biological code to improve biosecurity and scientific integrity."
+    },
+    {
+      "rank": 8,
+      "title": "Google figures out how to watermark AI-designed proteins",
+      "company": "Google",
+      "source": "Ars Technica AI",
+      "url": "https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins/",
+      "published_utc": "2026-09-30T15:54:52+00:00",
+      "significance": 5,
+      "score": 59.6,
+      "verification": "article page",
+      "explanation": "Google's DeepMind team published research on a protein watermarking system intended to help identify and mitigate biosecurity risks associated with AI-designed proteins."
+    },
+    {
+      "rank": 9,
+      "title": "Sep 30, 2026EconomicsWhat work can robots do?",
+      "company": "Anthropic",
+      "source": "Anthropic Research",
+      "url": "https://www.anthropic.com/research/what-work-can-robots-do",
+      "published_utc": "2026-09-30T00:00:00+00:00",
+      "significance": 4,
+      "score": 51.6,
+      "verification": "article page",
+      "explanation": "Anthropic published a study using its Claude model to measure job exposure to robots, finding that while robots can perform 74% of physical tasks, they are currently cost-competitive for only 0.3%."
+    },
+    {
+      "rank": 10,
+      "title": "Meta disputes claim that Muse read a user’s private messages without permission",
+      "company": "Meta",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/",
+      "published_utc": "2026-09-30T16:24:23+00:00",
+      "significance": 4,
+      "score": 49.7,
+      "verification": "article page",
+      "explanation": "Meta disputed claims that its Muse AI agent accessed private messages without user consent, stating that the feature requires explicit opt-in and system permissions."
+    }
+  ]
+}
