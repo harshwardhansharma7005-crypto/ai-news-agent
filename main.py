@@ -851,8 +851,18 @@ def main() -> int:
         with open(summary_path, "a", encoding="utf-8") as f:
             f.write(f"## Daily AI post ({date_str})\n\n```\n{post}```\n")
 
-    step("FINAL POST")
+        step("FINAL POST")
     print(post)
+
+    step("7. PUBLISHING TO FACEBOOK")
+    try:
+        post_id = publish_to_facebook(post, now_ist)
+    except FacebookPublishError as exc:
+        log(str(exc), "ERROR")
+        print(f"::error::Facebook publishing failed: {exc}", flush=True)
+        return 1
+    log(f"Facebook post id: {post_id}")
+
     step("DONE")
     return 0
 
