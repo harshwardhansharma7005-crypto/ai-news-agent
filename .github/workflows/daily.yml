@@ -28,6 +28,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v6
@@ -61,19 +63,49 @@ jobs:
 
       - name: Save output to the repository
         if: always()
+        env:
+          BRANCH: ${{ github.ref_name }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          set -euo pipefail
 
-          git add output/
-
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
+          if [ ! -d output ]; then
+            echo "No output/ directory found - nothing to save."
             exit 0
           fi
 
-          git commit -m "Daily AI news $(date -u +%Y-%m-%d)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git pull --rebase origin main
+          # Keep a copy of the freshly generated files, then always build the
+          # commit on top of the LATEST remote branch. Only our own output/
+          # files are overlaid, so there is nothing to conflict with.
+          BACKUP="$RUNNER_TEMP/output-backup"
+          rm -rf "$BACKUP"
+          cp -a output "$BACKUP"
 
-          git push
+          for attempt in 1 2 3 4 5; do
+            git fetch origin "$BRANCH"
+            git reset --hard "origin/$BRANCH"
+
+            mkdir -p output
+            cp -a "$BACKUP/." output/
+            git add output/
+
+            if git diff --cached --quiet; then
+              echo "No changes to commit."
+              exit 0
+            fi
+
+            git commit -m "Daily AI news $(date -u +%Y-%m-%d)"
+
+            if git push origin "HEAD:$BRANCH"; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+
+            echo "::warning::Push rejected (attempt $attempt/5) because another commit landed first. Refetching and retrying."
+            sleep $((attempt * 4))
+          done
+
+          echo "::error::Could not push output files after 5 attempts."
+          exit 1
