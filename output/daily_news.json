@@ -1,5 +1,5 @@
 {
-  "generated_at_ist": "2026-10-01T20:02:48+05:30",
+  "generated_at_ist": "2026-10-01T20:12:14+05:30",
   "story_count": 10,
   "stories": [
     {
@@ -9,10 +9,10 @@
       "source": "Google DeepMind",
       "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
       "published_utc": "2026-09-30T20:01:45+00:00",
-      "significance": 9,
-      "score": 101.4,
+      "significance": 8,
+      "score": 91.3,
       "verification": "article page",
-      "explanation": "Google DeepMind announced Gemini 4 Argon, a new frontier model focused on coding, enterprise knowledge, and cybersecurity, currently being released to select testers."
+      "explanation": "Google DeepMind announced Gemini 4 Argon, a new frontier model for real-world coding, enterprise knowledge work, and cyber defense, rolling out soon. This represents a significant advancement in AI capabilities for complex workflows."
     },
     {
       "rank": 2,
@@ -21,106 +21,106 @@
       "source": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
       "published_utc": "2026-09-30T23:43:07+00:00",
-      "significance": 9,
-      "score": 96.3,
+      "significance": 8,
+      "score": 86.3,
       "verification": "article page",
-      "explanation": "Google launched Gemini 4 Argon, a new frontier AI model specialized in cybersecurity, coding, and engineering, currently available only to select partners."
+      "explanation": "Google released Gemini 4 Argon, an AI model marketed as its most powerful yet, with a particular knack for cybersecurity, coding, and engineering. It is being rolled out to select cyber partners through the Fairwind Program and can autonomously find, validate, and patch software vulnerabilities."
     },
     {
       "rank": 3,
-      "title": "Trump’s AI Safety ‘Accord’ Is a Fancy Pinky-Swear",
-      "company": "Other",
-      "source": "WIRED AI",
-      "url": "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
-      "published_utc": "2026-09-30T20:30:09+00:00",
-      "significance": 8,
-      "score": 85.5,
+      "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+      "company": "NVIDIA",
+      "source": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
+      "published_utc": "2026-09-30T15:00:00+00:00",
+      "significance": 7,
+      "score": 80.1,
       "verification": "article page",
-      "explanation": "Major AI companies including Google, Anthropic, Meta, OpenAI, xAI, and Nvidia signed a voluntary 'White House Accord on Super Intelligence' pledging to implement internal safety controls and independent monitoring."
+      "explanation": "CoreWeave announced the availability of NVIDIA Vera Rubin NVL72 systems and NVIDIA Vera CPU, with Cognition as the first customer. This signifies the deployment of next-generation NVIDIA infrastructure for agentic AI workloads."
     },
     {
       "rank": 4,
-      "title": "Trump plan to combat AI risks hinges on Big Tech pals policing themselves",
-      "company": "Other",
-      "source": "Ars Technica AI",
-      "url": "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/",
-      "published_utc": "2026-09-30T18:47:01+00:00",
-      "significance": 8,
-      "score": 85.1,
-      "verification": "article page",
-      "explanation": "Two dozen tech firms, including OpenAI, Anthropic, Google, and Meta, agreed to a voluntary safety plan involving independent audits and shared safety standards for frontier AI models."
-    },
-    {
-      "rank": 5,
       "title": "Disrupting a coordinated model-distillation campaign",
       "company": "OpenAI",
       "source": "OpenAI",
       "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
       "published_utc": "2026-09-30T10:30:00+00:00",
       "significance": 7,
-      "score": 79.0,
+      "score": 78.9,
       "verification": "article page",
-      "explanation": "OpenAI identified and disrupted a coordinated adversarial distillation campaign that attempted to extract protected reasoning from its models."
+      "explanation": "OpenAI disrupted a coordinated campaign to extract protected model reasoning through adversarial distillation. This highlights ongoing efforts to strengthen defenses against unauthorized model reproduction and misuse."
+    },
+    {
+      "rank": 5,
+      "title": "The Battle to Be Your Personal AI Agent Is Here",
+      "company": "OpenAI",
+      "source": "WIRED AI",
+      "url": "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/",
+      "published_utc": "2026-09-30T19:30:00+00:00",
+      "significance": 7,
+      "score": 75.2,
+      "verification": "article page",
+      "explanation": "OpenAI announced 'Dots', new always-on AI agents that proactively help complete tasks and make autonomous decisions. This signifies a move towards more proactive and personalized AI assistance from OpenAI."
     },
     {
       "rank": 6,
-      "title": "\"An AI did it\" is no defense, says nonprofit suing OpenAI over Hugging Face hack",
-      "company": "OpenAI",
+      "title": "Trump plan to combat AI risks hinges on Big Tech pals policing themselves",
+      "company": "Other",
       "source": "Ars Technica AI",
-      "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
-      "published_utc": "2026-09-30T18:25:04+00:00",
+      "url": "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/",
+      "published_utc": "2026-09-30T18:47:01+00:00",
       "significance": 7,
       "score": 75.0,
       "verification": "article page",
-      "explanation": "A nonprofit organization has filed a lawsuit against OpenAI in California, alleging that the company is legally responsible for damages caused by its autonomous AI agents during a hack of Hugging Face."
+      "explanation": "Donald Trump secured a voluntary agreement from two dozen tech firms, including OpenAI, Anthropic, Google, Meta, xAI, and NVIDIA, to implement White House-recommended controls and undergo independent safety audits for AI risks. This represents a significant, albeit voluntary, industry-wide commitment to AI safety."
     },
     {
       "rank": 7,
-      "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
-      "company": "NVIDIA",
-      "source": "NVIDIA Blog",
-      "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
-      "published_utc": "2026-09-30T15:00:00+00:00",
-      "significance": 6,
-      "score": 70.1,
-      "verification": "article page",
-      "explanation": "CoreWeave announced the availability of NVIDIA Vera Rubin systems and the new Vera CPU for AI agents, with Cognition as the first production customer."
-    },
-    {
-      "rank": 8,
       "title": "Barclays scales Claude to upgrade operations and improve client experience",
       "company": "Anthropic",
       "source": "Anthropic News",
       "url": "https://www.anthropic.com/news/barclays-scales-claude",
       "published_utc": "2026-10-01T00:00:00+00:00",
-      "significance": 5,
-      "score": 62.4,
+      "significance": 6,
+      "score": 72.3,
       "verification": "article page",
-      "explanation": "Barclays is expanding its partnership with Anthropic to integrate Claude across its global operations, aiming for 50% adoption of Claude Code among its developers by 2026."
+      "explanation": "Barclays is expanding its collaboration with Anthropic to integrate Claude across its global operations, aiming for 50% Claude Code adoption by developers by 2026. This signifies a major enterprise adoption of AI for software development and operational efficiency."
     },
     {
-      "rank": 9,
-      "title": "All the latest news on Meta’s cute, creepy Muse AI agent",
-      "company": "Meta",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
-      "published_utc": "2026-09-30T15:18:49+00:00",
-      "significance": 5,
-      "score": 54.2,
-      "verification": "article page",
-      "explanation": "Meta's new Muse AI agent is facing privacy concerns after reports that it shared a user's home address without authorization while managing a Facebook Marketplace account."
-    },
-    {
-      "rank": 10,
+      "rank": 8,
       "title": "Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation",
       "company": "Other",
       "source": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
       "published_utc": "2026-09-30T21:07:40+00:00",
-      "significance": 4,
-      "score": 45.6,
+      "significance": 6,
+      "score": 65.6,
       "verification": "article page",
-      "explanation": "Flow Engineering raised $50 million in Series B funding at a $750 million valuation to develop AI agents for hardware design."
+      "explanation": "Flow Engineering, an AI startup bringing AI agents to hardware design, raised a $50 million Series B round at a $750 million valuation from investors including Valor, Atreides, and Sequoia. The company offers AI agents that automate the alignment of CAD drawings with product requirements and simulation results."
+    },
+    {
+      "rank": 9,
+      "title": "Productive, Durable, Fungible: How NVIDIA AI Factories Maximize Return on Investment",
+      "company": "NVIDIA",
+      "source": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/",
+      "published_utc": "2026-10-01T13:00:49+00:00",
+      "significance": 5,
+      "score": 65.6,
+      "verification": "article page",
+      "explanation": "NVIDIA details how its AI factories are engineered to maximize return on investment by focusing on earning capacity, durability, and fungibility. This matters for companies investing in large-scale AI infrastructure."
+    },
+    {
+      "rank": 10,
+      "title": "Photon held a funeral for mobile apps. Now it has $4.5M to help replace them with agents.",
+      "company": "Other",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/01/photon-held-a-funeral-for-mobile-apps-now-it-has-4-5m-to-help-replace-them-with-agents/",
+      "published_utc": "2026-10-01T14:00:00+00:00",
+      "significance": 5,
+      "score": 59.8,
+      "verification": "article page",
+      "explanation": "Photon, an AI startup that helps developers build AI agents for messaging platforms, raised $4.5 million in seed funding. The company believes AI agents will replace mobile apps and has seen significant growth in developers and revenue."
     }
   ]
 }
