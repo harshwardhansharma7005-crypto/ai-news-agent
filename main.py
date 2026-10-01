@@ -10,13 +10,17 @@ Outputs:
     output/daily_post.txt   - the Facebook post text
     output/daily_news.json  - the selected stories as JSON
 
-Needs one environment variable: GEMINI_API_KEY
+Needs these environment variables (set them as GitHub Secrets / Variables):
+    GEMINI_API_KEY                                  (secret)
+    META_ACCESS_TOKEN, META_PAGE_ID                 (secrets)  - for Facebook publishing
+    META_GRAPH_VERSION, e.g. v25.0                  (variable) - for Facebook publishing
+(On GitHub: Settings > Secrets and variables > Actions. NEVER paste the key in this file.)
 """
 
 from __future__ import annotations
 
-import json
 import hashlib
+import json
 import os
 import re
 import sys
@@ -372,19 +376,20 @@ def verify(articles: list[Article]) -> list[Article]:
 _dead_models: set[str] = set()
 
 
-def call_gemini(prompt: str, max_tokens: int = 8192) -> str:
+def call_gemini(prompt: str, max_tokens: int = 16384) -> str:
     key = os.environ.get("GEMINI_API_KEY", "").strip()
     if not key:
         raise GeminiFatal("GEMINI_API_KEY is missing.")
-    body = {
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.2, "maxOutputTokens": max_tokens,
-                             "responseMimeType": "application/json"},
-    }
     last_error = "unknown error"
     for model in GEMINI_MODELS:
         if model in _dead_models:
             continue
+        gen_config = {"temperature": 0.2, "maxOutputTokens": max_tokens,
+                      "responseMimeType": "application/json"}
+        if "2.5-flash" in model:
+            # Thinking tokens would eat the output budget and could cut the JSON off.
+            gen_config["thinkingConfig"] = {"thinkingBudget": 0}
+        body = {"contents": [{"parts": [{"text": prompt}]}], "generationConfig": gen_config}
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
         for attempt in range(1, 4):
             try:
@@ -402,6 +407,11 @@ def call_gemini(prompt: str, max_tokens: int = 8192) -> str:
                 except (KeyError, IndexError):
                     last_error = f"{model}: empty/blocked response"
                     break
+            if r.status_code == 429 and "PerDay" in r.text:
+                log(f"Gemini {model}: daily free quota used up - trying the next model", "WARN")
+                _dead_models.add(model)
+                last_error = f"{model}: daily quota exhausted"
+                break
             if r.status_code in (429, 500, 502, 503, 504):
                 wait = 15 * attempt
                 last_error = f"{model}: HTTP {r.status_code}"
@@ -590,7 +600,7 @@ ITEMS
         data = parse_json(call_gemini(prompt, max_tokens=1024))
         headline = " ".join(str(data["headline"]).split())
         closing = " ".join(str(data["closing_line"]).split())
-        source_blob = " ".join(f"{s.title} {s.explanation} {s.text}" for s in stories)
+        source_blob = " ".join(f"{s.title} {s.explanation} {s.text}" for s in stories) + f" {len(stories)} {date_str}"
         if not (10 <= len(headline) <= 120) or not (5 <= len(closing) <= 200):
             raise ValueError("headline/closing length out of range")
         if not is_grounded(headline + " " + closing, source_blob):
@@ -607,7 +617,7 @@ def make_hashtags(stories: list[Article]) -> str:
     tags = ["#AI", "#ArtificialIntelligence", "#AINews", "#TechNews"]
     for company in dict.fromkeys(s.company for s in stories):
         tags.extend(COMPANY_HASHTAGS.get(company, []))
-    return " ".join(dict.fromkeys(tags)[:14] if False else list(dict.fromkeys(tags))[:14])
+    return " ".join(list(dict.fromkeys(tags))[:14])
 
 
 def build_post(stories: list[Article], headline: str, closing: str, date_str: str) -> str:
@@ -616,6 +626,7 @@ def build_post(stories: list[Article], headline: str, closing: str, date_str: st
         lines += [f"{i}. {s.title}", s.explanation, f"🔗 Source: {s.source} - {s.link}", ""]
     lines += [closing, "", make_hashtags(stories)]
     return "\n".join(lines).strip() + "\n"
+
 
 # --------------------------------------------------------------------------
 # STEP 7: PUBLISH TO FACEBOOK PAGE (official Graph API, text-only post)
@@ -851,7 +862,7 @@ def main() -> int:
         with open(summary_path, "a", encoding="utf-8") as f:
             f.write(f"## Daily AI post ({date_str})\n\n```\n{post}```\n")
 
-        step("FINAL POST")
+    step("FINAL POST")
     print(post)
 
     step("7. PUBLISHING TO FACEBOOK")
