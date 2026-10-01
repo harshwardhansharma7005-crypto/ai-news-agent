@@ -23,7 +23,7 @@ concurrency:
 jobs:
   build-post:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
 
     steps:
       - name: Check out repository
@@ -84,7 +84,7 @@ jobs:
           cp -a output "$BACKUP"
 
           for attempt in 1 2 3 4 5; do
-            git fetch origin "$BRANCH"
+            git fetch origin "+refs/heads/$BRANCH:refs/remotes/origin/$BRANCH"
             git reset --hard "origin/$BRANCH"
 
             mkdir -p output
