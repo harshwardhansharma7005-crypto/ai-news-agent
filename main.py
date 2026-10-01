@@ -86,12 +86,14 @@ FEEDS = [
     {"name": "Google Research", "url": "https://research.google/blog/rss/", "company": "Google", "official": True, "ai_only": False},
     {"name": "Meta Engineering", "url": "https://engineering.fb.com/feed/", "company": "Meta", "official": True, "ai_only": False},
     {"name": "xAI News", "url": f"{OLSHANSK}/feed_xainews.xml", "company": "xAI", "official": True, "ai_only": True},
-    {"name": "Microsoft AI Blog", "url": "https://blogs.microsoft.com/ai/feed/", "company": "Microsoft", "official": True, "ai_only": True},
+    {"name": "Official Microsoft Blog", "url": "https://blogs.microsoft.com/feed/", "company": "Microsoft", "official": True, "ai_only": False},
+    {"name": "Microsoft Foundry Blog", "url": "https://devblogs.microsoft.com/foundry/feed/", "company": "Microsoft", "official": True, "ai_only": False},
     {"name": "Microsoft Research", "url": "https://www.microsoft.com/en-us/research/feed/", "company": "Microsoft", "official": True, "ai_only": False},
     {"name": "NVIDIA Blog", "url": "https://blogs.nvidia.com/feed/", "company": "NVIDIA", "official": True, "ai_only": False},
     {"name": "NVIDIA Developer Blog", "url": "https://developer.nvidia.com/blog/feed", "company": "NVIDIA", "official": True, "ai_only": False},
     {"name": "Hugging Face Blog", "url": "https://huggingface.co/blog/feed.xml", "company": "Hugging Face", "official": True, "ai_only": True},
-    {"name": "Mistral AI", "url": "https://mistral.ai/news/rss.xml", "company": "Mistral", "official": True, "ai_only": True},
+    # Mistral has no public RSS feed, so we use InfoQ's Mistral topic feed (a media source).
+    {"name": "InfoQ (Mistral AI)", "url": "https://feed.infoq.com/mistralai/", "company": "Mistral", "official": False, "ai_only": True},
     # --- Reputable tech media ---
     {"name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "company": None, "official": False, "ai_only": True},
     {"name": "The Verge AI", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "company": None, "official": False, "ai_only": True},
@@ -206,7 +208,13 @@ def detect_company(title: str) -> str | None:
 def fetch_one_feed(feed: dict, now: datetime):
     name = feed["name"]
     try:
-        resp = requests.get(feed["url"], headers=HEADERS, timeout=REQUEST_TIMEOUT)
+        resp = None
+        for attempt in range(1, 4):
+            resp = requests.get(feed["url"], headers=HEADERS, timeout=REQUEST_TIMEOUT)
+            if resp.status_code in (429, 500, 502, 503, 504) and attempt < 3:
+                time.sleep(6 * attempt)  # polite pause, then try again
+                continue
+            break
         resp.raise_for_status()
         parsed = feedparser.parse(resp.content)
     except Exception as exc:  # one broken feed must never stop the run
@@ -402,7 +410,10 @@ def call_gemini(prompt: str, max_tokens: int = 16384) -> str:
             if r.status_code == 200:
                 data = r.json()
                 try:
-                    parts = data["candidates"][0]["content"]["parts"]
+                    candidate = data["candidates"][0]
+                    if candidate.get("finishReason") == "MAX_TOKENS":
+                        log(f"Gemini {model} reply was cut off (MAX_TOKENS) - partial results will be salvaged", "WARN")
+                    parts = candidate["content"]["parts"]
                     return "".join(p.get("text", "") for p in parts)
                 except (KeyError, IndexError):
                     last_error = f"{model}: empty/blocked response"
@@ -484,36 +495,74 @@ ARTICLES
 """
 
 
+def parse_json_objects(raw: str) -> list:
+    """Parse Gemini's JSON array. If the reply was cut off half-way, keep every complete object."""
+    try:
+        data = parse_json(raw)
+        if isinstance(data, dict):
+            data = next((v for v in data.values() if isinstance(v, list)), [])
+        return data if isinstance(data, list) else []
+    except ValueError:  # json.JSONDecodeError is a ValueError
+        decoder = json.JSONDecoder()
+        objects: list = []
+        i = raw.find("{")
+        while i != -1:
+            try:
+                obj, end = decoder.raw_decode(raw, i)
+            except ValueError:
+                break  # the cut-off object - ignore it
+            if isinstance(obj, dict):
+                objects.append(obj)
+            i = raw.find("{", end)
+        return objects
+
+
+def _analyse_batch(batch: list[Article], by_id: dict[int, Article]) -> set[int]:
+    """Asks Gemini about one batch. Returns the ids that received an analysis."""
+    log(f"Gemini analysis: {len(batch)} articles")
+    try:
+        raw = call_gemini(build_analysis_prompt(batch))
+    except GeminiFatal:
+        raise
+    except Exception as exc:
+        warn(f"Gemini request failed: {exc}")
+        return set()
+    handled: set[int] = set()
+    for item in parse_json_objects(raw):
+        try:
+            art = by_id.get(int(item.get("id")))
+            if art is None:
+                continue
+            art.is_ai = bool(item.get("is_ai_news"))
+            art.verifiable = bool(item.get("verifiable"))
+            art.significance = max(1, min(10, int(item.get("significance", 1))))
+            llm_company = item.get("company")
+            art.company = llm_company if llm_company in COMPANIES else "Other"
+            dup = item.get("duplicate_of")
+            art.duplicate_of = int(dup) if dup not in (None, "", "null") else None
+            art.explanation = " ".join(str(item.get("explanation", "")).split())
+            handled.add(art.id)
+        except (TypeError, ValueError, AttributeError):
+            continue
+    return handled
+
+
 def analyse(articles: list[Article]) -> None:
     by_id = {a.id: a for a in articles}
-    for i in range(0, len(articles), BATCH_SIZE):
-        batch = articles[i:i + BATCH_SIZE]
-        log(f"Gemini analysis batch {i // BATCH_SIZE + 1}: {len(batch)} articles")
-        try:
-            results = parse_json(call_gemini(build_analysis_prompt(batch)))
-            if isinstance(results, dict):
-                results = next((v for v in results.values() if isinstance(v, list)), [])
-        except GeminiFatal:
-            raise
-        except Exception as exc:
-            warn(f"Gemini batch failed and was skipped: {exc}")
-            continue
-        for item in results:
-            try:
-                art = by_id.get(int(item.get("id")))
-                if art is None:
-                    continue
-                art.is_ai = bool(item.get("is_ai_news"))
-                art.verifiable = bool(item.get("verifiable"))
-                art.significance = max(1, min(10, int(item.get("significance", 1))))
-                llm_company = item.get("company")
-                art.company = llm_company if llm_company in COMPANIES else "Other"
-                dup = item.get("duplicate_of")
-                art.duplicate_of = int(dup) if dup not in (None, "", "null") else None
-                art.explanation = " ".join(str(item.get("explanation", "")).split())
-            except (TypeError, ValueError):
-                continue
-        time.sleep(3)  # be gentle with free-tier rate limits
+    pending = list(articles)
+    for size in (BATCH_SIZE, 8):  # second round uses smaller batches for anything that was missed
+        missed: list[Article] = []
+        for i in range(0, len(pending), size):
+            batch = pending[i:i + size]
+            handled = _analyse_batch(batch, by_id)
+            missed += [a for a in batch if a.id not in handled]
+            time.sleep(3)  # be gentle with free-tier rate limits
+        pending = missed
+        if not pending:
+            break
+        log(f"{len(pending)} article(s) received no analysis - retrying them in smaller batches", "WARN")
+    if pending:
+        warn(f"{len(pending)} article(s) could not be analysed and were skipped.")
 
 
 # --------------------------------------------------------------------------
