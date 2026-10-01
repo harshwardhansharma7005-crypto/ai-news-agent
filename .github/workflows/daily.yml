@@ -22,7 +22,7 @@ concurrency:
 
 jobs:
   build-post:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 25
 
     steps:
@@ -55,7 +55,7 @@ jobs:
 
       - name: Upload output files
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: daily-ai-news-output
           path: output/
