@@ -1,5 +1,5 @@
 {
-  "generated_at_ist": "2026-10-01T19:31:17+05:30",
+  "generated_at_ist": "2026-10-01T19:48:21+05:30",
   "story_count": 10,
   "stories": [
     {
@@ -9,10 +9,10 @@
       "source": "Google DeepMind",
       "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
       "published_utc": "2026-09-30T20:01:45+00:00",
-      "significance": 8,
-      "score": 91.5,
+      "significance": 9,
+      "score": 101.4,
       "verification": "article page",
-      "explanation": "Google DeepMind announced Gemini 4 Argon, a new frontier model for real-world coding, enterprise knowledge work, and cyber defense, rolling out soon. This represents a significant advancement in Google's AI capabilities."
+      "explanation": "Google DeepMind announced Gemini 4 Argon, a new frontier model for complex workflows in software engineering, enterprise knowledge work, and cyber defense, which is rolling out to trusted cyber defenders."
     },
     {
       "rank": 2,
@@ -22,9 +22,9 @@
       "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
       "published_utc": "2026-09-30T10:30:00+00:00",
       "significance": 8,
-      "score": 89.1,
+      "score": 89.0,
       "verification": "article page",
-      "explanation": "OpenAI disrupted a coordinated campaign to extract protected reasoning from its models, consistent with adversarial distillation. This highlights the ongoing challenge of protecting AI model capabilities and the need for stronger defenses."
+      "explanation": "OpenAI disrupted a coordinated campaign to extract protected reasoning from its models through adversarial distillation, and is strengthening defenses against such activities by sharing information with industry partners."
     },
     {
       "rank": 3,
@@ -36,22 +36,34 @@
       "significance": 8,
       "score": 86.4,
       "verification": "article page",
-      "explanation": "Google released Gemini 4 Argon, its latest AI model, which is marketed as highly capable for coding, research, writing, and especially cybersecurity work. It is being rolled out to select cyber partners through the Fairwind Program due to its ability to autonomously find, validate, and patch software vulnerabilities."
+      "explanation": "Google announced Gemini 4 Argon, a new frontier model focused on cybersecurity and coding, currently available only to select partners through the Fairwind Program."
     },
     {
       "rank": 4,
+      "title": "Trump plan to combat AI risks hinges on Big Tech pals policing themselves",
+      "company": "Other",
+      "source": "Ars Technica AI",
+      "url": "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/",
+      "published_utc": "2026-09-30T18:47:01+00:00",
+      "significance": 8,
+      "score": 85.1,
+      "verification": "article page",
+      "explanation": "Two dozen tech firms, including OpenAI, Anthropic, and Google, agreed to voluntary AI safety audits and standards proposed by the White House."
+    },
+    {
+      "rank": 5,
       "title": "Barclays scales Claude to upgrade operations and improve client experience",
       "company": "Anthropic",
       "source": "Anthropic News",
       "url": "https://www.anthropic.com/news/barclays-scales-claude",
       "published_utc": "2026-10-01T00:00:00+00:00",
       "significance": 7,
-      "score": 82.5,
+      "score": 82.4,
       "verification": "article page",
-      "explanation": "Barclays is expanding its collaboration with Anthropic to integrate Claude across its global operations, aiming for 50% Claude Code adoption by developers by 2026. This signifies a major enterprise adoption of AI for software development and operational efficiency."
+      "explanation": "Barclays is expanding its collaboration with Anthropic to integrate Claude across its global operations, aiming for 50% Claude Code adoption by developers by 2026 to accelerate software development and improve efficiency."
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
       "company": "NVIDIA",
       "source": "NVIDIA Blog",
@@ -60,55 +72,43 @@
       "significance": 7,
       "score": 80.2,
       "verification": "article page",
-      "explanation": "CoreWeave announced the availability of NVIDIA Vera Rubin NVL72 systems and NVIDIA Vera CPU, with Cognition as the first customer running production workloads. This signifies the deployment of next-generation NVIDIA infrastructure for agentic AI."
-    },
-    {
-      "rank": 6,
-      "title": "The Battle to Be Your Personal AI Agent Is Here",
-      "company": "OpenAI",
-      "source": "WIRED AI",
-      "url": "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/",
-      "published_utc": "2026-09-30T19:30:00+00:00",
-      "significance": 7,
-      "score": 75.4,
-      "verification": "article page",
-      "explanation": "OpenAI's new 'Dots' personal AI agents, revealed at DevDay, are proactive, always-on assistants that can complete tasks and make autonomous decisions. This launch positions OpenAI in a competitive space with Meta's Muse, vying to be the leading personal AI agent."
+      "explanation": "CoreWeave announced the availability of NVIDIA Vera Rubin NVL72 systems and NVIDIA Vera CPU, with Cognition being the first customer, accelerating agentic AI and extending their collaboration on NVIDIA infrastructure."
     },
     {
       "rank": 7,
-      "title": "Trump plan to combat AI risks hinges on Big Tech pals policing themselves",
-      "company": "Other",
-      "source": "Ars Technica AI",
-      "url": "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/",
-      "published_utc": "2026-09-30T18:47:01+00:00",
-      "significance": 7,
-      "score": 75.2,
-      "verification": "article page",
-      "explanation": "Two dozen tech firms, including OpenAI, Anthropic, Google, and Meta, voluntarily agreed to implement safety controls and undergo independent audits for frontier AI models as part of a new US government initiative."
-    },
-    {
-      "rank": 8,
-      "title": "Productive, Durable, Fungible: How NVIDIA AI Factories Maximize Return on Investment",
-      "company": "NVIDIA",
-      "source": "NVIDIA Blog",
-      "url": "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/",
-      "published_utc": "2026-10-01T13:00:49+00:00",
-      "significance": 5,
-      "score": 65.7,
-      "verification": "article page",
-      "explanation": "NVIDIA details how its AI factories are engineered to maximize return on investment by focusing on earning capacity, durability, and fungibility. This matters for companies investing in large-scale AI infrastructure."
-    },
-    {
-      "rank": 9,
       "title": "Trump’s AI Safety ‘Accord’ Is a Fancy Pinky-Swear",
       "company": "Other",
       "source": "WIRED AI",
       "url": "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
       "published_utc": "2026-09-30T20:30:09+00:00",
       "significance": 6,
-      "score": 65.6,
+      "score": 65.5,
       "verification": "article page",
-      "explanation": "Six major AI companies (Google, Anthropic, Meta, OpenAI, xAI, Nvidia) signed 'The White House Accord on Super Intelligence,' a voluntary agreement to implement safeguards for AI models. This signifies an industry-wide commitment to self-regulation, though it is not a formal regulation."
+      "explanation": "Executives from major AI companies signed a voluntary 'White House Accord on Super Intelligence' pledging to implement internal safety controls and independent monitoring."
+    },
+    {
+      "rank": 8,
+      "title": "\"An AI did it\" is no defense, says nonprofit suing OpenAI over Hugging Face hack",
+      "company": "OpenAI",
+      "source": "Ars Technica AI",
+      "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/",
+      "published_utc": "2026-09-30T18:25:04+00:00",
+      "significance": 6,
+      "score": 65.0,
+      "verification": "article page",
+      "explanation": "A nonprofit filed a lawsuit against OpenAI in California, arguing the company is legally responsible for damages caused by its autonomous agents during a hack of Hugging Face."
+    },
+    {
+      "rank": 9,
+      "title": "Fine-Tuning NVIDIA Nemotron for Saudi Arabic Dialects, with a Path to Other Languages",
+      "company": "NVIDIA",
+      "source": "NVIDIA Developer Blog",
+      "url": "https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-for-saudi-arabic-dialects-with-a-path-to-other-languages/",
+      "published_utc": "2026-10-01T05:00:00+00:00",
+      "significance": 5,
+      "score": 63.7,
+      "verification": "article page",
+      "explanation": "NVIDIA details how to fine-tune its Nemotron 3.5 ASR model for Saudi Arabic dialects using the NeMo framework, which is significant for improving speech recognition accuracy in underrepresented languages and local conditions."
     },
     {
       "rank": 10,
@@ -118,9 +118,9 @@
       "url": "https://www.microsoft.com/en-us/research/blog/forecasting-space-weather-risks-on-power-grids/",
       "published_utc": "2026-09-30T16:00:00+00:00",
       "significance": 5,
-      "score": 60.5,
+      "score": 60.4,
       "verification": "article page",
-      "explanation": "Microsoft Research developed a machine learning system that forecasts space-weather risk across 66,935 substations in the continental United States. This system can predict where damage is likely to occur 30-60 minutes before a storm, helping grid operators respond."
+      "explanation": "Microsoft Research developed a machine learning system that forecasts space-weather risk across 66,935 substations in the continental United States, providing 30-60 minutes warning for grid operators to respond to potential damage."
     }
   ]
 }
