@@ -1,114 +1,114 @@
 {
-  "generated_at_ist": "2026-10-02T23:00:24+05:30",
+  "generated_at_ist": "2026-10-02T23:40:15+05:30",
   "story_count": 10,
   "stories": [
     {
       "rank": 1,
-      "title": "A model guide for the GPT-6 family",
-      "company": "OpenAI",
-      "source": "OpenAI",
-      "url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "published_utc": "2026-10-02T16:15:00+00:00",
-      "significance": 8,
-      "score": 95.7,
-      "verification": "article page",
-      "explanation": "OpenAI released a guide for startups on how to effectively use and manage their new GPT-6 models, offering practical tips for optimizing performance, cost, and workflows. This matters as it helps developers leverage OpenAI's most advanced models for various applications."
-    },
-    {
-      "rank": 2,
       "title": "The latest AI news we announced in September 2026",
       "company": "Google",
       "source": "Google AI Blog",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
       "published_utc": "2026-10-02T15:00:00+00:00",
       "significance": 8,
-      "score": 95.4,
+      "score": 95.2,
       "verification": "article page",
-      "explanation": "Google announced several AI updates from September 2026, including the release of the Gemini 4 Argon model, new Connected Apps in the Gemini App, and WeatherNext 3. This matters as it highlights Google's ongoing advancements in AI models and features across various applications."
+      "explanation": "Google announced several AI updates from September 2026, including the release of the Gemini 4 Argon model, new Connected Apps in the Gemini App, and WeatherNext 3. These updates enhance Google's AI capabilities and product offerings."
+    },
+    {
+      "rank": 2,
+      "title": "A model guide for the GPT-6 family",
+      "company": "OpenAI",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "published_utc": "2026-10-02T16:15:00+00:00",
+      "significance": 7,
+      "score": 85.5,
+      "verification": "article page",
+      "explanation": "OpenAI released a guide for startups on how to effectively use and manage their GPT-6 models, offering practical tips for optimizing performance and cost. This helps users get the best results from OpenAI's advanced models."
     },
     {
       "rank": 3,
+      "title": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+      "company": "Anthropic",
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/claude-frontier-academy",
+      "published_utc": "2026-10-02T00:00:00+00:00",
+      "significance": 7,
+      "score": 81.5,
+      "verification": "article page",
+      "explanation": "Anthropic is investing $100 million to launch Claude Frontier Academy, aiming to train 10,000 Frontier Deployed Engineers by the end of 2027. This initiative addresses the enterprise AI talent gap by equipping engineers with critical skills."
+    },
+    {
+      "rank": 4,
       "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
       "company": "NVIDIA",
       "source": "NVIDIA Blog",
       "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
       "published_utc": "2026-10-01T23:44:13+00:00",
       "significance": 7,
-      "score": 81.6,
+      "score": 81.4,
       "verification": "article page",
-      "explanation": "NVIDIA GPUs are accelerating OpenAI’s GPT-6 Astra Ultrafast, delivering up to 8x faster token generation for various AI applications. This collaboration enhances the speed and responsiveness of OpenAI models, benefiting developers and interactive applications."
+      "explanation": "OpenAI's GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, delivers up to 8x faster token generation for various applications. This collaboration provides developers with faster model responses for improved efficiency."
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
       "company": "NVIDIA",
       "source": "NVIDIA Blog",
       "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
       "published_utc": "2026-10-02T13:00:39+00:00",
       "significance": 6,
-      "score": 74.9,
+      "score": 74.7,
       "verification": "article page",
-      "explanation": "NVIDIA is releasing the DGX Spark 64GB, a new configuration for local AI development with 64GB of unified memory and the full NVIDIA AI stack. This allows developers to build and scale local AI agents on-device, offering privacy and performance for growing workloads."
+      "explanation": "NVIDIA is releasing DGX Spark 64GB, a new configuration that allows developers to build and scale local AI agents on-device with the full NVIDIA AI stack. This provides a complete local AI platform for various development needs."
     },
     {
-      "rank": 5,
+      "rank": 6,
+      "title": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
+      "company": "OpenAI",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
+      "published_utc": "2026-10-02T18:00:00+00:00",
+      "significance": 6,
+      "score": 70.0,
+      "verification": "article page",
+      "explanation": "OpenAI launched Dot, a new consumer AI agent aimed at business use cases but also capable of assisting with personal tasks, expanding ChatGPT's functionality."
+    },
+    {
+      "rank": 7,
       "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
       "company": "Hugging Face",
       "source": "Hugging Face Blog",
       "url": "https://huggingface.co/blog/allenai/astabrief",
       "published_utc": "2026-10-02T15:19:50+00:00",
       "significance": 5,
-      "score": 65.5,
+      "score": 65.3,
       "verification": "article page",
-      "explanation": "Ai2 open-sourced AstaBrief, a fast report-generation model designed to help scientists create cited reports more quickly. This is significant for scientific research, enabling researchers to download and run the model themselves for evidence-grounded report generation."
-    },
-    {
-      "rank": 6,
-      "title": "With most information hidden, the game Stratego had stumped AI—until now",
-      "company": "Other",
-      "source": "Ars Technica AI",
-      "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
-      "published_utc": "2026-10-01T16:28:04+00:00",
-      "significance": 6,
-      "score": 63.7,
-      "verification": "article page",
-      "explanation": "Researchers developed Ataraxos, an AI that beat the best human Stratego player, a game previously challenging for AI due to hidden information. The AI uses a second neural network to guess hidden pieces, marking a significant advance in AI for imperfect-information games."
-    },
-    {
-      "rank": 7,
-      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
-      "company": "Hugging Face",
-      "source": "Hugging Face Blog",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-      "published_utc": "2026-10-02T04:01:31+00:00",
-      "significance": 5,
-      "score": 62.6,
-      "verification": "article page",
-      "explanation": "ServiceNow-AI released AutoSynthData, a method for generating high-quality synthetic training data for enterprise agents. This helps enterprises improve agent performance in their specific environments by turning model weaknesses into actionable training data."
+      "explanation": "Ai2 open-sourced AstaBrief, a fast report-generation model designed to help scientists create cited reports more quickly. This allows researchers to download and run the model themselves for scientific work."
     },
     {
       "rank": 8,
-      "title": "How Albertsons Companies is reimagining retail from the inside out",
-      "company": "OpenAI",
-      "source": "OpenAI",
-      "url": "https://openai.com/index/albertsons-reimagining-retail",
-      "published_utc": "2026-10-01T16:00:00+00:00",
-      "significance": 5,
-      "score": 59.6,
-      "verification": "article page",
-      "explanation": "Albertsons Companies is expanding its use of ChatGPT Enterprise and the OpenAI API to improve retail operations and customer experiences. This helps the grocery retailer enhance efficiency and offer new AI-powered features to millions of shoppers."
-    },
-    {
-      "rank": 9,
       "title": "Judge dismisses Chegg and Penske antitrust lawsuits targeting Google AI search",
       "company": "Google",
       "source": "Ars Technica AI",
       "url": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
       "published_utc": "2026-10-01T20:11:55+00:00",
-      "significance": 5,
-      "score": 54.7,
+      "significance": 6,
+      "score": 64.5,
       "verification": "article page",
-      "explanation": "A US federal judge dismissed antitrust lawsuits filed by Chegg and Penske Media against Google, which alleged that Google's AI search products like AI overviews illegally scraped content and reduced website traffic. The court ruled Google's conduct was not illegal under antitrust law."
+      "explanation": "A US federal judge dismissed antitrust lawsuits by Chegg and Penske Media against Google regarding its AI search features. The ruling states Google's conduct is not illegal under antitrust law, impacting publishers concerned about traffic loss from AI overviews."
+    },
+    {
+      "rank": 9,
+      "title": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
+      "company": "Other",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
+      "published_utc": "2026-10-02T17:56:00+00:00",
+      "significance": 5,
+      "score": 59.9,
+      "verification": "article page",
+      "explanation": "The White House is rebranding AI as 'super intelligence' and held an AI safety pledge event with major tech CEOs, while consumer AI faces economic challenges despite enterprise investment."
     },
     {
       "rank": 10,
@@ -117,10 +117,10 @@
       "source": "WIRED AI",
       "url": "https://www.wired.com/story/trillium-labs-wants-to-do-high-risk-ai-research-in-the-open/",
       "published_utc": "2026-10-02T16:00:00+00:00",
-      "significance": 4,
-      "score": 49.6,
+      "significance": 5,
+      "score": 59.5,
       "verification": "article page",
-      "explanation": "Trillium Labs, a new nonprofit, plans to conduct high-stakes AI research, including recursive self-improvement and agents, in an open and transparent manner. This aims to increase scrutiny and community contribution to mitigate AI risks."
+      "explanation": "Trillium Labs, a new nonprofit founded by Nathan Lambert and Tom Zick, aims to conduct high-stakes AI research, including recursive self-improvement and agents, transparently by publishing experiment details."
     }
   ]
 }
