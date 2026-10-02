@@ -721,6 +721,10 @@ def _meta_error_message(resp: requests.Response, *secrets: str) -> str:
     if isinstance(err, dict):
         code = err.get("code")
         hint = META_ERROR_HINTS.get(code, "")
+        if "API access blocked" in str(err.get("message", "")):
+            hint = ("Meta is blocking this app/token as a whole (this is NOT just a missing permission). "
+                    "Check: App Dashboard alerts/restrictions, the Access Token Debugger, "
+                    "Page / Account Quality on Facebook, then regenerate the System User token.")
         msg = (f"Meta API error (HTTP {resp.status_code}, code {code}, subcode {err.get('error_subcode')}, "
                f"type {err.get('type')}): {err.get('message', '')} {hint} [fbtrace_id={err.get('fbtrace_id')}]")
     else:
@@ -824,6 +828,46 @@ def publish_to_facebook(post_text: str, now_ist: datetime) -> str:
     return str(post_id)
 
 
+def diagnose_facebook_token() -> None:
+    """Best effort: prints SAFE facts about the token (validity, expiry, scopes) to explain a failure.
+    Never prints the token itself and never raises."""
+    try:
+        token = os.environ.get("META_ACCESS_TOKEN", "").strip()
+        version = os.environ.get("META_GRAPH_VERSION", "").strip()
+        page_id = os.environ.get("META_PAGE_ID", "").strip()
+        if not token or not GRAPH_VERSION_RE.match(version):
+            return
+        base = f"https://graph.facebook.com/{version}"
+        log("--- Facebook token diagnosis (no secrets are printed) ---")
+        try:
+            r = requests.get(f"{base}/debug_token", params={"input_token": token, "access_token": token}, timeout=30)
+            data = r.json().get("data") if r.ok else None
+            if data:
+                exp = data.get("expires_at")
+                exp_text = "never" if not exp else datetime.fromtimestamp(exp, timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+                scopes = ", ".join(data.get("scopes") or []) or "none"
+                log(f"Token valid: {data.get('is_valid')} | type: {data.get('type')} | "
+                    f"app: {data.get('application')} (id {data.get('app_id')}) | expires: {exp_text}")
+                log(f"Token scopes: {scopes}")
+                if isinstance(data.get("error"), dict):
+                    log(f"Token problem reported by Meta: {data['error'].get('message')}")
+            else:
+                log(f"debug_token unavailable: {_meta_error_message(r, token)}")
+        except Exception as exc:
+            log(f"debug_token check failed ({type(exc).__name__})")
+        try:
+            r = requests.get(f"{base}/{page_id}", params={"fields": "id,name", "access_token": token}, timeout=30)
+            if r.ok:
+                info = r.json()
+                log(f"Token CAN read the Page: {info.get('name')} (id {info.get('id')})")
+            else:
+                log(f"Token CANNOT read the Page: {_meta_error_message(r, token)}")
+        except Exception as exc:
+            log(f"Page check failed ({type(exc).__name__})")
+    except Exception:
+        pass
+
+
 # --------------------------------------------------------------------------
 # MAIN
 # --------------------------------------------------------------------------
@@ -920,6 +964,7 @@ def main() -> int:
     except FacebookPublishError as exc:
         log(str(exc), "ERROR")
         print(f"::error::Facebook publishing failed: {exc}", flush=True)
+        diagnose_facebook_token()
         return 1
     log(f"Facebook post id: {post_id}")
 
