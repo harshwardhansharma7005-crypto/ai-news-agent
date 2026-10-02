@@ -1,126 +1,126 @@
 {
-  "generated_at_ist": "2026-10-02T20:12:10+05:30",
+  "generated_at_ist": "2026-10-02T23:00:24+05:30",
   "story_count": 10,
   "stories": [
     {
       "rank": 1,
+      "title": "A model guide for the GPT-6 family",
+      "company": "OpenAI",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "published_utc": "2026-10-02T16:15:00+00:00",
+      "significance": 8,
+      "score": 95.7,
+      "verification": "article page",
+      "explanation": "OpenAI released a guide for startups on how to effectively use and manage their new GPT-6 models, offering practical tips for optimizing performance, cost, and workflows. This matters as it helps developers leverage OpenAI's most advanced models for various applications."
+    },
+    {
+      "rank": 2,
+      "title": "The latest AI news we announced in September 2026",
+      "company": "Google",
+      "source": "Google AI Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+      "published_utc": "2026-10-02T15:00:00+00:00",
+      "significance": 8,
+      "score": 95.4,
+      "verification": "article page",
+      "explanation": "Google announced several AI updates from September 2026, including the release of the Gemini 4 Argon model, new Connected Apps in the Gemini App, and WeatherNext 3. This matters as it highlights Google's ongoing advancements in AI models and features across various applications."
+    },
+    {
+      "rank": 3,
       "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
       "company": "NVIDIA",
       "source": "NVIDIA Blog",
       "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
       "published_utc": "2026-10-01T23:44:13+00:00",
-      "significance": 8,
-      "score": 92.3,
-      "verification": "article page",
-      "explanation": "OpenAI released 'GPT-6 Astra Ultrafast', a model optimized for NVIDIA Blackwell GPUs that provides up to 8x faster token generation for coding and interactive applications."
-    },
-    {
-      "rank": 2,
-      "title": "A Flaw in ChatGPT’s Mac App Could Have Let Hackers Grab Sensitive Data",
-      "company": "OpenAI",
-      "source": "WIRED AI",
-      "url": "https://www.wired.com/story/a-flaw-in-chatgpts-mac-app-could-have-let-hackers-grab-sensitive-data/",
-      "published_utc": "2026-10-02T09:45:00+00:00",
       "significance": 7,
-      "score": 78.8,
+      "score": 81.6,
       "verification": "article page",
-      "explanation": "A patched vulnerability in OpenAI’s ChatGPT Mac app could have allowed hackers to access chat logs and other sensitive data. This highlights the security risks associated with AI software that requires deep system access."
-    },
-    {
-      "rank": 3,
-      "title": "Judge dismisses Chegg and Penske antitrust lawsuits targeting Google AI search",
-      "company": "Google",
-      "source": "Ars Technica AI",
-      "url": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
-      "published_utc": "2026-10-01T20:11:55+00:00",
-      "significance": 7,
-      "score": 75.4,
-      "verification": "article page",
-      "explanation": "A US federal judge dismissed antitrust lawsuits by Chegg and Penske Media against Google regarding AI search products like AI overviews. The court ruled that Google's use of content for AI answers is not an antitrust violation."
+      "explanation": "NVIDIA GPUs are accelerating OpenAI’s GPT-6 Astra Ultrafast, delivering up to 8x faster token generation for various AI applications. This collaboration enhances the speed and responsiveness of OpenAI models, benefiting developers and interactive applications."
     },
     {
       "rank": 4,
-      "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
-      "company": "Hugging Face",
-      "source": "Hugging Face Blog",
-      "url": "https://huggingface.co/blog/allenai/olmocore3",
-      "published_utc": "2026-10-01T15:01:43+00:00",
-      "significance": 6,
-      "score": 70.1,
-      "verification": "article page",
-      "explanation": "The Ai2 team released 'Olmo-core 3', an open training framework designed to scale Mixture-of-Experts (MoE) model training into the trillion-parameter range."
-    },
-    {
-      "rank": 5,
-      "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture Venezuela’s president",
-      "company": "xAI",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
-      "published_utc": "2026-10-01T21:08:11+00:00",
-      "significance": 6,
-      "score": 65.6,
-      "verification": "article page",
-      "explanation": "Elon Musk’s AI chatbot Grok reportedly encouraged President Trump to capture Venezuela’s president, Nicolás Maduro, according to a Time magazine report. This raises concerns about the influence of AI chatbots on political decisions."
-    },
-    {
-      "rank": 6,
       "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
       "company": "NVIDIA",
       "source": "NVIDIA Blog",
       "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
       "published_utc": "2026-10-02T13:00:39+00:00",
-      "significance": 5,
-      "score": 65.6,
-      "verification": "article page",
-      "explanation": "NVIDIA announced the DGX Spark 64GB, a local AI platform designed for running and clustering AI agents on-device using the NVIDIA AI software stack."
-    },
-    {
-      "rank": 7,
-      "title": "Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground",
-      "company": "Google",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/10/01/google-thinks-spacexs-starship-has-to-launch-1600-times-before-space-data-centers-get-off-the-ground/",
-      "published_utc": "2026-10-01T19:18:03+00:00",
       "significance": 6,
-      "score": 65.1,
+      "score": 74.9,
       "verification": "article page",
-      "explanation": "Google launched its first advanced chip, a Tensor Processing Unit, into orbit to test its functionality in space for future space data centers. This is a step towards developing orbital compute clusters."
+      "explanation": "NVIDIA is releasing the DGX Spark 64GB, a new configuration for local AI development with 64GB of unified memory and the full NVIDIA AI stack. This allows developers to build and scale local AI agents on-device, offering privacy and performance for growing workloads."
     },
     {
-      "rank": 8,
+      "rank": 5,
+      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "company": "Hugging Face",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/allenai/astabrief",
+      "published_utc": "2026-10-02T15:19:50+00:00",
+      "significance": 5,
+      "score": 65.5,
+      "verification": "article page",
+      "explanation": "Ai2 open-sourced AstaBrief, a fast report-generation model designed to help scientists create cited reports more quickly. This is significant for scientific research, enabling researchers to download and run the model themselves for evidence-grounded report generation."
+    },
+    {
+      "rank": 6,
       "title": "With most information hidden, the game Stratego had stumped AI—until now",
       "company": "Other",
       "source": "Ars Technica AI",
       "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
       "published_utc": "2026-10-01T16:28:04+00:00",
       "significance": 6,
-      "score": 64.4,
+      "score": 63.7,
       "verification": "article page",
-      "explanation": "Researchers developed an AI called Ataraxos that beat a top human player in the imperfect-information game Stratego. This represents a significant advancement in AI's ability to handle games with hidden information."
+      "explanation": "Researchers developed Ataraxos, an AI that beat the best human Stratego player, a game previously challenging for AI due to hidden information. The AI uses a second neural network to guess hidden pieces, marking a significant advance in AI for imperfect-information games."
+    },
+    {
+      "rank": 7,
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+      "company": "Hugging Face",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "published_utc": "2026-10-02T04:01:31+00:00",
+      "significance": 5,
+      "score": 62.6,
+      "verification": "article page",
+      "explanation": "ServiceNow-AI released AutoSynthData, a method for generating high-quality synthetic training data for enterprise agents. This helps enterprises improve agent performance in their specific environments by turning model weaknesses into actionable training data."
+    },
+    {
+      "rank": 8,
+      "title": "How Albertsons Companies is reimagining retail from the inside out",
+      "company": "OpenAI",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/albertsons-reimagining-retail",
+      "published_utc": "2026-10-01T16:00:00+00:00",
+      "significance": 5,
+      "score": 59.6,
+      "verification": "article page",
+      "explanation": "Albertsons Companies is expanding its use of ChatGPT Enterprise and the OpenAI API to improve retail operations and customer experiences. This helps the grocery retailer enhance efficiency and offer new AI-powered features to millions of shoppers."
     },
     {
       "rank": 9,
-      "title": "Amazon writes scary blog warning communities not to block data centers",
-      "company": "Other",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/tech/1003929/amazon-ai-data-center-blog-warning",
-      "published_utc": "2026-10-02T11:52:20+00:00",
+      "title": "Judge dismisses Chegg and Penske antitrust lawsuits targeting Google AI search",
+      "company": "Google",
+      "source": "Ars Technica AI",
+      "url": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
+      "published_utc": "2026-10-01T20:11:55+00:00",
       "significance": 5,
-      "score": 59.3,
+      "score": 54.7,
       "verification": "article page",
-      "explanation": "Amazon is urging public support for AI data center projects, warning that blocking them could harm the US economy and national security. Amazon Web Services CEO Matt Garman addressed concerns about jobs, power, and the environment."
+      "explanation": "A US federal judge dismissed antitrust lawsuits filed by Chegg and Penske Media against Google, which alleged that Google's AI search products like AI overviews illegally scraped content and reduced website traffic. The court ruled Google's conduct was not illegal under antitrust law."
     },
     {
       "rank": 10,
-      "title": "AI music maker Suno now generates spoken words",
+      "title": "These AI Experts Want to Do High-Stakes Research Out in the Open",
       "company": "Other",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability",
-      "published_utc": "2026-10-02T09:42:19+00:00",
-      "significance": 5,
-      "score": 58.8,
+      "source": "WIRED AI",
+      "url": "https://www.wired.com/story/trillium-labs-wants-to-do-high-risk-ai-research-in-the-open/",
+      "published_utc": "2026-10-02T16:00:00+00:00",
+      "significance": 4,
+      "score": 49.6,
       "verification": "article page",
-      "explanation": "AI music maker Suno launched a new Speech feature that generates spoken voices based on scripts or descriptions, with optional AI background music. This expands Suno's capabilities beyond music generation to include synthetic voiceovers."
+      "explanation": "Trillium Labs, a new nonprofit, plans to conduct high-stakes AI research, including recursive self-improvement and agents, in an open and transparent manner. This aims to increase scrutiny and community contribution to mitigate AI risks."
     }
   ]
 }
