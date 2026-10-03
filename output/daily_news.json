@@ -1,90 +1,90 @@
 {
-  "generated_at_ist": "2026-10-02T23:43:19+05:30",
+  "generated_at_ist": "2026-10-04T00:04:47+05:30",
   "story_count": 10,
   "stories": [
     {
       "rank": 1,
-      "title": "The latest AI news we announced in September 2026",
-      "company": "Google",
-      "source": "Google AI Blog",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
-      "published_utc": "2026-10-02T15:00:00+00:00",
-      "significance": 9,
-      "score": 105.2,
-      "verification": "article page",
-      "explanation": "Google announced several AI updates from September 2026, including the release of the Gemini 4 Argon model, new Connected Apps in the Gemini App, and WeatherNext 3. These updates enhance AI capabilities for complex problems, voice tools, music generation, and scientific applications."
-    },
-    {
-      "rank": 2,
       "title": "A model guide for the GPT-6 family",
       "company": "OpenAI",
       "source": "OpenAI",
       "url": "https://openai.com/index/practical-guide-building-gpt-6",
       "published_utc": "2026-10-02T16:15:00+00:00",
       "significance": 8,
-      "score": 95.5,
+      "score": 89.4,
       "verification": "article page",
-      "explanation": "OpenAI released a guide for its GPT-6 models, offering practical tips for startups to choose models, tune reasoning, improve prompts, coordinate tools, and prepare workflows for production. This helps users optimize performance and manage costs with their most advanced model suite."
+      "explanation": "OpenAI released a guide for its GPT-6 family of models, offering practical tips for startups to choose, tune, and prepare workflows for production. This helps users optimize performance and manage costs with their most advanced models."
+    },
+    {
+      "rank": 2,
+      "title": "The latest AI news we announced in September 2026",
+      "company": "Google",
+      "source": "Google AI Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+      "published_utc": "2026-10-02T15:00:00+00:00",
+      "significance": 8,
+      "score": 89.1,
+      "verification": "article page",
+      "explanation": "Google announced several AI updates from September 2026, including the Gemini 4 Argon model, new Connected Apps in the Gemini App, and WeatherNext 3. These updates enhance AI capabilities across various applications, from complex problem-solving to scientific research."
     },
     {
       "rank": 3,
-      "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-      "company": "NVIDIA",
-      "source": "NVIDIA Blog",
-      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
-      "published_utc": "2026-10-01T23:44:13+00:00",
-      "significance": 8,
-      "score": 91.4,
+      "title": "Sean Parker is rebuilding Stability AI around music",
+      "company": "Other",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
+      "published_utc": "2026-10-02T21:09:14+00:00",
+      "significance": 7,
+      "score": 74.6,
       "verification": "article page",
-      "explanation": "OpenAI's GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is now available in the OpenAI API and to eligible ChatGPT Work and Codex users. It delivers up to 8x faster token generation than Astra Standard mode, accelerating code generation, tool use, and interactive applications."
+      "explanation": "Sean Parker is rebuilding Stability AI to focus on AI tools for music professionals, securing $76 million in funding from major labels like Sony, Warner, and Universal, who also licensed their catalogs for training."
     },
     {
       "rank": 4,
-      "title": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
-      "company": "Anthropic",
-      "source": "Anthropic News",
-      "url": "https://www.anthropic.com/news/claude-frontier-academy",
-      "published_utc": "2026-10-02T00:00:00+00:00",
-      "significance": 7,
-      "score": 81.4,
+      "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+      "company": "OpenAI",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+      "published_utc": "2026-10-03T16:30:01+00:00",
+      "significance": 6,
+      "score": 69.5,
       "verification": "article page",
-      "explanation": "Anthropic is investing $100 million to launch Claude Frontier Academy, aiming to train 10,000 Frontier Deployed Engineers by the end of 2027. This initiative addresses the enterprise AI talent gap by training engineers to Anthropic's standards, with initial cohorts from major consulting and banking firms."
+      "explanation": "An OpenAI safety employee, David Robinson, resigned and claimed the company's 'culture is broken,' echoing previous concerns about AI safety from former researchers."
     },
     {
       "rank": 5,
-      "title": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
-      "company": "OpenAI",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
-      "published_utc": "2026-10-02T18:00:00+00:00",
-      "significance": 7,
-      "score": 79.9,
-      "verification": "article page",
-      "explanation": "OpenAI launched Dot, a new consumer AI agent platform aimed at both business use cases and personal tasks. Dots are described as 'cute little guys' that can perform various bidding."
-    },
-    {
-      "rank": 6,
       "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
       "company": "NVIDIA",
       "source": "NVIDIA Blog",
       "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
       "published_utc": "2026-10-02T13:00:39+00:00",
       "significance": 6,
-      "score": 74.7,
+      "score": 68.6,
       "verification": "article page",
-      "explanation": "NVIDIA is releasing DGX Spark 64GB, a new configuration that allows developers to build and scale local AI agents on-device with the full NVIDIA AI stack. This provides a complete local AI platform for agents, inference, fine-tuning, and edge development, with the ability to cluster units for greater performance."
+      "explanation": "NVIDIA DGX Spark 64GB is launching, allowing developers to build and scale local AI agents on-device with the full NVIDIA AI stack. This provides a complete local AI platform for agents, inference, fine-tuning, and data science."
+    },
+    {
+      "rank": 6,
+      "title": "Meta wants your next gadget to be Muse-infused",
+      "company": "Meta",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+      "published_utc": "2026-10-03T00:45:39+00:00",
+      "significance": 6,
+      "score": 65.5,
+      "verification": "article page",
+      "explanation": "Meta introduced Muse Gadgets, an open-source project providing firmware and an SDK for developers to build hardware that connects to its Muse AI agent, aiming to integrate Muse into various devices."
     },
     {
       "rank": 7,
-      "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+      "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
       "company": "Other",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
-      "published_utc": "2026-10-02T18:11:27+00:00",
+      "source": "Ars Technica AI",
+      "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+      "published_utc": "2026-10-02T23:03:16+00:00",
       "significance": 6,
-      "score": 70.0,
+      "score": 65.1,
       "verification": "article page",
-      "explanation": "Apple is tightening macOS 'Full Disk Access' controls due to new risks posed by increasingly capable AI agents that could access sensitive user data. This policy change aims to enhance user security and privacy."
+      "explanation": "Apple is changing macOS privacy settings for full-disk access to prevent misuse by third-party AI agents, following an incident where Meta's Muse allegedly accessed Apple Messages without explicit permission."
     },
     {
       "rank": 8,
@@ -94,33 +94,33 @@
       "url": "https://huggingface.co/blog/allenai/astabrief",
       "published_utc": "2026-10-02T15:19:50+00:00",
       "significance": 5,
-      "score": 65.3,
+      "score": 59.2,
       "verification": "article page",
-      "explanation": "Ai2 open-sourced AstaBrief, a fast report-generation model designed for scientific work, available on Hugging Face. This allows researchers to generate cited reports faster and verify outputs, addressing specific demands of scientific literature synthesis."
+      "explanation": "Ai2 open-sourced AstaBrief, a fast report-generation model, on Hugging Face, designed to help scientists generate cited reports faster. This development aims to make AI-assisted scientific work more accessible and verifiable."
     },
     {
       "rank": 9,
-      "title": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
-      "company": "Other",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
-      "published_utc": "2026-10-02T17:56:00+00:00",
+      "title": "Muse Creates Detailed Profiles of All Your Friends and Family",
+      "company": "Meta",
+      "source": "WIRED AI",
+      "url": "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
+      "published_utc": "2026-10-03T12:00:00+00:00",
       "significance": 5,
-      "score": 59.9,
+      "score": 58.4,
       "verification": "article page",
-      "explanation": "The White House is rebranding AI as 'super intelligence' and held an AI safety pledge with major tech CEOs, while Meta and OpenAI are focusing on user-friendly AI products. This reflects a shift in terminology and continued enterprise investment in AI."
+      "explanation": "Meta's AI agent Muse has been widely downloaded, and researchers have extracted its internal files, providing insight into its operating instructions and how it processes user data."
     },
     {
       "rank": 10,
-      "title": "These AI Experts Want to Do High-Stakes Research Out in the Open",
-      "company": "Other",
-      "source": "WIRED AI",
-      "url": "https://www.wired.com/story/trillium-labs-wants-to-do-high-risk-ai-research-in-the-open/",
-      "published_utc": "2026-10-02T16:00:00+00:00",
+      "title": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China",
+      "company": "NVIDIA",
+      "source": "Ars Technica AI",
+      "url": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/",
+      "published_utc": "2026-10-02T18:39:36+00:00",
       "significance": 5,
-      "score": 59.4,
+      "score": 54.0,
       "verification": "article page",
-      "explanation": "Trillium Labs, a new nonprofit founded by Nathan Lambert and Tom Zick, aims to conduct high-stakes AI research, including recursive self-improvement and agents, in an open and transparent manner. They plan to publish experimental details to allow for greater scrutiny and community contribution."
+      "explanation": "The US arrested a tech CEO accused of smuggling over $300 million worth of Nvidia A100 and H100 GPUs into China, which are critical for training large language models and pose national security concerns."
     }
   ]
 }
