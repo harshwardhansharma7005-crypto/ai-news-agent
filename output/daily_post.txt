@@ -1,46 +1,46 @@
-🤖 Microsoft expands AI infrastructure, Ukraine targets Yandex, and Google launches game creator.
-📅 12 Oct 2026 | Daily AI News Roundup
+🤖 Microsoft, NVIDIA, and Meta push AI boundaries; Apple enters smart displays, Epic Games pivots to AI.
+📅 13 Oct 2026 | Daily AI News Roundup
 
 1. Microsoft to expand Azure Maia system to multi-gigawatt deployments
-Microsoft is expanding its Azure Maia AI inference system to multi-gigawatt deployments starting in 2027, making it the primary inference system for Microsoft products and services. This signifies a major investment in AI infrastructure to support next-generation models and services like Copilot.
+Microsoft plans to scale its Azure Maia family to multi-gigawatt deployments starting in 2027, making it the primary inference system for Microsoft products and services. Azure Maia 200 is already in production, supporting Microsoft Copilot and next-generation model development.
 🔗 Source: Official Microsoft Blog - https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/
 
-2. Ukraine’s drones knock out AI data center belonging to "Russia’s Google"
-Ukrainian drone strikes knocked out two Yandex data centers, including one with supercomputers used for training Yandex’s AI model. This action, a response to Russian strikes on Ukrainian data centers, has disrupted Yandex's AI chatbot and online services.
-🔗 Source: Ars Technica AI - https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/
+2. All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark
+NVIDIA RTX Spark is launching on October 16, combining gaming, creative, and personal AI supercomputer capabilities with up to 128GB of unified memory and 1 petaflop of AI compute. This reinvents the PC with powerful local AI agents and a full stack of NVIDIA RTX and CUDA technologies.
+🔗 Source: NVIDIA Blog - https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/
 
-3. I Made Terrible Games With Google’s AI Playground
-Google launched Playground, a new service within Google Labs that allows users to generate working in-browser video games by describing them in plain language. This tool enables 'vibe coding' for games and supports asset uploads for reference.
-🔗 Source: WIRED AI - https://www.wired.com/story/i-made-terrible-games-with-googles-ai-playground/
+3. Meta releases its first frontier model, Muse Wonder
+Meta's Superintelligence Lab released Muse Wonder and Muse Wonder Full, its first frontier models, which are larger and more capable. These models achieve comparable benchmark scores to leading models and represent a significant step in Meta's AI scaling.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/
 
-4. Satya Nadella says we should assume all AI models are ‘compromised’
-Microsoft CEO Satya Nadella called for an 'emergency brake' on AI, stating that all AI models should be assumed 'compromised' and advocating for more transparent systems. He recommends timely incident disclosure, independent audits, and verifiable evidence from AI models.
-🔗 Source: The Verge AI - https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised
+4. OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide
+NVIDIA announced new partnerships and contributions at the OCP Global Summit to help scale AI factories worldwide, including contributing Vera Rubin rack and compute tray designs to OCP. This aims to create a common foundation for next-generation AI infrastructure.
+🔗 Source: NVIDIA Blog - https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/
 
-5. Anthropic is cutting off its internal evaluations from the internet
-Anthropic is cutting off internet access for all internal AI agent evaluations to prevent 'unintended model actions' after incidents like submitting a false tip about an unsolved murder. This decision aims to enhance safety during testing.
-🔗 Source: The Verge AI - https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet
+5. Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy
+Character.AI has filed for Chapter 11 bankruptcy and will sell some assets to Disney for $20 million, along with a non-exclusive perpetual license for its technology. This follows lawsuits and struggles to scale its platform, which allows users to create and converse with AI characters.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/
 
-6. Former Plaud exec raises $26M for AI app that listens to you in the background
-Former Plaud exec Peter Mo raised $26 million for Ambi, an AI app that provides real-time intelligence by continuously listening to users. The app is releasing versions for iPhone, Mac, and Apple Watch.
-🔗 Source: TechCrunch AI - https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/
+6. Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs
+Microsoft announced its third-generation Maia 300 in-house AI chip, designed to be the primary AI inference system for its products and services. This aims to improve cost and efficiency for AI workloads and reduce reliance on external GPUs.
+🔗 Source: The Verge AI - https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout
 
-7. DistroKid has been quietly taking down songs in response to UMG lawsuit
-DistroKid has been quietly removing songs in response to a UMG lawsuit claiming the platform created an 'AI-slop pipeline.' Artists are frustrated by the lack of transparency and the removal of non-AI works.
-🔗 Source: The Verge AI - https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit
+7. OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks
+Meta is sharing its next generation of open networking infrastructure at OCP Summit 2026, including its first liquid-cooled network rack (IcePack) and 102.4T switch. These innovations support Meta's latest AI workloads and models like Muse Wonder, Muse Spark, and Muse.
+🔗 Source: Meta Engineering - https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/
 
-8. AI Is Getting Really Good at Messing With Cybercriminals
-Anti-cybercrime initiatives are increasingly using AI to trick scammers by diverting them to lifelike bots that prolong conversations. The Australian company Apate has developed a system to use AI bots to engage phone scammers.
-🔗 Source: WIRED AI - https://www.wired.com/story/ai-is-getting-really-good-at-messing-with-cybercriminals/
+8. SpaceXSI bundles X Premium, Grok, and Cursor into one subscription
+SpaceX Super Intelligence (SpaceXSI) has launched 'The X Subscription,' bundling X Premium, Grok, and Cursor into one offering. This aims to attract more subscribers by providing access to AI-powered chat, coding, and premium X features.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/
 
-9. Book Publishers Are Quietly Using More AI. Staff Are Revolting
-Workers at major US book publishers like HarperCollins, Simon & Schuster, and Hachette report that AI tools are being quietly used for publicity, cover art, back cover copy, and emails without public disclosure or author consent. This has led to staff revolts over the integration of LLMs.
-🔗 Source: WIRED AI - https://www.wired.com/story/book-publishers-are-quietly-using-more-ai-staff-are-revolting/
+9. Apple launches HomeView, its first smart display for the home
+Apple has launched HomeView, its first smart display for the home, featuring a screen atop a speaker base with Siri AI voice assistant. The device focuses on displaying photos, providing information, and taking video calls, with an emphasis on design and privacy features.
+🔗 Source: The Verge AI - https://www.theverge.com/tech/1009704/apple-homeview-smart-display-first-look
 
-10. Can the AI industry persuade data center opponents by getting rid of NDAs?
-Amazon has followed Microsoft's lead in no longer using nondisclosure agreements (NDAs) when negotiating with local governments over data centers. This move aims to address concerns and improve communication regarding data center development.
-🔗 Source: TechCrunch AI - https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/
+10. Epic Games reportedly pivoting to "AI first" game development model
+Epic Games is reportedly shifting to an 'AI first' game development model, using AI to write code and guide artwork for an upcoming Marvel/Star Wars shooter. This signifies a major pivot in game development strategy, potentially delaying the project.
+🔗 Source: Ars Technica AI - https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/
 
-Stay tuned for tomorrow's AI news update and join the conversation about these exciting developments!
+Stay informed on the latest AI advancements and industry shifts. Follow us for tomorrow's news update!
 
-#AI #ArtificialIntelligence #AINews #TechNews #Microsoft #GoogleAI #DeepMind #Anthropic #Claude
+#AI #ArtificialIntelligence #AINews #TechNews #Microsoft #NVIDIA #MetaAI #xAI
