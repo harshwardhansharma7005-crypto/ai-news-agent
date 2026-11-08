@@ -1,5 +1,5 @@
 {
-  "generated_at_ist": "2026-11-08T00:27:20+05:30",
+  "generated_at_ist": "2026-11-09T00:25:33+05:30",
   "story_count": 10,
   "stories": [
     {
@@ -10,117 +10,117 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
       "published_utc": "2026-11-06T23:46:18+00:00",
       "significance": 9,
-      "score": 95.2,
+      "score": 90.0,
       "verification": "article page",
-      "explanation": "OpenAI has been valued at $1.25 trillion in a new $11 billion funding round, making it one of the world's most valuable companies. This news follows Anthropic's IPO filing and indicates continued significant investment in OpenAI."
+      "explanation": "OpenAI has been valued at $1.25 trillion after raising $11 billion in a new funding round. This makes it one of the world's most valuable companies, indicating strong investor confidence in its AI development."
     },
     {
       "rank": 2,
-      "title": "The US let Nvidia sell chips to an empty office in China",
-      "company": "NVIDIA",
+      "title": "Elvis and Eminem rights holders are suing Suno",
+      "company": "Other",
       "source": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
-      "published_utc": "2026-11-07T15:43:45+00:00",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+      "published_utc": "2026-11-08T17:23:19+00:00",
       "significance": 7,
-      "score": 79.2,
+      "score": 79.6,
       "verification": "article page",
-      "explanation": "The US government is reportedly approving sales of NVIDIA's AI chips to Chinese firms with ties to blacklisted companies, including one with an empty office. Concerns are being raised about due diligence in vetting these firms for handling advanced AI chips."
+      "explanation": "Suno is facing two lawsuits from rights holders of Elvis Presley and Eminem, alleging that its AI music illegally mimics artists' voices and lyrics. The Presley suit claims a violation of Tennessee's ELVIS Act."
     },
     {
       "rank": 3,
-      "title": "Why a new report on Anthropic automating AI development is alarming researchers",
-      "company": "Anthropic",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
-      "published_utc": "2026-11-07T12:30:00+00:00",
-      "significance": 7,
-      "score": 78.4,
-      "verification": "article page",
-      "explanation": "A new report indicates Anthropic is using AI to accelerate its own AI research, with models improving twice as quickly as a year ago. This development is alarming researchers given Anthropic's public calls for slowing down AI development."
-    },
-    {
-      "rank": 4,
       "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
       "company": "OpenAI",
       "source": "OpenAI",
       "url": "https://openai.com/index/partnering-with-hacktron",
       "published_utc": "2026-11-06T08:00:00+00:00",
       "significance": 7,
-      "score": 77.3,
+      "score": 76.0,
       "verification": "article page",
-      "explanation": "OpenAI is partnering with Hacktron to find vulnerabilities in its systems, focusing on interactions with third-party services. This initiative aims to strengthen OpenAI's defenses and accelerate cyber defense with frontier AI."
+      "explanation": "OpenAI is partnering with Hacktron to find vulnerabilities in its systems, focusing on interactions with third-party services and expanding Hacktron's access to frontier models. This initiative aims to strengthen OpenAI's cyber defenses and security."
+    },
+    {
+      "rank": 4,
+      "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+      "company": "Anthropic",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "published_utc": "2026-11-07T12:30:00+00:00",
+      "significance": 7,
+      "score": 72.4,
+      "verification": "article page",
+      "explanation": "A new report by METR found Anthropic is using AI to accelerate its own research, leading to models improving twice as quickly. This is significant as it highlights the company's rapid AI development despite its calls for slowing down AI progress."
     },
     {
       "rank": 5,
+      "title": "AI Companies Really, Really Want to Buy Your Work Files and Emails",
+      "company": "Other",
+      "source": "WIRED AI",
+      "url": "https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/",
+      "published_utc": "2026-11-06T16:00:00+00:00",
+      "significance": 7,
+      "score": 70.0,
+      "verification": "article page",
+      "explanation": "Data brokers are actively collecting internal corporate files and emails to train AI models, with AI labs reportedly paying significant fees for this private data. This indicates a growing industry for acquiring diverse datasets to enhance AI capabilities."
+    },
+    {
+      "rank": 6,
+      "title": "Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs",
+      "company": "NVIDIA",
+      "source": "NVIDIA Developer Blog",
+      "url": "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/",
+      "published_utc": "2026-11-06T22:20:20+00:00",
+      "significance": 6,
+      "score": 66.0,
+      "verification": "article page",
+      "explanation": "NVIDIA published a tutorial demonstrating how to optimize FLUX 3 Image Klein on NVIDIA Blackwell GPUs, achieving up to 4.45x faster image generation. This development aims to improve inference latency for diffusion models in design and visual production workflows."
+    },
+    {
+      "rank": 7,
+      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "company": "Hugging Face",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "published_utc": "2026-11-05T19:35:16+00:00",
+      "significance": 6,
+      "score": 66.0,
+      "verification": "article page",
+      "explanation": "NVIDIA added four new open-weight checkpoints to its Cosmos 3 model family for interactive world simulation and multi-sensor multi-view driving scenes. These models, including Sim-Bimanual and Sim-Transfer, aim to enhance robotics and autonomous driving development by generating realistic environments."
+    },
+    {
+      "rank": 8,
+      "title": "The US let Nvidia sell chips to an empty office in China",
+      "company": "NVIDIA",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+      "published_utc": "2026-11-07T15:43:45+00:00",
+      "significance": 6,
+      "score": 63.2,
+      "verification": "article page",
+      "explanation": "Concerns are being raised that the US government is approving sales of Nvidia’s AI chips to Chinese firms with ties to blacklisted companies, with one approved firm having an empty office. This raises questions about due diligence in vetting Chinese recipients of H200 AI chips."
+    },
+    {
+      "rank": 9,
       "title": "Crusoe sells troubled Wyoming data center project to Google",
       "company": "Google",
       "source": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
       "published_utc": "2026-11-07T01:40:28+00:00",
-      "significance": 7,
-      "score": 75.7,
-      "verification": "article page",
-      "explanation": "Crusoe sold its unfinished Wyoming data center project to Google, which plans to invest $17 billion to develop the campus. This deal highlights the challenges independent developers face in delivering massive AI data center projects on time and within budget."
-    },
-    {
-      "rank": 6,
-      "title": "China reportedly recruited AI exec to spy on Jensen Huang",
-      "company": "NVIDIA",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
-      "published_utc": "2026-11-06T23:00:44+00:00",
-      "significance": 7,
-      "score": 75.0,
-      "verification": "article page",
-      "explanation": "China's intelligence agency reportedly recruited businesswoman Alice Huang to spy on NVIDIA CEO Jensen Huang for information on American AI chips. The aim was to glean intelligence and potentially influence NVIDIA to make advanced chips available to China."
-    },
-    {
-      "rank": 7,
-      "title": "Free Chinese AI Models Are Getting Scary Good at Hacking",
-      "company": "Other",
-      "source": "WIRED AI",
-      "url": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/",
-      "published_utc": "2026-11-06T18:43:43+00:00",
-      "significance": 7,
-      "score": 73.9,
-      "verification": "article page",
-      "explanation": "New research shows that free Chinese AI models like DeepSeek and GLM are becoming nearly as capable at hacking simulated networks as advanced closed models. This suggests open-weight models are matching frontier models in cyber skills, potentially making efforts to limit access to advanced AI less effective."
-    },
-    {
-      "rank": 8,
-      "title": "AI Companies Really, Really Want to Buy Your Work Files and Emails",
-      "company": "Anthropic",
-      "source": "WIRED AI",
-      "url": "https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/",
-      "published_utc": "2026-11-06T16:00:00+00:00",
-      "significance": 7,
-      "score": 73.3,
-      "verification": "article page",
-      "explanation": "AI companies like Anthropic and OpenAI are reportedly paying significant sums to data brokers for internal corporate files and emails to train their AI models, indicating a growing demand for private data."
-    },
-    {
-      "rank": 9,
-      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
-      "company": "Hugging Face",
-      "source": "Hugging Face Blog",
-      "url": "https://huggingface.co/blog/allenai/toyblocks",
-      "published_utc": "2026-11-06T14:00:48+00:00",
       "significance": 6,
-      "score": 68.8,
+      "score": 60.0,
       "verification": "article page",
-      "explanation": "Hugging Face introduced ToyBlocks, a framework for creating controlled simulated environments called FoundationWorlds for robot learning and evaluation. This allows researchers to study robot behavior and model improvement more effectively."
+      "explanation": "Crusoe sold an unfinished data center project in Wyoming to Google, which plans to invest $17 billion to develop it. This highlights the challenges of building massive AI data centers and Google's continued investment in infrastructure."
     },
     {
       "rank": 10,
-      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "title": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
       "company": "Other",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-      "published_utc": "2026-11-06T18:44:38+00:00",
-      "significance": 6,
-      "score": 63.9,
+      "source": "WIRED AI",
+      "url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
+      "published_utc": "2026-11-08T12:00:00+00:00",
+      "significance": 5,
+      "score": 58.3,
       "verification": "article page",
-      "explanation": "Security researchers found hundreds of servers hosting the Chinese-made AI hacking tool Artex publicly exposed to the internet. This open-source autonomous penetration testing tool, linked to cyberattacks, allows anyone to access it and potentially launch cyberattacks."
+      "explanation": "The New York Times has added a beta AI-powered recipe modifier feature to its Cooking app, allowing subscribers to swap ingredients or adjust recipes. This aims to help users customize recipes to their needs, despite some initial negative user feedback."
     }
   ]
 }
