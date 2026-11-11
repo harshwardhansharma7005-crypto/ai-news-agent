@@ -1,5 +1,5 @@
 {
-  "generated_at_ist": "2026-11-11T02:26:05+05:30",
+  "generated_at_ist": "2026-11-12T02:58:35+05:30",
   "story_count": 10,
   "stories": [
     {
@@ -9,70 +9,70 @@
       "source": "Google DeepMind",
       "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
       "published_utc": "2026-11-10T16:03:47+00:00",
-      "significance": 8,
-      "score": 94.8,
+      "significance": 9,
+      "score": 98.6,
       "verification": "article page",
-      "explanation": "Google DeepMind made Gemini 4 Carbon available to developers, enterprises, scientists, and consumers. Carbon is described as their strongest frontier model, excelling in cybersecurity and long-horizon agentic workflows for complex knowledge work, software engineering, and scientific reasoning."
+      "explanation": "Google DeepMind announced the availability of Gemini 4 Carbon, their strongest frontier model with advanced cybersecurity capabilities and long-horizon agentic workflows. Carbon is designed for complex tasks like multi-step coding, debugging, and open-ended scientific research."
     },
     {
       "rank": 2,
-      "title": "Google Cloud launches Gemini for healthcare.",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
       "company": "Google",
-      "source": "Google AI Blog",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
-      "published_utc": "2026-11-10T13:00:00+00:00",
-      "significance": 7,
-      "score": 84.0,
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "published_utc": "2026-11-11T15:00:15+00:00",
+      "significance": 8,
+      "score": 94.4,
       "verification": "article page",
-      "explanation": "Google Cloud launched Gemini for healthcare, an AI solution designed to unify fragmented clinical, operational, and administrative systems and automate workflows. This aims to reduce administrative burnout for clinicians by orchestrating complex, multi-step tasks like medical records synthesis and prior authorization review."
+      "explanation": "Google DeepMind announced AlphaGenome 2, a next-generation DNA sequence model that predicts how genetic variants affect human cell types. This model provides scientists with a new tool to understand the cellular drivers of disease."
     },
     {
       "rank": 3,
-      "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
-      "company": "Anthropic",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
-      "published_utc": "2026-11-10T20:52:13+00:00",
-      "significance": 7,
-      "score": 80.0,
+      "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+      "company": "Microsoft",
+      "source": "Microsoft Research",
+      "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+      "published_utc": "2026-11-10T20:52:56+00:00",
+      "significance": 8,
+      "score": 89.9,
       "verification": "article page",
-      "explanation": "New York's AI safety law, the RAISE Act, is taking effect, requiring major AI developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents, establishing significant regulatory oversight."
+      "explanation": "Microsoft researchers discovered 'Lazarus,' a backdoor technique that can reprogram dormant neurons in an AI model to execute malicious commands when triggered. This poses a serious security threat, especially for AI agents with tool access, and highlights the importance of model provenance."
     },
     {
       "rank": 4,
-      "title": "PSI is trying to make a business out of AI-driven scientific discovery",
-      "company": "Anthropic",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
-      "published_utc": "2026-11-10T19:03:52+00:00",
-      "significance": 7,
-      "score": 79.5,
+      "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+      "company": "OpenAI",
+      "source": "Ars Technica AI",
+      "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+      "published_utc": "2026-11-11T18:16:40+00:00",
+      "significance": 8,
+      "score": 89.2,
       "verification": "article page",
-      "explanation": "PSI used an unreleased Anthropic model, Fable 5.2, to solve an 18-year-old problem in quantum computing, demonstrating the model's advanced capabilities in scientific discovery."
+      "explanation": "TSMC plans to invest $1 billion in Anthropic and OpenAI, with $500 million in each, giving the chipmaker direct stakes in leading AI developers. This investment highlights the circular financing within the AI boom and TSMC's strategic positioning."
     },
     {
       "rank": 5,
-      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-      "company": "OpenAI",
-      "source": "OpenAI",
-      "url": "https://openai.com/index/control-room",
-      "published_utc": "2026-11-09T13:00:00+00:00",
+      "title": "Content Understanding adds GPT-5.6, GPT-6, and GPT-6.1: Choose the right model for your workload",
+      "company": "Microsoft",
+      "source": "Microsoft Foundry Blog",
+      "url": "https://devblogs.microsoft.com/foundry/content-understanding-adds-gpt-5-6-gpt-6-and-gpt-6-1-choose-the-right-model-for-your-workload/",
+      "published_utc": "2026-11-11T18:24:28+00:00",
       "significance": 7,
-      "score": 78.0,
+      "score": 85.2,
       "verification": "article page",
-      "explanation": "OpenAI launched Control Room, a central system to track and rapidly stop model workloads across its research infrastructure when safety or security concerns arise, enhancing the ability to manage risks from increasingly powerful AI models."
+      "explanation": "Azure Content Understanding now supports GPT-5.6, GPT-6, and GPT-6.1 model families, offering more choices for document, text, speech, and video workflows. This provides customers with expanded options for balancing quality and cost in their AI workloads."
     },
     {
       "rank": 6,
-      "title": "Your Algorithm: Giving People More Ways to Personalize Facebook Recommendations",
-      "company": "Meta",
-      "source": "Meta Engineering",
-      "url": "https://engineering.fb.com/2026/11/10/ml-applications/your-algorithm-giving-people-more-ways-to-personalize-facebook-recommendations/",
-      "published_utc": "2026-11-10T17:00:49+00:00",
-      "significance": 6,
-      "score": 75.0,
+      "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
+      "company": "Other",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+      "published_utc": "2026-11-11T19:34:55+00:00",
+      "significance": 7,
+      "score": 79.5,
       "verification": "article page",
-      "explanation": "Meta introduced 'Your Algorithm,' a suite of AI-powered tools that allows Facebook users to personalize their Feed and Reels recommendations. This system uses LLMs to understand user preferences, making recommendations more transparent and steerable."
+      "explanation": "Fractile, a British startup developing AI chips, raised a $720 million Series C round, making it one of the top-funded players in the race for purpose-built AI chips. This funding aims to reduce the cost of AI inference and advance the UK's stake in AI hardware."
     },
     {
       "rank": 7,
@@ -81,46 +81,46 @@
       "source": "NVIDIA Blog",
       "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
       "published_utc": "2026-11-10T16:00:03+00:00",
-      "significance": 6,
-      "score": 74.8,
+      "significance": 7,
+      "score": 78.6,
       "verification": "article page",
-      "explanation": "NVIDIA is expanding its open-source commitment by donating NVIDIA OpenShell to the CNCF and contributing to Agent Substrate, a Google-led framework for operating agent workloads on Kubernetes. This aims to secure agents and run AI on Kubernetes for the cloud-native community."
+      "explanation": "NVIDIA is deepening its open-source commitment by contributing NVIDIA OpenShell, a runtime for securing autonomous agents, to the CNCF. They are also contributing to Agent Substrate and announcing new components for the NVIDIA DSX AI Factory Platform, enhancing AI infrastructure on Kubernetes."
     },
     {
       "rank": 8,
-      "title": "Agent Substrate: Advancing Kubernetes for Agents at Scale",
+      "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
       "company": "NVIDIA",
-      "source": "NVIDIA Developer Blog",
-      "url": "https://developer.nvidia.com/blog/agent-substrate-advancing-kubernetes-for-agents-at-scale/",
-      "published_utc": "2026-11-10T15:00:00+00:00",
+      "source": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
+      "published_utc": "2026-11-11T03:00:20+00:00",
       "significance": 6,
-      "score": 74.5,
+      "score": 71.4,
       "verification": "article page",
-      "explanation": "NVIDIA donated Agent Substrate, an open-source, security-hardened runtime for sandboxed agents, to the CNCF Sandbox. This technology is designed to run millions of agents with higher density on Kubernetes by multiplexing many sessions over a small pool of worker Pods."
+      "explanation": "NVIDIA highlights how vision AI and robotics are being used to sort mixed waste, diverting materials from landfills and improving recycling processes. This application of AI helps create a more circular economy by recovering reusable resources."
     },
     {
       "rank": 9,
-      "title": "Introducing Businesses in ChatGPT",
-      "company": "OpenAI",
-      "source": "OpenAI",
-      "url": "https://openai.com/index/introducing-businesses-chatgpt",
-      "published_utc": "2026-11-10T10:00:00+00:00",
+      "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+      "company": "Hugging Face",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/token-pooling",
+      "published_utc": "2026-11-11T00:00:00+00:00",
       "significance": 6,
-      "score": 73.3,
+      "score": 70.6,
       "verification": "article page",
-      "explanation": "OpenAI is introducing 'Businesses in ChatGPT' in beta, allowing businesses to claim their presence, manage information, and gain insights on engagement. This also includes Business Agents for eligible e-commerce and online service businesses, creating new ways for businesses to connect with ChatGPT users."
+      "explanation": "Hugging Face introduced Token Pooling-Aware Training for multi-vector embedding models, which teaches encoders to preserve important information when vectors are merged. This technique improves retrieval quality while reducing storage requirements for document embeddings."
     },
     {
       "rank": 10,
-      "title": "How We Built TLX: A Hardware-Native GPU Compiler for Production ML at Scale",
+      "title": "Your Algorithm: Giving People More Ways to Personalize Facebook Recommendations",
       "company": "Meta",
       "source": "Meta Engineering",
-      "url": "https://engineering.fb.com/2026/11/10/open-source/tlx-a-hardware-native-gpu-compiler-for-production-ml/",
-      "published_utc": "2026-11-10T16:59:31+00:00",
-      "significance": 5,
-      "score": 65.0,
+      "url": "https://engineering.fb.com/2026/11/10/ml-applications/your-algorithm-giving-people-more-ways-to-personalize-facebook-recommendations/",
+      "published_utc": "2026-11-10T17:00:49+00:00",
+      "significance": 6,
+      "score": 68.9,
       "verification": "article page",
-      "explanation": "Meta developed Triton Low-Level Extensions (TLX), an extension to Triton that helps engineers optimize GPU performance for production ML at scale, including LLM pretraining. TLX provides explicit control over GPU execution while maintaining a productive programming model."
+      "explanation": "Meta launched 'Your Algorithm,' a suite of AI-powered tools that allows users to personalize Facebook recommendations by directly stating their preferences. This system uses LLMs to understand and track user preferences, making Feed and Reels content more customized."
     }
   ]
 }
