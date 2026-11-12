@@ -1,46 +1,46 @@
-🤖 Google DeepMind unveils powerful new AI models, while Microsoft warns of AI backdoors
-📅 12 Nov 2026 | Daily AI News Roundup
+🤖 Nvidia's Open Source Future in Question, Google Unveils New AI Models, TSMC Invests Big
+📅 13 Nov 2026 | Daily AI News Roundup
 
-1. Gemini 4 Carbon is now available
-Google DeepMind announced the availability of Gemini 4 Carbon, their strongest frontier model with advanced cybersecurity capabilities and long-horizon agentic workflows. Carbon is designed for complex tasks like multi-step coding, debugging, and open-ended scientific research.
-🔗 Source: Google DeepMind - https://deepmind.google/blog/gemini-4-carbon-is-now-available/
+1. Jensen Huang’s exit puts Nvidia’s support for open source in question
+Nvidia CEO Jensen Huang resigned, raising questions about the company's commitment to open-source AI and its Hugging Face acquisition. Huang was a strong advocate for open-source AI, and his departure could impact the open model community.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/
 
-2. AlphaGenome 2: Deciphering how cells read DNA to better understand disease
-Google DeepMind announced AlphaGenome 2, a next-generation DNA sequence model that predicts how genetic variants affect human cell types. This model provides scientists with a new tool to understand the cellular drivers of disease.
+2. Introducing Gemini 4 Hydrogen
+Google introduced Gemini 4 Hydrogen, a new fast and cost-efficient AI model built for reliable agentic workflows and everyday tasks. This model is now available across Google AI Studio, the Gemini API, Gemini for business, the Gemini app, Google Search, and Google Antigravity.
+🔗 Source: Google DeepMind - https://deepmind.google/blog/introducing-gemini-4-hydrogen/
+
+3. Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit
+Hugging Face CEO Clément Delangue vowed to continue fighting for open-source AI after Jensen Huang's exit from Nvidia, expressing sadness over the departure. This raises questions about Nvidia's $12.9 billion acquisition of Hugging Face and its future commitment to open source.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/
+
+4. AlphaGenome 2: Deciphering how cells read DNA to better understand disease
+Google DeepMind announced AlphaGenome 2, a next-generation DNA sequence model that predicts how genetic variants affect human cell types. This model provides a new tool for scientists to understand the cellular drivers of disease by bridging single-cell biology and human genetics.
 🔗 Source: Google DeepMind - https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/
 
-3. Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents
-Microsoft researchers discovered 'Lazarus,' a backdoor technique that can reprogram dormant neurons in an AI model to execute malicious commands when triggered. This poses a serious security threat, especially for AI agents with tool access, and highlights the importance of model provenance.
-🔗 Source: Microsoft Research - https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/
-
-4. Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI
-TSMC plans to invest $1 billion in Anthropic and OpenAI, with $500 million in each, giving the chipmaker direct stakes in leading AI developers. This investment highlights the circular financing within the AI boom and TSMC's strategic positioning.
+5. Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI
+TSMC, a major chip manufacturer, plans to invest $1 billion in Anthropic and OpenAI, with $500 million in each company. This investment gives TSMC direct stakes in leading AI developers, even as its chipmaking business profits from the AI data center buildout.
 🔗 Source: Ars Technica AI - https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/
 
-5. Content Understanding adds GPT-5.6, GPT-6, and GPT-6.1: Choose the right model for your workload
-Azure Content Understanding now supports GPT-5.6, GPT-6, and GPT-6.1 model families, offering more choices for document, text, speech, and video workflows. This provides customers with expanded options for balancing quality and cost in their AI workloads.
+6. Supporting research on AI and children’s safety
+OpenAI committed $2 million to research on AI and children's safety, supporting a scientific research network under the Coalition for Children’s Rights and Protection in the Age of AI. This initiative aims to develop tools to measure AI's risks and opportunities for children, informing safer products and policies.
+🔗 Source: OpenAI - https://openai.com/index/children-first-declaration
+
+7. Content Understanding adds GPT-6.1, 6, and 5.6: Choose the right model for your workload
+Azure Content Understanding now supports the GPT-5.6, GPT-6, and GPT-6.1 model families, offering more choices for document, text, speech, and video workflows. This expansion provides customers with greater flexibility to balance quality and cost for different AI workloads.
 🔗 Source: Microsoft Foundry Blog - https://devblogs.microsoft.com/foundry/content-understanding-adds-gpt-5-6-gpt-6-and-gpt-6-1-choose-the-right-model-for-your-workload/
 
-6. With $720M round, Britain’s Fractile gets a leg up in the race for AI chips
-Fractile, a British startup developing AI chips, raised a $720 million Series C round, making it one of the top-funded players in the race for purpose-built AI chips. This funding aims to reduce the cost of AI inference and advance the UK's stake in AI hardware.
-🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/
+8. From AI ambition to business impact
+Microsoft Frontier Company has engaged in nearly 500 AI projects with over 200 customers across 28 countries, helping businesses move from AI pilots to impactful operational changes. This highlights Microsoft's focus on driving real business value through AI adoption.
+🔗 Source: Official Microsoft Blog - https://blogs.microsoft.com/blog/2026/11/12/from-ai-ambition-to-business-impact/
 
-7. NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure
-NVIDIA is deepening its open-source commitment by contributing NVIDIA OpenShell, a runtime for securing autonomous agents, to the CNCF. They are also contributing to Agent Substrate and announcing new components for the NVIDIA DSX AI Factory Platform, enhancing AI infrastructure on Kubernetes.
-🔗 Source: NVIDIA Blog - https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/
+9. Nebius tests the neocloud playbook with $40 billion in planned spending
+Nebius plans $40 billion in AI infrastructure spending by 2027, funded by customer prepayments and loans. This ambitious plan faces risks due to potential project delays and its reliance on future value.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/
 
-8. How AI Helps Recyclers Turn Mixed Waste Into Reusable Material
-NVIDIA highlights how vision AI and robotics are being used to sort mixed waste, diverting materials from landfills and improving recycling processes. This application of AI helps create a more circular economy by recovering reusable resources.
-🔗 Source: NVIDIA Blog - https://blogs.nvidia.com/blog/ai-recycling-startups/
+10. Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility
+Nvidia privately confirmed to Representative Bill Foster that it is technically possible to implement anti-smuggling measures for AI chips, despite industry claims of infeasibility. This relates to proposed legislation for chip security.
+🔗 Source: MIT Technology Review AI - https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/
 
-9. Token Pooling-Aware Training for Multi-Vector Embedding Models
-Hugging Face introduced Token Pooling-Aware Training for multi-vector embedding models, which teaches encoders to preserve important information when vectors are merged. This technique improves retrieval quality while reducing storage requirements for document embeddings.
-🔗 Source: Hugging Face Blog - https://huggingface.co/blog/token-pooling
+Stay tuned for tomorrow's AI news update and discover more exciting developments in the world of artificial intelligence!
 
-10. Your Algorithm: Giving People More Ways to Personalize Facebook Recommendations
-Meta launched 'Your Algorithm,' a suite of AI-powered tools that allows users to personalize Facebook recommendations by directly stating their preferences. This system uses LLMs to understand and track user preferences, making Feed and Reels content more customized.
-🔗 Source: Meta Engineering - https://engineering.fb.com/2026/11/10/ml-applications/your-algorithm-giving-people-more-ways-to-personalize-facebook-recommendations/
-
-Stay informed on the latest AI breakthroughs and challenges. Follow us for tomorrow's essential updates!
-
-#AI #ArtificialIntelligence #AINews #TechNews #GoogleAI #DeepMind #Microsoft #OpenAI #NVIDIA #HuggingFace #MetaAI
+#AI #ArtificialIntelligence #AINews #TechNews #NVIDIA #GoogleAI #DeepMind #HuggingFace #OpenAI #Microsoft
