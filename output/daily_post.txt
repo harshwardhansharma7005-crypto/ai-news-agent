@@ -1,46 +1,46 @@
-🤖 Nvidia's Open Source Future in Question, Google Unveils New AI Models, TSMC Invests Big
-📅 13 Nov 2026 | Daily AI News Roundup
+🤖 Nvidia scandal deepens as China's AI models use banned chips; new AI tools emerge
+📅 14 Nov 2026 | Daily AI News Roundup
 
-1. Jensen Huang’s exit puts Nvidia’s support for open source in question
-Nvidia CEO Jensen Huang resigned, raising questions about the company's commitment to open-source AI and its Hugging Face acquisition. Huang was a strong advocate for open-source AI, and his departure could impact the open model community.
-🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/
+1. Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen!
+New research indicates that advanced AI models from China were trained on Nvidia chips banned from export to the country. This highlights a significant challenge for Nvidia and U.S. export controls aimed at protecting leadership in AI capabilities.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/
 
-2. Introducing Gemini 4 Hydrogen
-Google introduced Gemini 4 Hydrogen, a new fast and cost-efficient AI model built for reliable agentic workflows and everyday tasks. This model is now available across Google AI Studio, the Gemini API, Gemini for business, the Gemini app, Google Search, and Google Antigravity.
+2. The unfolding Jensen Huang scandal: a timeline
+Jensen Huang resigned as Nvidia CEO following an affair with a Megaspeed executive, Alice Huang, who is alleged to be a Chinese spy. This scandal has raised national security concerns regarding the illegal sharing of Nvidia chips with China, which is under federal investigation.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/
+
+3. AI agent startup LangChain hits $3B valuation
+AI agent startup LangChain raised $300 million in Series C funding at a $3 billion valuation, led by CapitalG. The company's agent management tool, LangSmith, now serves 7,000 customers, focusing on providing model and platform-agnostic solutions for AI agent creation and management.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/
+
+4. Introducing Gemini 4 Hydrogen
+Google introduced Gemini 4 Hydrogen, a fast, cost-efficient model designed for reliable agentic workflows and everyday tasks, making cutting-edge intelligence available across Google AI Studio, API, and other services.
 🔗 Source: Google DeepMind - https://deepmind.google/blog/introducing-gemini-4-hydrogen/
 
-3. Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit
-Hugging Face CEO Clément Delangue vowed to continue fighting for open-source AI after Jensen Huang's exit from Nvidia, expressing sadness over the departure. This raises questions about Nvidia's $12.9 billion acquisition of Hugging Face and its future commitment to open source.
-🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/
+5. Introducing ChatGPT Wallet
+OpenAI introduced ChatGPT Wallet, a secure payment method for agents in ChatGPT Work, Codex, and dots, enabling purchases with user approval and existing card protections without exposing card details.
+🔗 Source: OpenAI - https://openai.com/index/introducing-chatgpt-wallet
 
-4. AlphaGenome 2: Deciphering how cells read DNA to better understand disease
-Google DeepMind announced AlphaGenome 2, a next-generation DNA sequence model that predicts how genetic variants affect human cell types. This model provides a new tool for scientists to understand the cellular drivers of disease by bridging single-cell biology and human genetics.
-🔗 Source: Google DeepMind - https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/
+6. ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you
+OpenAI launched ChatGPT Wallet, allowing its Dots AI agents to make purchases using linked credit or debit cards for ChatGPT Pro subscribers in the US. Users maintain control by reviewing and approving each transaction with a security check.
+🔗 Source: The Verge AI - https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet
 
-5. Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI
-TSMC, a major chip manufacturer, plans to invest $1 billion in Anthropic and OpenAI, with $500 million in each company. This investment gives TSMC direct stakes in leading AI developers, even as its chipmaking business profits from the AI data center buildout.
-🔗 Source: Ars Technica AI - https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/
+7. llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem
+ggml-org released llama.cpp v1.0.0, providing a stable API for running multi-modal LLMs across various hardware through quantization and optimized backends, making AI inference more accessible.
+🔗 Source: Hugging Face Blog - https://huggingface.co/blog/ggml-org/llama-cpp-v1
 
-6. Supporting research on AI and children’s safety
-OpenAI committed $2 million to research on AI and children's safety, supporting a scientific research network under the Coalition for Children’s Rights and Protection in the Age of AI. This initiative aims to develop tools to measure AI's risks and opportunities for children, informing safer products and policies.
-🔗 Source: OpenAI - https://openai.com/index/children-first-declaration
+8. Google’s new Gemini model is better at understanding complicated questions
+Google launched its new Gemini 4 Hydrogen model, which is designed to provide more helpful answers to complex questions. This is a significant upgrade to Google's AI capabilities, available across various products.
+🔗 Source: The Verge AI - https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen
 
-7. Content Understanding adds GPT-6.1, 6, and 5.6: Choose the right model for your workload
-Azure Content Understanding now supports the GPT-5.6, GPT-6, and GPT-6.1 model families, offering more choices for document, text, speech, and video workflows. This expansion provides customers with greater flexibility to balance quality and cost for different AI workloads.
-🔗 Source: Microsoft Foundry Blog - https://devblogs.microsoft.com/foundry/content-understanding-adds-gpt-5-6-gpt-6-and-gpt-6-1-choose-the-right-model-for-your-workload/
+9. Building strong safety evaluations
+Anthropic released recommendations for designing, running, and reporting safety evaluations for AI models, based on their experiences, to inform decisions about model deployment and safeguards.
+🔗 Source: Anthropic Research - https://www.anthropic.com/research/building-strong-safety-evaluations
 
-8. From AI ambition to business impact
-Microsoft Frontier Company has engaged in nearly 500 AI projects with over 200 customers across 28 countries, helping businesses move from AI pilots to impactful operational changes. This highlights Microsoft's focus on driving real business value through AI adoption.
-🔗 Source: Official Microsoft Blog - https://blogs.microsoft.com/blog/2026/11/12/from-ai-ambition-to-business-impact/
+10. ElevenLabs’ new app combines meeting note-taking and dictation for teams
+ElevenLabs launched ElevenAI, an experimental app combining meeting note-taking, dictation, and agent integration for teams and enterprises. The app allows users to take notes across meetings, query data, and integrate ElevenAgent for follow-up actions like drafting emails.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/
 
-9. Nebius tests the neocloud playbook with $40 billion in planned spending
-Nebius plans $40 billion in AI infrastructure spending by 2027, funded by customer prepayments and loans. This ambitious plan faces risks due to potential project delays and its reliance on future value.
-🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/
+Stay tuned for tomorrow's AI news updates and discover more about the latest advancements and industry developments!
 
-10. Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility
-Nvidia privately confirmed to Representative Bill Foster that it is technically possible to implement anti-smuggling measures for AI chips, despite industry claims of infeasibility. This relates to proposed legislation for chip security.
-🔗 Source: MIT Technology Review AI - https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/
-
-Stay tuned for tomorrow's AI news update and discover more exciting developments in the world of artificial intelligence!
-
-#AI #ArtificialIntelligence #AINews #TechNews #NVIDIA #GoogleAI #DeepMind #HuggingFace #OpenAI #Microsoft
+#AI #ArtificialIntelligence #AINews #TechNews #NVIDIA #GoogleAI #DeepMind #OpenAI #HuggingFace #Anthropic #Claude
