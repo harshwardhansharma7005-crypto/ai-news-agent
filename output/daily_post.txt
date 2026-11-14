@@ -1,46 +1,46 @@
-🤖 Nvidia scandal deepens as China's AI models use banned chips; new AI tools emerge
-📅 14 Nov 2026 | Daily AI News Roundup
+🤖 AI funding shifts, new models emerge, and agents gain payment power!
+📅 15 Nov 2026 | Daily AI News Roundup
 
-1. Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen!
-New research indicates that advanced AI models from China were trained on Nvidia chips banned from export to the country. This highlights a significant challenge for Nvidia and U.S. export controls aimed at protecting leadership in AI capabilities.
-🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/
-
-2. The unfolding Jensen Huang scandal: a timeline
-Jensen Huang resigned as Nvidia CEO following an affair with a Megaspeed executive, Alice Huang, who is alleged to be a Chinese spy. This scandal has raised national security concerns regarding the illegal sharing of Nvidia chips with China, which is under federal investigation.
-🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/
-
-3. AI agent startup LangChain hits $3B valuation
-AI agent startup LangChain raised $300 million in Series C funding at a $3 billion valuation, led by CapitalG. The company's agent management tool, LangSmith, now serves 7,000 customers, focusing on providing model and platform-agnostic solutions for AI agent creation and management.
-🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/
-
-4. Introducing Gemini 4 Hydrogen
-Google introduced Gemini 4 Hydrogen, a fast, cost-efficient model designed for reliable agentic workflows and everyday tasks, making cutting-edge intelligence available across Google AI Studio, API, and other services.
+1. Introducing Gemini 4 Hydrogen
+Google DeepMind introduced Gemini 4 Hydrogen, a fast, cost-efficient model designed for reliable agentic workflows and everyday tasks. This model brings cutting-edge intelligence to a wider audience and is available across various Google AI platforms.
 🔗 Source: Google DeepMind - https://deepmind.google/blog/introducing-gemini-4-hydrogen/
 
-5. Introducing ChatGPT Wallet
-OpenAI introduced ChatGPT Wallet, a secure payment method for agents in ChatGPT Work, Codex, and dots, enabling purchases with user approval and existing card protections without exposing card details.
+2. Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say
+Jensen Huang's departure from Nvidia is expected to significantly impact AI startup funding, with VCs and founders anticipating smaller checks and lower valuations. Nvidia was a major investor in AI startups, and his absence creates uncertainty in the funding landscape.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/
+
+3. Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!
+New research indicates that China's most powerful AI models were trained on Nvidia chips banned for export to China, following Jensen Huang's departure from Nvidia. This highlights a significant challenge to US export controls aimed at limiting China's AI capabilities.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/
+
+4. Introducing ChatGPT Wallet
+OpenAI introduced ChatGPT Wallet, a secure payment method for agents in ChatGPT Work, Codex, and dots, allowing agents to complete purchases with user approval without accessing card details. This aims to build trusted agentic payments and enable businesses to accept payments from ChatGPT Wallet.
 🔗 Source: OpenAI - https://openai.com/index/introducing-chatgpt-wallet
 
-6. ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you
-OpenAI launched ChatGPT Wallet, allowing its Dots AI agents to make purchases using linked credit or debit cards for ChatGPT Pro subscribers in the US. Users maintain control by reviewing and approving each transaction with a security check.
-🔗 Source: The Verge AI - https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet
-
-7. llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem
-ggml-org released llama.cpp v1.0.0, providing a stable API for running multi-modal LLMs across various hardware through quantization and optimized backends, making AI inference more accessible.
+5. llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem
+ggml-org released llama.cpp v1.0.0, providing a stable API for running multi-modal LLMs across various hardware through quantization and optimized backends. This release emphasizes API stability for developers building cross-platform and private AI products.
 🔗 Source: Hugging Face Blog - https://huggingface.co/blog/ggml-org/llama-cpp-v1
 
-8. Google’s new Gemini model is better at understanding complicated questions
-Google launched its new Gemini 4 Hydrogen model, which is designed to provide more helpful answers to complex questions. This is a significant upgrade to Google's AI capabilities, available across various products.
-🔗 Source: The Verge AI - https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen
+6. ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you
+OpenAI launched ChatGPT Wallet, allowing its Dots AI agents to make purchases for ChatGPT Pro subscribers in the US. This development enables AI agents to perform transactional tasks, with user approval required for each purchase.
+🔗 Source: The Verge AI - https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet
 
-9. Building strong safety evaluations
-Anthropic released recommendations for designing, running, and reporting safety evaluations for AI models, based on their experiences, to inform decisions about model deployment and safeguards.
-🔗 Source: Anthropic Research - https://www.anthropic.com/research/building-strong-safety-evaluations
+7. AI agent startup LangChain hits $3B valuation
+AI agent startup LangChain raised $300 million at a $3 billion valuation, focusing on its LangSmith agent management tool. This funding highlights significant investment in companies providing platform-agnostic solutions for managing AI agents.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/
 
-10. ElevenLabs’ new app combines meeting note-taking and dictation for teams
-ElevenLabs launched ElevenAI, an experimental app combining meeting note-taking, dictation, and agent integration for teams and enterprises. The app allows users to take notes across meetings, query data, and integrate ElevenAgent for follow-up actions like drafting emails.
-🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/
+8. No Pilots. Few Air Traffic Controllers. What Could Go Wrong?
+The US transportation secretary introduced 'SMART,' an AI-infused air traffic control system, which was later questioned during a national groundstop. This indicates the increasing, though sometimes uncertain, integration of AI in critical infrastructure like aviation.
+🔗 Source: WIRED AI - https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/
 
-Stay tuned for tomorrow's AI news updates and discover more about the latest advancements and industry developments!
+9. Claude’s Duet agent is a little neurotic and surprisingly helpful
+Anthropic launched Claude's Duet agent, a consumer-grade AI agent focused on work-oriented tasks. This introduces a new AI assistant aimed at helping users with productivity.
+🔗 Source: The Verge AI - https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on
 
-#AI #ArtificialIntelligence #AINews #TechNews #NVIDIA #GoogleAI #DeepMind #OpenAI #HuggingFace #Anthropic #Claude
+10. This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood
+Mansa, a media company, is using AI to create 'microdramas' to promote Black stories in Hollywood, such as the entirely AI-generated series 'They Left Us to Die.' This initiative explores AI's role in content creation, though it has drawn criticism for not using human actors.
+🔗 Source: WIRED AI - https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/
+
+Stay tuned for tomorrow's AI news and discover how these innovations will shape our future!
+
+#AI #ArtificialIntelligence #AINews #TechNews #GoogleAI #DeepMind #NVIDIA #OpenAI #HuggingFace #Anthropic #Claude

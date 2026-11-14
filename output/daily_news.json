@@ -1,66 +1,66 @@
 {
-  "generated_at_ist": "2026-11-14T02:26:24+05:30",
+  "generated_at_ist": "2026-11-15T00:50:17+05:30",
   "story_count": 10,
   "stories": [
     {
       "rank": 1,
-      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen!",
-      "company": "NVIDIA",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
-      "published_utc": "2026-11-13T18:40:30+00:00",
-      "significance": 9,
-      "score": 99.4,
-      "verification": "article page",
-      "explanation": "New research indicates that advanced AI models from China were trained on Nvidia chips banned from export to the country. This highlights a significant challenge for Nvidia and U.S. export controls aimed at protecting leadership in AI capabilities."
-    },
-    {
-      "rank": 2,
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "company": "NVIDIA",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "published_utc": "2026-11-13T15:58:00+00:00",
-      "significance": 9,
-      "score": 98.8,
-      "verification": "article page",
-      "explanation": "Jensen Huang resigned as Nvidia CEO following an affair with a Megaspeed executive, Alice Huang, who is alleged to be a Chinese spy. This scandal has raised national security concerns regarding the illegal sharing of Nvidia chips with China, which is under federal investigation."
-    },
-    {
-      "rank": 3,
-      "title": "AI agent startup LangChain hits $3B valuation",
-      "company": "Other",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-      "published_utc": "2026-11-13T19:37:57+00:00",
-      "significance": 8,
-      "score": 89.7,
-      "verification": "article page",
-      "explanation": "AI agent startup LangChain raised $300 million in Series C funding at a $3 billion valuation, led by CapitalG. The company's agent management tool, LangSmith, now serves 7,000 customers, focusing on providing model and platform-agnostic solutions for AI agent creation and management."
-    },
-    {
-      "rank": 4,
       "title": "Introducing Gemini 4 Hydrogen",
       "company": "Google",
       "source": "Google DeepMind",
       "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
       "published_utc": "2026-11-12T18:00:50+00:00",
       "significance": 8,
-      "score": 89.3,
+      "score": 86.0,
       "verification": "article page",
-      "explanation": "Google introduced Gemini 4 Hydrogen, a fast, cost-efficient model designed for reliable agentic workflows and everyday tasks, making cutting-edge intelligence available across Google AI Studio, API, and other services."
+      "explanation": "Google DeepMind introduced Gemini 4 Hydrogen, a fast, cost-efficient model designed for reliable agentic workflows and everyday tasks. This model brings cutting-edge intelligence to a wider audience and is available across various Google AI platforms."
     },
     {
-      "rank": 5,
+      "rank": 2,
+      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "company": "NVIDIA",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "published_utc": "2026-11-13T22:43:00+00:00",
+      "significance": 8,
+      "score": 84.8,
+      "verification": "article page",
+      "explanation": "Jensen Huang's departure from Nvidia is expected to significantly impact AI startup funding, with VCs and founders anticipating smaller checks and lower valuations. Nvidia was a major investor in AI startups, and his absence creates uncertainty in the funding landscape."
+    },
+    {
+      "rank": 3,
+      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+      "company": "NVIDIA",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "published_utc": "2026-11-13T18:40:30+00:00",
+      "significance": 8,
+      "score": 83.8,
+      "verification": "article page",
+      "explanation": "New research indicates that China's most powerful AI models were trained on Nvidia chips banned for export to China, following Jensen Huang's departure from Nvidia. This highlights a significant challenge to US export controls aimed at limiting China's AI capabilities."
+    },
+    {
+      "rank": 4,
       "title": "Introducing ChatGPT Wallet",
       "company": "OpenAI",
       "source": "OpenAI",
       "url": "https://openai.com/index/introducing-chatgpt-wallet",
       "published_utc": "2026-11-13T15:00:00+00:00",
       "significance": 7,
-      "score": 84.5,
+      "score": 78.9,
       "verification": "article page",
-      "explanation": "OpenAI introduced ChatGPT Wallet, a secure payment method for agents in ChatGPT Work, Codex, and dots, enabling purchases with user approval and existing card protections without exposing card details."
+      "explanation": "OpenAI introduced ChatGPT Wallet, a secure payment method for agents in ChatGPT Work, Codex, and dots, allowing agents to complete purchases with user approval without accessing card details. This aims to build trusted agentic payments and enable businesses to accept payments from ChatGPT Wallet."
+    },
+    {
+      "rank": 5,
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "company": "Hugging Face",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "published_utc": "2026-11-13T14:05:22+00:00",
+      "significance": 6,
+      "score": 68.7,
+      "verification": "article page",
+      "explanation": "ggml-org released llama.cpp v1.0.0, providing a stable API for running multi-modal LLMs across various hardware through quantization and optimized backends. This release emphasizes API stability for developers building cross-platform and private AI products."
     },
     {
       "rank": 6,
@@ -69,58 +69,58 @@
       "source": "The Verge AI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
       "published_utc": "2026-11-13T20:45:10+00:00",
-      "significance": 7,
-      "score": 80.0,
+      "significance": 6,
+      "score": 64.4,
       "verification": "article page",
-      "explanation": "OpenAI launched ChatGPT Wallet, allowing its Dots AI agents to make purchases using linked credit or debit cards for ChatGPT Pro subscribers in the US. Users maintain control by reviewing and approving each transaction with a security check."
+      "explanation": "OpenAI launched ChatGPT Wallet, allowing its Dots AI agents to make purchases for ChatGPT Pro subscribers in the US. This development enables AI agents to perform transactional tasks, with user approval required for each purchase."
     },
     {
       "rank": 7,
-      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
-      "company": "Hugging Face",
-      "source": "Hugging Face Blog",
-      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-      "published_utc": "2026-11-13T14:05:22+00:00",
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "company": "Other",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "published_utc": "2026-11-13T19:37:57+00:00",
       "significance": 6,
-      "score": 74.3,
+      "score": 64.1,
       "verification": "article page",
-      "explanation": "ggml-org released llama.cpp v1.0.0, providing a stable API for running multi-modal LLMs across various hardware through quantization and optimized backends, making AI inference more accessible."
+      "explanation": "AI agent startup LangChain raised $300 million at a $3 billion valuation, focusing on its LangSmith agent management tool. This funding highlights significant investment in companies providing platform-agnostic solutions for managing AI agents."
     },
     {
       "rank": 8,
-      "title": "Google’s new Gemini model is better at understanding complicated questions",
-      "company": "Google",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
-      "published_utc": "2026-11-12T21:55:32+00:00",
-      "significance": 7,
-      "score": 74.2,
+      "title": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
+      "company": "Other",
+      "source": "WIRED AI",
+      "url": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
+      "published_utc": "2026-11-14T11:00:00+00:00",
+      "significance": 5,
+      "score": 57.9,
       "verification": "article page",
-      "explanation": "Google launched its new Gemini 4 Hydrogen model, which is designed to provide more helpful answers to complex questions. This is a significant upgrade to Google's AI capabilities, available across various products."
+      "explanation": "The US transportation secretary introduced 'SMART,' an AI-infused air traffic control system, which was later questioned during a national groundstop. This indicates the increasing, though sometimes uncertain, integration of AI in critical infrastructure like aviation."
     },
     {
       "rank": 9,
-      "title": "Building strong safety evaluations",
+      "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
       "company": "Anthropic",
-      "source": "Anthropic Research",
-      "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
-      "published_utc": "2026-11-13T00:00:00+00:00",
-      "significance": 6,
-      "score": 70.8,
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+      "published_utc": "2026-11-13T14:00:00+00:00",
+      "significance": 5,
+      "score": 52.7,
       "verification": "article page",
-      "explanation": "Anthropic released recommendations for designing, running, and reporting safety evaluations for AI models, based on their experiences, to inform decisions about model deployment and safeguards."
+      "explanation": "Anthropic launched Claude's Duet agent, a consumer-grade AI agent focused on work-oriented tasks. This introduces a new AI assistant aimed at helping users with productivity."
     },
     {
       "rank": 10,
-      "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
+      "title": "This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood",
       "company": "Other",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
-      "published_utc": "2026-11-13T14:44:48+00:00",
-      "significance": 6,
-      "score": 68.5,
+      "source": "WIRED AI",
+      "url": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
+      "published_utc": "2026-11-13T11:45:00+00:00",
+      "significance": 3,
+      "score": 32.1,
       "verification": "article page",
-      "explanation": "ElevenLabs launched ElevenAI, an experimental app combining meeting note-taking, dictation, and agent integration for teams and enterprises. The app allows users to take notes across meetings, query data, and integrate ElevenAgent for follow-up actions like drafting emails."
+      "explanation": "Mansa, a media company, is using AI to create 'microdramas' to promote Black stories in Hollywood, such as the entirely AI-generated series 'They Left Us to Die.' This initiative explores AI's role in content creation, though it has drawn criticism for not using human actors."
     }
   ]
 }
