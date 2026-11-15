@@ -1,46 +1,46 @@
-🤖 AI funding shifts, new models emerge, and agents gain payment power!
-📅 15 Nov 2026 | Daily AI News Roundup
+🤖 Top 10 AI updates today (16 Nov 2026)
+📅 16 Nov 2026 | Daily AI News Roundup
 
-1. Introducing Gemini 4 Hydrogen
-Google DeepMind introduced Gemini 4 Hydrogen, a fast, cost-efficient model designed for reliable agentic workflows and everyday tasks. This model brings cutting-edge intelligence to a wider audience and is available across various Google AI platforms.
-🔗 Source: Google DeepMind - https://deepmind.google/blog/introducing-gemini-4-hydrogen/
+1. Congress wants to tighten export rules on AI chips after Nvidia spy scandal
+Congress is seeking to tighten export rules on AI chips following revelations about Jensen Huang's relationship with a suspected Chinese spy. This aims to address national security concerns related to AI technology transfer.
+🔗 Source: The Verge AI - https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china
 
-2. Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say
-Jensen Huang's departure from Nvidia is expected to significantly impact AI startup funding, with VCs and founders anticipating smaller checks and lower valuations. Nvidia was a major investor in AI startups, and his absence creates uncertainty in the funding landscape.
-🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/
-
-3. Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!
-New research indicates that China's most powerful AI models were trained on Nvidia chips banned for export to China, following Jensen Huang's departure from Nvidia. This highlights a significant challenge to US export controls aimed at limiting China's AI capabilities.
-🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/
-
-4. Introducing ChatGPT Wallet
-OpenAI introduced ChatGPT Wallet, a secure payment method for agents in ChatGPT Work, Codex, and dots, allowing agents to complete purchases with user approval without accessing card details. This aims to build trusted agentic payments and enable businesses to accept payments from ChatGPT Wallet.
-🔗 Source: OpenAI - https://openai.com/index/introducing-chatgpt-wallet
-
-5. llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem
-ggml-org released llama.cpp v1.0.0, providing a stable API for running multi-modal LLMs across various hardware through quantization and optimized backends. This release emphasizes API stability for developers building cross-platform and private AI products.
+2. llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem
+llama.cpp released v1.0.0, establishing a stable API for running multi-modal LLMs across various hardware through quantization and optimized backends. This release provides a stronger foundation for the local AI ecosystem and cross-platform private AI products.
 🔗 Source: Hugging Face Blog - https://huggingface.co/blog/ggml-org/llama-cpp-v1
 
-6. ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you
-OpenAI launched ChatGPT Wallet, allowing its Dots AI agents to make purchases for ChatGPT Pro subscribers in the US. This development enables AI agents to perform transactional tasks, with user approval required for each purchase.
-🔗 Source: The Verge AI - https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet
+3. Where was Nvidia’s security team?
+Nvidia's security chief quietly left in August, preceding CEO Jensen Huang's departure over relationships, including one with an executive at a company suspected of funneling chips to China. This raises questions about the company's internal security and oversight.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/
 
-7. AI agent startup LangChain hits $3B valuation
-AI agent startup LangChain raised $300 million at a $3 billion valuation, focusing on its LangSmith agent management tool. This funding highlights significant investment in companies providing platform-agnostic solutions for managing AI agents.
+4. AI agent startup LangChain hits $3B valuation
+AI agent startup LangChain raised $300 million at a $3 billion valuation, led by CapitalG. This funding highlights significant investor confidence in companies providing agent management tools like LangSmith.
 🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/
 
-8. No Pilots. Few Air Traffic Controllers. What Could Go Wrong?
-The US transportation secretary introduced 'SMART,' an AI-infused air traffic control system, which was later questioned during a national groundstop. This indicates the increasing, though sometimes uncertain, integration of AI in critical infrastructure like aviation.
-🔗 Source: WIRED AI - https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/
+5. Building strong safety evaluations
+Anthropic shared recommendations for designing, running, and reporting safety evaluations for AI models, based on their experiences. These evaluations are crucial for informing decisions about model deployment and safeguards, ensuring responsible AI development.
+🔗 Source: Anthropic Research - https://www.anthropic.com/research/building-strong-safety-evaluations
 
-9. Claude’s Duet agent is a little neurotic and surprisingly helpful
-Anthropic launched Claude's Duet agent, a consumer-grade AI agent focused on work-oriented tasks. This introduces a new AI assistant aimed at helping users with productivity.
-🔗 Source: The Verge AI - https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on
+6. The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs
+Helen Toner, a former OpenAI board member, stated that AI warnings should be taken seriously and that the tech industry cannot be relied upon to fix the problem. This emphasizes the need for external oversight and robust safety measures in AI development.
+🔗 Source: The Verge AI - https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview
 
-10. This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood
-Mansa, a media company, is using AI to create 'microdramas' to promote Black stories in Hollywood, such as the entirely AI-generated series 'They Left Us to Die.' This initiative explores AI's role in content creation, though it has drawn criticism for not using human actors.
-🔗 Source: WIRED AI - https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/
+7. Beware the New AI-Fueled Ransomware Boom
+Cybercriminals are increasingly using AI tools to enhance ransomware and data extortion attacks, leading to a spike in claimed incidents. This indicates a growing threat from AI-powered cyberattacks, making cybersecurity more challenging.
+🔗 Source: WIRED AI - https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/
 
-Stay tuned for tomorrow's AI news and discover how these innovations will shape our future!
+8. FAA expands AI advice to manage air traffic congestion across entire US airspace
+The FAA expanded its AI tool, SMART, to manage air traffic congestion across the entire US airspace after a successful initial rollout. This aims to reduce delays and fuel consumption, though the air traffic controllers' union was not involved.
+🔗 Source: Ars Technica AI - https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/
 
-#AI #ArtificialIntelligence #AINews #TechNews #GoogleAI #DeepMind #NVIDIA #OpenAI #HuggingFace #Anthropic #Claude
+9. The AI graveyard: a running list of projects and startups that didn’t make it
+TechCrunch compiled a list of AI projects and startups that have failed or missed expectations, including Character.ai and Ollie, and noted OpenAI's 'messy super app' launch. This highlights the high failure rate and challenges in the rapidly evolving AI industry.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/
+
+10. This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets
+A Carnegie Mellon student created OATs (Object Agent Twins), tiny E Ink gadgets that turn everyday objects into virtual pets using micro-agent AI avatars. This project aims to nudge users towards better habits by giving objects expressive personalities.
+🔗 Source: WIRED AI - https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/
+
+That's your daily AI roundup! Follow this page so you never miss an update.
+
+#AI #ArtificialIntelligence #AINews #TechNews #NVIDIA #HuggingFace #Anthropic #Claude #OpenAI
