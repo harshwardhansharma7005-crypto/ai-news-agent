@@ -1,46 +1,46 @@
-🤖 Top 10 AI updates today (16 Nov 2026)
-📅 16 Nov 2026 | Daily AI News Roundup
+🤖 NVIDIA's New AI Platform Debuts With Leading Performance, OpenAI Fights Abuse
+📅 17 Nov 2026 | Daily AI News Roundup
 
-1. Congress wants to tighten export rules on AI chips after Nvidia spy scandal
-Congress is seeking to tighten export rules on AI chips following revelations about Jensen Huang's relationship with a suspected Chinese spy. This aims to address national security concerns related to AI technology transfer.
-🔗 Source: The Verge AI - https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china
+1. NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance
+NVIDIA's Vera Rubin platform debuted with leading performance in MLPerf benchmarks for training, post-training, and agentic inference, showing over 10x generational gains in throughput per watt for agentic AI. This demonstrates significant advancements in AI performance and efficiency.
+🔗 Source: NVIDIA Blog - https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/
 
-2. llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem
-llama.cpp released v1.0.0, establishing a stable API for running multi-modal LLMs across various hardware through quantization and optimized backends. This release provides a stronger foundation for the local AI ecosystem and cross-platform private AI products.
-🔗 Source: Hugging Face Blog - https://huggingface.co/blog/ggml-org/llama-cpp-v1
+2. NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics
+NVIDIA announced Rubin HPC, a new GPU in the Vera Rubin platform, designed to accelerate simulation and data processing for science, engineering, and analytics workflows. It features a record number of CUDA cores and accelerated data movement to shorten time to results.
+🔗 Source: NVIDIA Blog - https://blogs.nvidia.com/blog/rubin-hpc/
 
-3. Where was Nvidia’s security team?
-Nvidia's security chief quietly left in August, preceding CEO Jensen Huang's departure over relationships, including one with an executive at a company suspected of funneling chips to China. This raises questions about the company's internal security and oversight.
-🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/
+3. Strengthening the fight against online child sexual abuse with new tools and support
+OpenAI is releasing new tools, guidance, and partnerships to combat online child sexual exploitation and abuse. These efforts include a new CSAM detection tool, interventions for harmful behavior, and support for law enforcement.
+🔗 Source: OpenAI - https://openai.com/index/strengthening-online-child-safety
 
-4. AI agent startup LangChain hits $3B valuation
-AI agent startup LangChain raised $300 million at a $3 billion valuation, led by CapitalG. This funding highlights significant investor confidence in companies providing agent management tools like LangSmith.
-🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/
+4. Our first phase of embedded assessments
+OpenAI has begun its first phase of embedded assessments with four independent assessors to evaluate model alignment, safeguards, and monitoring systems. This initiative aims to provide independent experts with deep access to OpenAI's internal systems to assess and report on potential risks.
+🔗 Source: OpenAI - https://openai.com/index/our-first-phase-of-embedded-assessments
 
-5. Building strong safety evaluations
-Anthropic shared recommendations for designing, running, and reporting safety evaluations for AI models, based on their experiences. These evaluations are crucial for informing decisions about model deployment and safeguards, ensuring responsible AI development.
-🔗 Source: Anthropic Research - https://www.anthropic.com/research/building-strong-safety-evaluations
+5. Hugging Face and OpenRouter join forces to make open-weight models easy to run
+Hugging Face and OpenRouter are partnering to make open-weight models easier to run by routing requests through OpenRouter's system, which selects the best provider based on live price, speed, and reliability. This aims to democratize access and use of open-weight AI models.
+🔗 Source: Hugging Face Blog - https://huggingface.co/blog/openrouter
 
-6. The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs
-Helen Toner, a former OpenAI board member, stated that AI warnings should be taken seriously and that the tech industry cannot be relied upon to fix the problem. This emphasizes the need for external oversight and robust safety measures in AI development.
-🔗 Source: The Verge AI - https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview
+6. US moves to cut China’s remote access to AI chips
+The US Commerce Department is moving to close a loophole that allowed foreign rivals like China to access restricted high-end AI chips by renting them from data centers abroad. This aims to prevent the use of advanced AI for military and intelligence activities that could threaten US national security.
+🔗 Source: Ars Technica AI - https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/
 
-7. Beware the New AI-Fueled Ransomware Boom
-Cybercriminals are increasingly using AI tools to enhance ransomware and data extortion attacks, leading to a spike in claimed incidents. This indicates a growing threat from AI-powered cyberattacks, making cybersecurity more challenging.
-🔗 Source: WIRED AI - https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/
+7. Updating our coordinated vulnerability disclosure policy timelines
+Anthropic is shortening its vulnerability disclosure window from 90 days to 30 days for high- and critical-severity issues, and 45 days for others, effective January 1, 2027. This change reflects the increasing speed at which AI models can discover vulnerabilities.
+🔗 Source: Anthropic Research - https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines
 
-8. FAA expands AI advice to manage air traffic congestion across entire US airspace
-The FAA expanded its AI tool, SMART, to manage air traffic congestion across the entire US airspace after a successful initial rollout. This aims to reduce delays and fuel consumption, though the air traffic controllers' union was not involved.
-🔗 Source: Ars Technica AI - https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/
+8. FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’
+The FBI warns that hackers are using open-source AI hacking tools like Artex to launch cyberattacks, breaching networks in under three hours. These tools can connect to frontier LLMs and open-source models, enabling rapid and widespread intrusions.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/
 
-9. The AI graveyard: a running list of projects and startups that didn’t make it
-TechCrunch compiled a list of AI projects and startups that have failed or missed expectations, including Character.ai and Ollie, and noted OpenAI's 'messy super app' launch. This highlights the high failure rate and challenges in the rapidly evolving AI industry.
-🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/
+9. TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient
+Microsoft Research released TokenEconomizer, an open-source plugin for AI coding agents that learns from past sessions to reduce token consumption and improve efficiency. This aims to make AI coding agents more cost-effective and computationally efficient.
+🔗 Source: Microsoft Research - https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/
 
-10. This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets
-A Carnegie Mellon student created OATs (Object Agent Twins), tiny E Ink gadgets that turn everyday objects into virtual pets using micro-agent AI avatars. This project aims to nudge users towards better habits by giving objects expressive personalities.
-🔗 Source: WIRED AI - https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/
+10. Apple is testing daily usage limits for more complex Siri AI interactions
+Apple is testing daily usage limits for some Siri AI and Apple Intelligence features in its latest betas, which can be extended with an iCloud Plus subscription. This indicates a potential shift towards monetizing advanced AI features.
+🔗 Source: The Verge AI - https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription
 
-That's your daily AI roundup! Follow this page so you never miss an update.
+Stay tuned for tomorrow's AI news and updates by following our page!
 
-#AI #ArtificialIntelligence #AINews #TechNews #NVIDIA #HuggingFace #Anthropic #Claude #OpenAI
+#AI #ArtificialIntelligence #AINews #TechNews #NVIDIA #OpenAI #HuggingFace #Anthropic #Claude #Microsoft
