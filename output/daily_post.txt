@@ -1,46 +1,46 @@
-🤖 AI heats up: Anthropic's IPO soars, OpenAI and Google unveil powerful new models
-📅 19 Nov 2026 | Daily AI News Roundup
+🤖 Google DeepMind unveils Gemini 4 Neon, Anthropic goes public, and Meta's AI raises privacy concerns
+📅 20 Nov 2026 | Daily AI News Roundup
 
-1. Anthropic reportedly prices IPO at $83 a share, above projected range
-Anthropic reportedly priced its IPO at $83 per share, above its projected range, valuing the company at $1.5 trillion on a fully diluted basis. This indicates strong investor confidence in the AI sector and Anthropic's market position.
-🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/
-
-2. Introducing GPT-6.2 Astra and Sol
-OpenAI introduced GPT-6.2 Astra and Sol, new frontier models offering improved professional outputs, coding, and efficiency at lower costs across ChatGPT Work, Codex, and the API. This represents a significant advancement in their model capabilities and accessibility.
-🔗 Source: OpenAI - https://openai.com/index/introducing-gpt-6-2-astra-sol
-
-3. Introducing Gemini 4 Neon
-Google introduced Gemini 4 Neon, a new frontier-level AI model for complex coding, analysis, and science workflows, which ranks highly on intelligence and steerability indices. This represents a significant advancement in Google's AI model capabilities and performance.
+1. Introducing Gemini 4 Neon
+Google DeepMind introduced Gemini 4 Neon, a new frontier-level AI model for complex coding, analysis, and science workflows at a lower cost. It ranks highly on intelligence and steerability benchmarks, and has a low fabrication rate.
 🔗 Source: Google DeepMind - https://deepmind.google/blog/introducing-gemini-4-neon/
 
-4. Genie 4 is now available
-Google made Genie 4 available to Google AI Ultra subscribers, allowing them to generate and interact with digital worlds using natural language, real-time audio, and editing features. This expands Google's AI capabilities into interactive world creation for users.
-🔗 Source: Google DeepMind - https://deepmind.google/blog/genie-4-is-now-available/
+2. Anthropic starts trading on Wall Street
+Anthropic has officially gone public, trading on the Nasdaq under the ticker symbol 'ANT' at $111.50 per share. This marks a major milestone for the AI company, entering the public market.
+🔗 Source: The Verge AI - https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq
 
-5. Managing frontier AI risk: From training to deployment
-OpenAI explained its approach to managing frontier AI risk from training to deployment, including model alignment, sandboxing, blocking safeguards, and monitoring. This demonstrates OpenAI's commitment to safety and responsible development of advanced AI models.
-🔗 Source: OpenAI - https://openai.com/index/managing-frontier-ai-risk
-
-6. America’s AI Chip War Is Heating Up in the Dumbest Possible Ways
-The Trump administration announced new plans to restrict China's access to advanced AI chips, including remote access to overseas data centers and stricter rules for shipments to certain countries. This represents a significant escalation in the US-China AI chip war.
-🔗 Source: WIRED AI - https://www.wired.com/story/the-ai-chip-war-meets-the-jensen-huang-affair/
-
-7. Artex Is Criminals’ New Favorite ‘Point-and-Shoot’ AI Hacking Tool
-Artex and similar AI-powered penetration testing tools are being used by cybercriminals to autonomously scan for vulnerabilities and launch attacks. This signifies a new era where AI agents are significantly speeding up cybercriminal capabilities.
-🔗 Source: WIRED AI - https://www.wired.com/story/artex-ai-hacking-tools/
-
-8. Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents
-NVIDIA announced new tools for AI agents, including Nemotron for Science, the Rubin HPC GPU, and an expanded Vera CPU platform, at SC26. This aims to accelerate scientific research through advanced AI and computing infrastructure.
-🔗 Source: NVIDIA Blog - https://blogs.nvidia.com/blog/ian-buck-sc26/
-
-9. DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency
-RadixArk released DaisyRose-27B on Hugging Face, a new model built on Qwen3.8-27B and trained with reinforcement learning, showing improved performance on agent tasks and various reasoning benchmarks. This contributes to the open-source AI model ecosystem with a focus on post-training efficiency.
+3. DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency
+RadixArk released DaisyRose-27B on Hugging Face, a model built on Qwen3.8-27B and trained with reinforcement learning for long-horizon agent tasks. It shows significant improvements on various reasoning, instruction following, and coding benchmarks.
 🔗 Source: Hugging Face Blog - https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin
 
-10. What’s new in Foundry Agent Service at Ignite 2026
-Microsoft announced new capabilities in Foundry Agent Service at Ignite 2026 across the agent lifecycle, including the managed Microsoft Copilot harness and richer tool connections. These updates aim to help developers build, deploy, and operate more capable AI agents at scale.
+4. Anthropic’s IPO could deliver $156B to charity
+Anthropic's IPO is projected to deliver $156 billion to charity through its Public Benefit Fund and employee donations. This demonstrates a significant philanthropic commitment tied to the company's market debut.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/
+
+5. Genie 4 is now available
+Google AI Ultra subscribers can now access Genie 4, which allows generating interactive worlds with real-time audio and editing using natural language. This update enhances the Project Genie experience for creating and exploring digital environments.
+🔗 Source: Google DeepMind - https://deepmind.google/blog/genie-4-is-now-available/
+
+6. What’s new in Foundry Agent Service at Ignite 2026
+Microsoft Ignite 2026 announces new capabilities for Foundry Agent Service across build, deploy, and operate phases, including a managed Microsoft Copilot harness and richer tool connections. These updates aim to help developers build more capable agents faster and deploy them at scale.
 🔗 Source: Microsoft Foundry Blog - https://devblogs.microsoft.com/foundry/whats-new-in-foundry-agent-service-at-ignite-2026/
 
-Stay ahead of the curve! Follow us for tomorrow's AI news and discover the latest advancements shaping our world.
+7. How Meta Uses AI Agents to Scale ML Innovations Across Ads Ranking Models
+Meta uses AI agents, specifically the Ranking Engineer Agent (REA), to scale ML innovations across its ads ranking models. REA autonomously generates hypotheses, designs experiments, and proves new ML techniques, accelerating the advancement of ads recommendation systems.
+🔗 Source: Meta Engineering - https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/
 
-#AI #ArtificialIntelligence #AINews #TechNews #Anthropic #Claude #OpenAI #GoogleAI #DeepMind #NVIDIA #HuggingFace #Microsoft
+8. Build trusted autonomous agents for your team with Microsoft Foundry
+Microsoft Foundry now allows building autonomous agents with their own identity and permissions to work alongside teams in Microsoft 365. This aims to enable agents to work safely and effectively in enterprise environments, addressing a gap in current agent capabilities.
+🔗 Source: Microsoft Foundry Blog - https://devblogs.microsoft.com/foundry/build-trusted-autonomous-agents-for-your-team-with-microsoft-foundry/
+
+9. Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says
+Meta employees have raised concerns that the company’s AI agent Muse is mixing up conversations and potentially exposing private user data, including bank balances and personal messages. This highlights significant privacy and data security issues with the AI agent.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/
+
+10. Time-Series Models in the Streamhouse: A New Frontier and Use Cases
+IBM Research and Confluent are making time-series foundation models available natively on Confluent, in the cloud and on premises, to enable real-time forecasting, anomaly detection, and optimization for businesses. This allows teams to apply AI to streaming data using SQL, making model outputs available for immediate action.
+🔗 Source: Hugging Face Blog - https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse
+
+Stay tuned for tomorrow's AI news and updates by following us!
+
+#AI #ArtificialIntelligence #AINews #TechNews #GoogleAI #DeepMind #Anthropic #Claude #HuggingFace #Microsoft #MetaAI
