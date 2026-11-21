@@ -1,46 +1,46 @@
-🤖 AI Solves Ancient Math Problem, But Privacy and Emissions Concerns Rise
-📅 21 Nov 2026 | Daily AI News Roundup
+🤖 AI tackles a 167-year-old math problem, while privacy and environmental concerns rise
+📅 22 Nov 2026 | Daily AI News Roundup
 
-1. AI claimed a solution to the 167-year-old Riemann Hypothesis — and a human did, too
-An Anthropic mathematician, Levent Alpöge, claims to have found a Lean-compilable solution to the 167-year-old Riemann Hypothesis, a major mathematical problem. This development coincides with Anthropic becoming a publicly traded company.
+1. AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too
+Anthropic mathematician Levent Alpöge claims to have found a Lean-compilable solution to the 167-year-old Riemann hypothesis. If verified, this would be a major achievement in mathematics, potentially aided by AI.
 🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/
 
 2. Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.
-A researcher planted 2 million digital tripwires in AI service requests, revealing that sensitive data can leak through the AI supply chain, particularly via 'AI routers' or 'AI gateways'. This experiment exposed a privacy disaster in the AI ecosystem.
+A researcher planted 2 million digital tripwires in AI service requests, revealing that sensitive data entrusted to AI routers leaks extensively. This experiment highlights a significant privacy disaster within the AI supply chain.
 🔗 Source: Ars Technica AI - https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/
 
-3. Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers
-Meta is re-evaluating its 2030 net-zero emissions goal due to record greenhouse gas emissions from its rapidly expanding AI data centers. The company acknowledges that demand for AI infrastructure has grown faster than projected, impacting its sustainability timelines.
-🔗 Source: Ars Technica AI - https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/
+3. Can Anthropic afford to put safety first?
+Anthropic went public on the Nasdaq, becoming one of the most valuable companies. This event raises questions about the company's safety-first mission and the balance between idealism and capitalism in the AI industry.
+🔗 Source: The Verge AI - https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure
 
-4. Trump threatens ‘tremendous tax’ for moving AI data centers outside the US
-Donald Trump has threatened to impose a 'tremendous tax' on companies that build AI data centers outside of the US. This policy aims to keep AI infrastructure development within the country, despite domestic restrictions on data center construction.
-🔗 Source: The Verge AI - https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax
-
-5. The most misunderstood graph in AI just got a major update
-A new report from the AI evaluation nonprofit METR indicates that some AI capabilities continue to improve exponentially, particularly in coding tasks. However, the report also highlights that models show weaknesses in tasks requiring human judgment.
-🔗 Source: MIT Technology Review AI - https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/
-
-6. Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude
-An Anthropic mathematician claims to have solved the Riemann hypothesis, a Millennium Prize problem, with the help of Claude. If verified, this would be a significant achievement for AI in mathematics.
-🔗 Source: The Verge AI - https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem
-
-7. Apple may be developing its own AI agent that runs your Mac
-Apple appears to be developing its own AI agent capable of performing computer tasks like browsing the web, working across apps, and coding. This development would position Apple to compete with other AI agent providers.
-🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/
-
-8. Combatting adversarial distillation
-OpenAI is sharing its layered approach to combat adversarial distillation, which involves unauthorized reproduction of frontier model capabilities. This aims to strengthen safeguards across the industry against misuse of AI models.
+4. Combatting adversarial distillation
+OpenAI is addressing adversarial distillation, where bad actors reproduce model capabilities without safeguards, through a layered approach combining model training, safeguards, detection, and enforcement. This aims to protect against unauthorized capability extraction and strengthen industry-wide defenses.
 🔗 Source: OpenAI - https://openai.com/index/combatting-adversarial-distillation
 
-9. Signal is blocking Gemini and Siri AI from reading your screen
-Signal is restricting screenshots on Android and iOS to prevent AI agents like Gemini and Siri from accessing user messages and data. This move aims to protect user privacy against AI capabilities that analyze on-screen information.
-🔗 Source: The Verge AI - https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app
+5. Google rolls out new search homepage with AI chat history and no search button
+Google is rolling out a redesigned search homepage that integrates AI chat history and removes the dedicated search button. This makes AI tools more accessible directly from the search page, evolving the flagship search experience into an AI experience.
+🔗 Source: Ars Technica AI - https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/
 
-10. Hebbia sees improvements in financial research with GPT-6 Astra
-Hebbia tested OpenAI’s GPT-6 Astra and found improvements in financial research, specifically in source coverage, citation relevance, and presentation quality. This indicates a practical application of the AI model in a professional domain.
-🔗 Source: OpenAI - https://openai.com/business/customer-stories/hebbia
+6. How Google Duplex evolved to also call businesses for you in Gemini
+Google Duplex, which pioneered natural voice conversations between AI and local businesses, is now integrated into Tasks in Gemini to complete tasks like making dinner reservations or booking appointments. This integration leverages AI for high-quality speech understanding, contextual reasoning, and speech synthesis.
+🔗 Source: Google Research - https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/
 
-Stay tuned for tomorrow's AI news update and join the conversation about these rapidly evolving developments!
+7. The Outages Are Just Getting Started
+AI is accelerating vulnerability discovery and exploitation, pressuring companies to patch systems faster and contributing to real-world tech failures. This highlights the increasing impact of AI on cybersecurity dynamics and system stability.
+🔗 Source: WIRED AI - https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/
 
-#AI #ArtificialIntelligence #AINews #TechNews #Anthropic #Claude #MetaAI #OpenAI #GoogleAI #DeepMind
+8. Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers
+Meta is re-evaluating its 2030 net-zero emissions goal due to record greenhouse gas emissions from its AI data centers. This reflects the unexpected rapid growth in demand for AI infrastructure and its environmental impact.
+🔗 Source: Ars Technica AI - https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/
+
+9. The most misunderstood graph in AI just got a major update
+A new report from METR indicates that some AI capabilities continue to improve exponentially, but models show weaknesses in tasks requiring judgment compared to coding. This updates understanding of AI progress and limitations.
+🔗 Source: MIT Technology Review AI - https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/
+
+10. The fallout from Nvidia’s Jensen Huang scandal continues
+Nvidia reported strong earnings despite the fallout from Jensen Huang's ouster and announced it would stop selling H200 chips in China. This highlights Nvidia's continued financial strength and strategic adjustments in the AI chip market.
+🔗 Source: TechCrunch AI - https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/
+
+Stay tuned for tomorrow's AI news update and join the conversation about these evolving technologies!
+
+#AI #ArtificialIntelligence #AINews #TechNews #Anthropic #Claude #OpenAI #GoogleAI #DeepMind #MetaAI #NVIDIA

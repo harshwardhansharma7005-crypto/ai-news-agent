@@ -1,18 +1,18 @@
 {
-  "generated_at_ist": "2026-11-21T03:24:23+05:30",
+  "generated_at_ist": "2026-11-22T02:06:48+05:30",
   "story_count": 10,
   "stories": [
     {
       "rank": 1,
-      "title": "AI claimed a solution to the 167-year-old Riemann Hypothesis — and a human did, too",
+      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
       "company": "Anthropic",
       "source": "TechCrunch AI",
       "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
       "published_utc": "2026-11-20T19:32:08+00:00",
-      "significance": 10,
-      "score": 109.4,
+      "significance": 9,
+      "score": 93.7,
       "verification": "article page",
-      "explanation": "An Anthropic mathematician, Levent Alpöge, claims to have found a Lean-compilable solution to the 167-year-old Riemann Hypothesis, a major mathematical problem. This development coincides with Anthropic becoming a publicly traded company."
+      "explanation": "Anthropic mathematician Levent Alpöge claims to have found a Lean-compilable solution to the 167-year-old Riemann hypothesis. If verified, this would be a major achievement in mathematics, potentially aided by AI."
     },
     {
       "rank": 2,
@@ -22,105 +22,105 @@
       "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
       "published_utc": "2026-11-20T20:59:08+00:00",
       "significance": 8,
-      "score": 89.8,
+      "score": 84.1,
       "verification": "article page",
-      "explanation": "A researcher planted 2 million digital tripwires in AI service requests, revealing that sensitive data can leak through the AI supply chain, particularly via 'AI routers' or 'AI gateways'. This experiment exposed a privacy disaster in the AI ecosystem."
+      "explanation": "A researcher planted 2 million digital tripwires in AI service requests, revealing that sensitive data entrusted to AI routers leaks extensively. This experiment highlights a significant privacy disaster within the AI supply chain."
     },
     {
       "rank": 3,
-      "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
-      "company": "Meta",
-      "source": "Ars Technica AI",
-      "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
-      "published_utc": "2026-11-20T21:47:10+00:00",
+      "title": "Can Anthropic afford to put safety first?",
+      "company": "Anthropic",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "published_utc": "2026-11-21T15:00:00+00:00",
       "significance": 7,
-      "score": 80.0,
+      "score": 78.6,
       "verification": "article page",
-      "explanation": "Meta is re-evaluating its 2030 net-zero emissions goal due to record greenhouse gas emissions from its rapidly expanding AI data centers. The company acknowledges that demand for AI infrastructure has grown faster than projected, impacting its sustainability timelines."
+      "explanation": "Anthropic went public on the Nasdaq, becoming one of the most valuable companies. This event raises questions about the company's safety-first mission and the balance between idealism and capitalism in the AI industry."
     },
     {
       "rank": 4,
-      "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
-      "company": "Other",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
-      "published_utc": "2026-11-20T18:50:19+00:00",
-      "significance": 7,
-      "score": 79.2,
-      "verification": "article page",
-      "explanation": "Donald Trump has threatened to impose a 'tremendous tax' on companies that build AI data centers outside of the US. This policy aims to keep AI infrastructure development within the country, despite domestic restrictions on data center construction."
-    },
-    {
-      "rank": 5,
-      "title": "The most misunderstood graph in AI just got a major update",
-      "company": "Other",
-      "source": "MIT Technology Review AI",
-      "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
-      "published_utc": "2026-11-20T18:15:15+00:00",
-      "significance": 7,
-      "score": 79.1,
-      "verification": "article page",
-      "explanation": "A new report from the AI evaluation nonprofit METR indicates that some AI capabilities continue to improve exponentially, particularly in coding tasks. However, the report also highlights that models show weaknesses in tasks requiring human judgment."
-    },
-    {
-      "rank": 6,
-      "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
-      "company": "Anthropic",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
-      "published_utc": "2026-11-20T16:34:13+00:00",
-      "significance": 7,
-      "score": 78.7,
-      "verification": "article page",
-      "explanation": "An Anthropic mathematician claims to have solved the Riemann hypothesis, a Millennium Prize problem, with the help of Claude. If verified, this would be a significant achievement for AI in mathematics."
-    },
-    {
-      "rank": 7,
-      "title": "Apple may be developing its own AI agent that runs your Mac",
-      "company": "Other",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
-      "published_utc": "2026-11-20T00:56:01+00:00",
-      "significance": 7,
-      "score": 74.8,
-      "verification": "article page",
-      "explanation": "Apple appears to be developing its own AI agent capable of performing computer tasks like browsing the web, working across apps, and coding. This development would position Apple to compete with other AI agent providers."
-    },
-    {
-      "rank": 8,
       "title": "Combatting adversarial distillation",
       "company": "OpenAI",
       "source": "OpenAI",
       "url": "https://openai.com/index/combatting-adversarial-distillation",
       "published_utc": "2026-11-20T10:00:00+00:00",
-      "significance": 6,
-      "score": 73.0,
+      "significance": 7,
+      "score": 77.3,
       "verification": "article page",
-      "explanation": "OpenAI is sharing its layered approach to combat adversarial distillation, which involves unauthorized reproduction of frontier model capabilities. This aims to strengthen safeguards across the industry against misuse of AI models."
+      "explanation": "OpenAI is addressing adversarial distillation, where bad actors reproduce model capabilities without safeguards, through a layered approach combining model training, safeguards, detection, and enforcement. This aims to protect against unauthorized capability extraction and strengthen industry-wide defenses."
+    },
+    {
+      "rank": 5,
+      "title": "Google rolls out new search homepage with AI chat history and no search button",
+      "company": "Google",
+      "source": "Ars Technica AI",
+      "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+      "published_utc": "2026-11-20T21:58:29+00:00",
+      "significance": 7,
+      "score": 74.3,
+      "verification": "article page",
+      "explanation": "Google is rolling out a redesigned search homepage that integrates AI chat history and removes the dedicated search button. This makes AI tools more accessible directly from the search page, evolving the flagship search experience into an AI experience."
+    },
+    {
+      "rank": 6,
+      "title": "How Google Duplex evolved to also call businesses for you in Gemini",
+      "company": "Google",
+      "source": "Google Research",
+      "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+      "published_utc": "2026-11-20T23:30:30+00:00",
+      "significance": 6,
+      "score": 70.7,
+      "verification": "article page",
+      "explanation": "Google Duplex, which pioneered natural voice conversations between AI and local businesses, is now integrated into Tasks in Gemini to complete tasks like making dinner reservations or booking appointments. This integration leverages AI for high-quality speech understanding, contextual reasoning, and speech synthesis."
+    },
+    {
+      "rank": 7,
+      "title": "The Outages Are Just Getting Started",
+      "company": "Other",
+      "source": "WIRED AI",
+      "url": "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/",
+      "published_utc": "2026-11-21T13:00:00+00:00",
+      "significance": 6,
+      "score": 68.1,
+      "verification": "article page",
+      "explanation": "AI is accelerating vulnerability discovery and exploitation, pressuring companies to patch systems faster and contributing to real-world tech failures. This highlights the increasing impact of AI on cybersecurity dynamics and system stability."
+    },
+    {
+      "rank": 8,
+      "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+      "company": "Meta",
+      "source": "Ars Technica AI",
+      "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+      "published_utc": "2026-11-20T21:47:10+00:00",
+      "significance": 6,
+      "score": 64.3,
+      "verification": "article page",
+      "explanation": "Meta is re-evaluating its 2030 net-zero emissions goal due to record greenhouse gas emissions from its AI data centers. This reflects the unexpected rapid growth in demand for AI infrastructure and its environmental impact."
     },
     {
       "rank": 9,
-      "title": "Signal is blocking Gemini and Siri AI from reading your screen",
-      "company": "Google",
-      "source": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
-      "published_utc": "2026-11-20T12:30:47+00:00",
+      "title": "The most misunderstood graph in AI just got a major update",
+      "company": "Other",
+      "source": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+      "published_utc": "2026-11-20T18:15:15+00:00",
       "significance": 6,
-      "score": 67.7,
+      "score": 63.4,
       "verification": "article page",
-      "explanation": "Signal is restricting screenshots on Android and iOS to prevent AI agents like Gemini and Siri from accessing user messages and data. This move aims to protect user privacy against AI capabilities that analyze on-screen information."
+      "explanation": "A new report from METR indicates that some AI capabilities continue to improve exponentially, but models show weaknesses in tasks requiring judgment compared to coding. This updates understanding of AI progress and limitations."
     },
     {
       "rank": 10,
-      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-      "company": "OpenAI",
-      "source": "OpenAI",
-      "url": "https://openai.com/business/customer-stories/hebbia",
-      "published_utc": "2026-11-20T00:00:00+00:00",
-      "significance": 5,
-      "score": 60.5,
+      "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
+      "company": "NVIDIA",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+      "published_utc": "2026-11-20T14:55:44+00:00",
+      "significance": 6,
+      "score": 62.6,
       "verification": "article page",
-      "explanation": "Hebbia tested OpenAI’s GPT-6 Astra and found improvements in financial research, specifically in source coverage, citation relevance, and presentation quality. This indicates a practical application of the AI model in a professional domain."
+      "explanation": "Nvidia reported strong earnings despite the fallout from Jensen Huang's ouster and announced it would stop selling H200 chips in China. This highlights Nvidia's continued financial strength and strategic adjustments in the AI chip market."
     }
   ]
 }
