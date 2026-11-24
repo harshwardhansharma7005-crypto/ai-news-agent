@@ -1,46 +1,46 @@
-🤖 AI agents automate code, personalize search, and manage investments as new security tools emerge
-📅 24 Nov 2026 | Daily AI News Roundup
+🤖 AI Breakthroughs in Protein Design and Mathematics, But Everyday Tasks Remain a Challenge
+📅 25 Nov 2026 | Daily AI News Roundup
 
-1. Trump engineered a risky comeback for Jensen Huang
-Nvidia's board unanimously voted to reinstate Jensen Huang as CEO, with Trump integral to the change, despite previous reports of his resignation. This development marks a significant leadership shift for a key AI company.
-🔗 Source: The Verge AI - https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated
+1. GPT-6 models demonstrate intrinsic protein-design capabilities
+OpenAI's GPT-6 models demonstrated intrinsic protein-design capabilities, creating new protein shapes and sequences using reasoning and code. Lab tests showed evidence of binding across five targets, indicating a significant advance in AI for protein biology.
+🔗 Source: OpenAI - https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities
 
-2. Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes
-Anthropic launched Claude Ship, a suite of AI agents designed to automate code reviews, fixes, and approvals of routine code changes. This aims to eliminate bottlenecks in the development process caused by increasing AI-generated code.
-🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/
-
-3. States sue SpaceX to stop Grok from generating child sex images, revenge porn
-Virginia and Oregon are suing SpaceX, alleging that Grok continues to generate child sex images and revenge porn despite claimed safeguards. State attorneys general argue that SpaceXSI quietly embraced sexualized content for market share.
-🔗 Source: Ars Technica AI - https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/
-
-4. OpenAI and Cisco introduce Shirudo
-OpenAI and Cisco introduced Shirudo, an open-source runtime for Linux, designed to help protect running systems while patches are rolled out. This collaboration combines AI, security, and infrastructure research to enhance system protection.
+2. OpenAI and Cisco introduce Shirudo
+OpenAI and Cisco introduced Shirudo, an open-source runtime for Linux, designed to protect running systems during patch rollouts. A controlled test showed it blocked an exploit without requiring a restart, enhancing system security.
 🔗 Source: OpenAI - https://openai.com/index/introducing-shirudo
 
-5. A more tailored Google Search that’s uniquely yours
-Google Search is offering more tailored results by allowing users to securely connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode. This enables Search to provide answers based on personal documents, spending, and chats.
-🔗 Source: Google AI Blog - https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/
+3. What's going on with the Riemann hypothesis?
+A mathematician reportedly used AI to help crack the Riemann hypothesis, a major problem in mathematics. This development, following other AI-enabled breakthroughs, has left the field of mathematics in a state of upset as researchers digest the implications.
+🔗 Source: Ars Technica AI - https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/
 
-6. Supertake raises $20M to let AI agents turn your market predictions into stock portfolios
-Supertake raised $20 million in seed funding to grow its business, which allows users to turn market predictions into investment portfolios using frontier AI models and trading agents. The round was led by Adjacent, with participation from Coinbase Ventures and Union Square Ventures.
-🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/
+4. Tidal announces ban on AI-generated music; 27 million tracks will be deleted
+Tidal announced it will ban all AI-generated music and delete 27 million existing AI tracks from its platform starting December 9. This policy shift aims to protect human artists after a significant increase in AI-generated uploads.
+🔗 Source: Ars Technica AI - https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/
 
-7. Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist
-Megaspeed, a Singapore-based cloud and AI infrastructure provider, is reportedly headed for a U.S. Commerce Department blacklist. This move aims to prevent the company, previously led by Alice Huang, from obtaining U.S.-made semiconductors due to national security concerns.
-🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/
+5. Supercharging transformer residual connections
+Google Research presented DeepCrossAttention (DCA), an architecture that enhances transformer networks by dynamically combining outputs from previous layers. This allows models to achieve the same quality up to three times faster with a negligible increase in parameters.
+🔗 Source: Google Research - https://research.google/blog/supercharging-transformer-residual-connections/
 
-8. Claude AI can review pull requests and ship fixes on its own now
-Anthropic launched Claude Ship, enabling Claude AI to review, fix, and approve pull requests. This expands Claude's capabilities for software engineers.
-🔗 Source: The Verge AI - https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests
+6. Finding faster quantum algorithms with agents and formal verification
+Google DeepMind used teams of Gemini 4 agents and formal verification to improve quantum algorithms, creating highly efficient quantum circuits. This could help solve complex scientific challenges like fusion energy and drug design.
+🔗 Source: Google DeepMind - https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/
 
-9. Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses
-Google expanded Personal Intelligence in Search’s AI Mode to integrate with Google Drive, Wallet, and the Gemini app. This allows for more personalized, context-aware AI responses using user data.
-🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/
+7. What’s new in Microsoft Foundry | Ignite 2026
+Microsoft Foundry announced updates at Ignite 2026 for agents, developer tools, and models, including a path from agent trace problems to testable fixes. This aims to improve agent quality and provide more control over model configurations.
+🔗 Source: Microsoft Foundry Blog - https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-ignite-2026/
 
-10. Richpanel helps companies automate 50% of support in 30 days
-Richpanel uses OpenAI models, including GPT-6 Astra, GPT-6.1 Sol, and GPT-6 Luna, to automate 50% of customer support in 30 days. The company built an AI manager to set up tools and procedures for AI support agents and handle conversations.
-🔗 Source: OpenAI - https://openai.com/business/customer-stories/richpanel-ai-customer-support
+8. Even the best AI agents struggle with everyday life
+A new benchmark called ShellBench reveals that advanced AI models from OpenAI, Anthropic, and Meta struggle with everyday tasks, failing over a third of the time and often introducing safety issues. This indicates that current AI agents are not yet reliable for complex real-world applications despite marketing efforts.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/
 
-Stay tuned for tomorrow's AI news updates and discover how these innovations continue to shape our world.
+9. Anthropic shares fall below IPO price, a worrying sign for AI startups
+Anthropic's stock fell below its IPO price, trading as low as $76 a share, down nearly 12% from Monday's close. This post-IPO slump is seen as a worrying sign for AI startup valuations and could impact future IPO prospects in the sector.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/
 
-#AI #ArtificialIntelligence #AINews #TechNews #NVIDIA #Anthropic #Claude #xAI #OpenAI #GoogleAI #DeepMind
+10. Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving
+Anthropic researchers developed Siren, a new 'honeypot' test that places AI agents in simulated environments to tempt them into misbehaving. This test helps evaluate the likelihood of AI models going rogue and the effectiveness of safety measures.
+🔗 Source: WIRED AI - https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/
+
+Stay tuned for tomorrow's AI news updates and join the conversation on these exciting developments!
+
+#AI #ArtificialIntelligence #AINews #TechNews #OpenAI #GoogleAI #DeepMind #Microsoft #Anthropic #Claude
