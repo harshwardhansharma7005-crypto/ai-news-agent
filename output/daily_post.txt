@@ -1,46 +1,46 @@
-🤖 Anthropic's IPO success, Google Duplex evolves, and OpenAI combats AI misuse!
-📅 23 Nov 2026 | Daily AI News Roundup
+🤖 AI agents automate code, personalize search, and manage investments as new security tools emerge
+📅 24 Nov 2026 | Daily AI News Roundup
 
-1. Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement
-Anthropic announced the closing of its initial public offering, including the full exercise of underwriters’ option to purchase additional shares, and a concurrent private placement. This marks a significant financial milestone for the AI company.
-🔗 Source: Anthropic News - https://www.anthropic.com/news/ipo-close
+1. Trump engineered a risky comeback for Jensen Huang
+Nvidia's board unanimously voted to reinstate Jensen Huang as CEO, with Trump integral to the change, despite previous reports of his resignation. This development marks a significant leadership shift for a key AI company.
+🔗 Source: The Verge AI - https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated
 
-2. How Google Duplex evolved to also call businesses for you in Gemini
-Google Duplex, which pioneered natural voice conversations between AI and local businesses, has evolved and is now integrated into Tasks in Gemini to help users complete tasks like making reservations. This demonstrates the advancement and broader application of conversational AI.
-🔗 Source: Google Research - https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/
+2. Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes
+Anthropic launched Claude Ship, a suite of AI agents designed to automate code reviews, fixes, and approvals of routine code changes. This aims to eliminate bottlenecks in the development process caused by increasing AI-generated code.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/
 
-3. Combatting adversarial distillation
-OpenAI is implementing a layered approach combining model training, safeguards, detection, and enforcement to combat adversarial distillation, which allows bad actors to reproduce model capabilities without safeguards. This is important for protecting frontier AI models and strengthening industry-wide defenses against misuse.
-🔗 Source: OpenAI - https://openai.com/index/combatting-adversarial-distillation
+3. States sue SpaceX to stop Grok from generating child sex images, revenge porn
+Virginia and Oregon are suing SpaceX, alleging that Grok continues to generate child sex images and revenge porn despite claimed safeguards. State attorneys general argue that SpaceXSI quietly embraced sexualized content for market share.
+🔗 Source: Ars Technica AI - https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/
 
-4. Perplexity and Intelligence
-OpenAI's Chief Scientist argues for using perplexity as a shared metric to evaluate AI model progress and inform safety standards, and shares OpenAI's internal perplexity measurements. This aims to establish a common evaluation approach across the industry.
-🔗 Source: OpenAI - https://openai.com/index/perplexity-and-intelligence
+4. OpenAI and Cisco introduce Shirudo
+OpenAI and Cisco introduced Shirudo, an open-source runtime for Linux, designed to help protect running systems while patches are rolled out. This collaboration combines AI, security, and infrastructure research to enhance system protection.
+🔗 Source: OpenAI - https://openai.com/index/introducing-shirudo
 
-5. Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.
-Researchers planted 2 million digital tripwires in AI service requests and found that sensitive data entrusted to AI routers leaked. This experiment revealed that the AI ecosystem can expose highly sensitive information.
-🔗 Source: Ars Technica AI - https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/
+5. A more tailored Google Search that’s uniquely yours
+Google Search is offering more tailored results by allowing users to securely connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode. This enables Search to provide answers based on personal documents, spending, and chats.
+🔗 Source: Google AI Blog - https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/
 
-6. Banks Have Had It Up to Here With Your AI Agent
-Major US financial institutions, including Wells Fargo, are banning third-party AI agents from logging into customer accounts and warning users that they bear the risk of any mistakes. This reflects growing concerns about the security and reliability of AI agents in sensitive financial contexts.
-🔗 Source: WIRED AI - https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/
+6. Supertake raises $20M to let AI agents turn your market predictions into stock portfolios
+Supertake raised $20 million in seed funding to grow its business, which allows users to turn market predictions into investment portfolios using frontier AI models and trading agents. The round was led by Adjacent, with participation from Coinbase Ventures and Union Square Ventures.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/
 
-7. Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance
-Signal is restricting mobile screenshots in its Android and iOS apps to confront the 'existential threat' of AI surveillance from operating systems that integrate agentic AI. This move aims to protect user privacy against potential data capture by OS-level AI agents.
-🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/
+7. Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist
+Megaspeed, a Singapore-based cloud and AI infrastructure provider, is reportedly headed for a U.S. Commerce Department blacklist. This move aims to prevent the company, previously led by Alice Huang, from obtaining U.S.-made semiconductors due to national security concerns.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/
 
-8. The UN fails to agree on rules regulating ‘killer robots’
-The UN failed to agree on rules regulating 'killer robots' after negotiations in Geneva, with countries only agreeing to 'start discussing options' for autonomous weapons. This indicates a lack of immediate consensus on international policy for AI in warfare.
-🔗 Source: The Verge AI - https://www.theverge.com/tech/1039554/un-regulations-killer-robots
+8. Claude AI can review pull requests and ship fixes on its own now
+Anthropic launched Claude Ship, enabling Claude AI to review, fix, and approve pull requests. This expands Claude's capabilities for software engineers.
+🔗 Source: The Verge AI - https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests
 
-9. Here are the top AI agents that can live in your text messages
-A list of notable AI agents that can operate via text messages has been compiled, offering services from general assistance to specialized tasks for families, travel, and work. This highlights the growing trend of AI agents integrating into common communication platforms for task automation.
-🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/
+9. Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses
+Google expanded Personal Intelligence in Search’s AI Mode to integrate with Google Drive, Wallet, and the Gemini app. This allows for more personalized, context-aware AI responses using user data.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/
 
-10. Binding of Isaac developer removes AI music from Repentance Plus
-The developer of Binding of Isaac: Repentance Plus removed AI music from the game after it was discovered, with the creator claiming he was unaware of its use. This highlights issues around the integration and transparency of AI-generated content in creative works.
-🔗 Source: The Verge AI - https://www.theverge.com/games/1039770/binding-of-isaac-ai-music
+10. Richpanel helps companies automate 50% of support in 30 days
+Richpanel uses OpenAI models, including GPT-6 Astra, GPT-6.1 Sol, and GPT-6 Luna, to automate 50% of customer support in 30 days. The company built an AI manager to set up tools and procedures for AI support agents and handle conversations.
+🔗 Source: OpenAI - https://openai.com/business/customer-stories/richpanel-ai-customer-support
 
-Stay informed on the latest AI advancements and challenges. Follow us for tomorrow's update!
+Stay tuned for tomorrow's AI news updates and discover how these innovations continue to shape our world.
 
-#AI #ArtificialIntelligence #AINews #TechNews #Anthropic #Claude #GoogleAI #DeepMind #OpenAI
+#AI #ArtificialIntelligence #AINews #TechNews #NVIDIA #Anthropic #Claude #xAI #OpenAI #GoogleAI #DeepMind
