@@ -1,46 +1,46 @@
-🤖 AI Breakthroughs in Protein Design and Mathematics, But Everyday Tasks Remain a Challenge
-📅 25 Nov 2026 | Daily AI News Roundup
+🤖 AI Breakthroughs: From Protein Design to Proving the Riemann Hypothesis!
+📅 26 Nov 2026 | Daily AI News Roundup
 
 1. GPT-6 models demonstrate intrinsic protein-design capabilities
-OpenAI's GPT-6 models demonstrated intrinsic protein-design capabilities, creating new protein shapes and sequences using reasoning and code. Lab tests showed evidence of binding across five targets, indicating a significant advance in AI for protein biology.
+OpenAI's GPT-6 models demonstrate intrinsic protein-design capabilities, designing protein structures and sequences using reasoning and code, with lab tests showing evidence of binding across five targets.
 🔗 Source: OpenAI - https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities
 
-2. OpenAI and Cisco introduce Shirudo
-OpenAI and Cisco introduced Shirudo, an open-source runtime for Linux, designed to protect running systems during patch rollouts. A controlled test showed it blocked an exploit without requiring a restart, enhancing system security.
-🔗 Source: OpenAI - https://openai.com/index/introducing-shirudo
+2. How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Recycling
+NVIDIA details how to optimize NVFP4 Attention on NVIDIA RTX Blackwell GPUs through register recycling, which improves attention performance for world foundation models by accelerating 4-bit matrix multiplication.
+🔗 Source: NVIDIA Developer Blog - https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling/
 
 3. What's going on with the Riemann hypothesis?
-A mathematician reportedly used AI to help crack the Riemann hypothesis, a major problem in mathematics. This development, following other AI-enabled breakthroughs, has left the field of mathematics in a state of upset as researchers digest the implications.
+A mathematician used AI to help prove the Riemann hypothesis, a major mathematical problem. This demonstrates AI's growing capability in complex problem-solving and has caused upset in the field of mathematics.
 🔗 Source: Ars Technica AI - https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/
 
-4. Tidal announces ban on AI-generated music; 27 million tracks will be deleted
-Tidal announced it will ban all AI-generated music and delete 27 million existing AI tracks from its platform starting December 9. This policy shift aims to protect human artists after a significant increase in AI-generated uploads.
-🔗 Source: Ars Technica AI - https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/
+4. Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000
+Hugging Face details how to run Inkling 2 Mini inference on an RTX PRO 6000, showcasing the model's performance and unusual architecture for local AI and smaller open-source models.
+🔗 Source: Hugging Face Blog - https://huggingface.co/blog/inkling-2-mini-inference-hillclimb
 
-5. Supercharging transformer residual connections
-Google Research presented DeepCrossAttention (DCA), an architecture that enhances transformer networks by dynamically combining outputs from previous layers. This allows models to achieve the same quality up to three times faster with a negligible increase in parameters.
-🔗 Source: Google Research - https://research.google/blog/supercharging-transformer-residual-connections/
-
-6. Finding faster quantum algorithms with agents and formal verification
-Google DeepMind used teams of Gemini 4 agents and formal verification to improve quantum algorithms, creating highly efficient quantum circuits. This could help solve complex scientific challenges like fusion energy and drug design.
-🔗 Source: Google DeepMind - https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/
-
-7. What’s new in Microsoft Foundry | Ignite 2026
-Microsoft Foundry announced updates at Ignite 2026 for agents, developer tools, and models, including a path from agent trace problems to testable fixes. This aims to improve agent quality and provide more control over model configurations.
+5. What’s new in Microsoft Foundry | Ignite 2026
+Microsoft Foundry announces updates at Ignite 2026 for agents, developer tools, and models, introducing new preview capabilities to connect Insights to Agent Optimizer for continuous improvement of AI agents.
 🔗 Source: Microsoft Foundry Blog - https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-ignite-2026/
 
-8. Even the best AI agents struggle with everyday life
-A new benchmark called ShellBench reveals that advanced AI models from OpenAI, Anthropic, and Meta struggle with everyday tasks, failing over a third of the time and often introducing safety issues. This indicates that current AI agents are not yet reliable for complex real-world applications despite marketing efforts.
-🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/
+6. Verifiable Social Reasoning for LLM Assistants
+Google Research introduces an evaluation framework based on multi-agent social simulations to quantify how well AI assistants understand social situations from subjective user narratives, addressing challenges in evaluating social reasoning.
+🔗 Source: Google Research - https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/
 
-9. Anthropic shares fall below IPO price, a worrying sign for AI startups
-Anthropic's stock fell below its IPO price, trading as low as $76 a share, down nearly 12% from Monday's close. This post-IPO slump is seen as a worrying sign for AI startup valuations and could impact future IPO prospects in the sector.
-🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/
-
-10. Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving
-Anthropic researchers developed Siren, a new 'honeypot' test that places AI agents in simulated environments to tempt them into misbehaving. This test helps evaluate the likelihood of AI models going rogue and the effectiveness of safety measures.
+7. Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving
+Anthropic developed Siren, a 'honeypot' test that places AI agents in simulated environments to tempt them into misbehaving. This helps evaluate the likelihood of models going rogue and the effectiveness of safety measures.
 🔗 Source: WIRED AI - https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/
 
-Stay tuned for tomorrow's AI news updates and join the conversation on these exciting developments!
+8. Migrating our Messages API to Rust
+Anthropic migrated its Messages API to Rust, using Claude agents to verify the new API by tracking and fixing differences between the Python and Rust versions, highlighting the generator-verifier gap in AI projects.
+🔗 Source: Anthropic Research - https://www.anthropic.com/research/migrating-api-to-rust
 
-#AI #ArtificialIntelligence #AINews #TechNews #OpenAI #GoogleAI #DeepMind #Microsoft #Anthropic #Claude
+9. OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work
+OpenAI is rolling out a unified Chat and Work experience in ChatGPT, merging usage limits into a single meter. While most users are not expected to be affected, a small fraction of heavy users may hit their limits sooner.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/
+
+10. How to Run NVIDIA Cosmos 3 on Local AI Devices Using Hugging Face Diffusers
+NVIDIA provides a tutorial on running NVIDIA Cosmos 3 Nano, a video generation foundation model, on local AI devices with limited GPU memory using Hugging Face Diffusers.
+🔗 Source: NVIDIA Developer Blog - https://developer.nvidia.com/blog/how-to-run-nvidia-cosmos-3-on-local-ai-devices-using-hugging-face-diffusers/
+
+Stay tuned for more exciting AI news tomorrow! Follow us for your daily dose of innovation.
+
+#AI #ArtificialIntelligence #AINews #TechNews #OpenAI #NVIDIA #HuggingFace #Microsoft #GoogleAI #DeepMind #Anthropic #Claude

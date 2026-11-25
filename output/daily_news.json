@@ -1,5 +1,5 @@
 {
-  "generated_at_ist": "2026-11-25T05:04:17+05:30",
+  "generated_at_ist": "2026-11-26T04:41:30+05:30",
   "story_count": 10,
   "stories": [
     {
@@ -10,21 +10,21 @@
       "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
       "published_utc": "2026-11-24T13:00:00+00:00",
       "significance": 8,
-      "score": 93.4,
+      "score": 87.5,
       "verification": "article page",
-      "explanation": "OpenAI's GPT-6 models demonstrated intrinsic protein-design capabilities, creating new protein shapes and sequences using reasoning and code. Lab tests showed evidence of binding across five targets, indicating a significant advance in AI for protein biology."
+      "explanation": "OpenAI's GPT-6 models demonstrate intrinsic protein-design capabilities, designing protein structures and sequences using reasoning and code, with lab tests showing evidence of binding across five targets."
     },
     {
       "rank": 2,
-      "title": "OpenAI and Cisco introduce Shirudo",
-      "company": "OpenAI",
-      "source": "OpenAI",
-      "url": "https://openai.com/index/introducing-shirudo",
-      "published_utc": "2026-11-23T21:20:00+00:00",
-      "significance": 7,
-      "score": 79.4,
+      "title": "How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Recycling",
+      "company": "NVIDIA",
+      "source": "NVIDIA Developer Blog",
+      "url": "https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling/",
+      "published_utc": "2026-11-25T19:30:00+00:00",
+      "significance": 6,
+      "score": 75.1,
       "verification": "article page",
-      "explanation": "OpenAI and Cisco introduced Shirudo, an open-source runtime for Linux, designed to protect running systems during patch rollouts. A controlled test showed it blocked an exploit without requiring a restart, enhancing system security."
+      "explanation": "NVIDIA details how to optimize NVFP4 Attention on NVIDIA RTX Blackwell GPUs through register recycling, which improves attention performance for world foundation models by accelerating 4-bit matrix multiplication."
     },
     {
       "rank": 3,
@@ -34,93 +34,93 @@
       "url": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
       "published_utc": "2026-11-24T20:34:53+00:00",
       "significance": 7,
-      "score": 79.3,
+      "score": 73.3,
       "verification": "article page",
-      "explanation": "A mathematician reportedly used AI to help crack the Riemann hypothesis, a major problem in mathematics. This development, following other AI-enabled breakthroughs, has left the field of mathematics in a state of upset as researchers digest the implications."
+      "explanation": "A mathematician used AI to help prove the Riemann hypothesis, a major mathematical problem. This demonstrates AI's growing capability in complex problem-solving and has caused upset in the field of mathematics."
     },
     {
       "rank": 4,
-      "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
-      "company": "Other",
-      "source": "Ars Technica AI",
-      "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
-      "published_utc": "2026-11-24T17:34:34+00:00",
-      "significance": 7,
-      "score": 78.5,
+      "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+      "company": "Hugging Face",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "published_utc": "2026-11-25T00:00:00+00:00",
+      "significance": 6,
+      "score": 70.2,
       "verification": "article page",
-      "explanation": "Tidal announced it will ban all AI-generated music and delete 27 million existing AI tracks from its platform starting December 9. This policy shift aims to protect human artists after a significant increase in AI-generated uploads."
+      "explanation": "Hugging Face details how to run Inkling 2 Mini inference on an RTX PRO 6000, showcasing the model's performance and unusual architecture for local AI and smaller open-source models."
     },
     {
       "rank": 5,
-      "title": "Supercharging transformer residual connections",
-      "company": "Google",
-      "source": "Google Research",
-      "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
-      "published_utc": "2026-11-23T17:21:12+00:00",
-      "significance": 7,
-      "score": 78.4,
-      "verification": "article page",
-      "explanation": "Google Research presented DeepCrossAttention (DCA), an architecture that enhances transformer networks by dynamically combining outputs from previous layers. This allows models to achieve the same quality up to three times faster with a negligible increase in parameters."
-    },
-    {
-      "rank": 6,
-      "title": "Finding faster quantum algorithms with agents and formal verification",
-      "company": "Google",
-      "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
-      "published_utc": "2026-11-23T16:59:40+00:00",
-      "significance": 7,
-      "score": 78.4,
-      "verification": "article page",
-      "explanation": "Google DeepMind used teams of Gemini 4 agents and formal verification to improve quantum algorithms, creating highly efficient quantum circuits. This could help solve complex scientific challenges like fusion energy and drug design."
-    },
-    {
-      "rank": 7,
       "title": "What’s new in Microsoft Foundry | Ignite 2026",
       "company": "Microsoft",
       "source": "Microsoft Foundry Blog",
       "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-ignite-2026/",
       "published_utc": "2026-11-24T16:00:51+00:00",
       "significance": 6,
-      "score": 74.1,
+      "score": 68.2,
       "verification": "article page",
-      "explanation": "Microsoft Foundry announced updates at Ignite 2026 for agents, developer tools, and models, including a path from agent trace problems to testable fixes. This aims to improve agent quality and provide more control over model configurations."
+      "explanation": "Microsoft Foundry announces updates at Ignite 2026 for agents, developer tools, and models, introducing new preview capabilities to connect Insights to Agent Optimizer for continuous improvement of AI agents."
     },
     {
-      "rank": 8,
-      "title": "Even the best AI agents struggle with everyday life",
-      "company": "Other",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
-      "published_utc": "2026-11-24T21:33:29+00:00",
-      "significance": 6,
-      "score": 69.5,
+      "rank": 6,
+      "title": "Verifiable Social Reasoning for LLM Assistants",
+      "company": "Google",
+      "source": "Google Research",
+      "url": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+      "published_utc": "2026-11-25T17:10:27+00:00",
+      "significance": 5,
+      "score": 64.5,
       "verification": "article page",
-      "explanation": "A new benchmark called ShellBench reveals that advanced AI models from OpenAI, Anthropic, and Meta struggle with everyday tasks, failing over a third of the time and often introducing safety issues. This indicates that current AI agents are not yet reliable for complex real-world applications despite marketing efforts."
+      "explanation": "Google Research introduces an evaluation framework based on multi-agent social simulations to quantify how well AI assistants understand social situations from subjective user narratives, addressing challenges in evaluating social reasoning."
     },
     {
-      "rank": 9,
-      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
-      "company": "Anthropic",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
-      "published_utc": "2026-11-24T18:30:42+00:00",
-      "significance": 6,
-      "score": 68.7,
-      "verification": "article page",
-      "explanation": "Anthropic's stock fell below its IPO price, trading as low as $76 a share, down nearly 12% from Monday's close. This post-IPO slump is seen as a worrying sign for AI startup valuations and could impact future IPO prospects in the sector."
-    },
-    {
-      "rank": 10,
+      "rank": 7,
       "title": "Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving",
       "company": "Anthropic",
       "source": "WIRED AI",
       "url": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
       "published_utc": "2026-11-24T16:00:00+00:00",
       "significance": 6,
-      "score": 68.1,
+      "score": 62.2,
       "verification": "article page",
-      "explanation": "Anthropic researchers developed Siren, a new 'honeypot' test that places AI agents in simulated environments to tempt them into misbehaving. This test helps evaluate the likelihood of AI models going rogue and the effectiveness of safety measures."
+      "explanation": "Anthropic developed Siren, a 'honeypot' test that places AI agents in simulated environments to tempt them into misbehaving. This helps evaluate the likelihood of models going rogue and the effectiveness of safety measures."
+    },
+    {
+      "rank": 8,
+      "title": "Migrating our Messages API to Rust",
+      "company": "Anthropic",
+      "source": "Anthropic Research",
+      "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "published_utc": "2026-11-25T00:00:00+00:00",
+      "significance": 5,
+      "score": 60.2,
+      "verification": "article page",
+      "explanation": "Anthropic migrated its Messages API to Rust, using Claude agents to verify the new API by tracking and fixing differences between the Python and Rust versions, highlighting the generator-verifier gap in AI projects."
+    },
+    {
+      "rank": 9,
+      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "company": "OpenAI",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "published_utc": "2026-11-25T20:03:27+00:00",
+      "significance": 5,
+      "score": 59.2,
+      "verification": "article page",
+      "explanation": "OpenAI is rolling out a unified Chat and Work experience in ChatGPT, merging usage limits into a single meter. While most users are not expected to be affected, a small fraction of heavy users may hit their limits sooner."
+    },
+    {
+      "rank": 10,
+      "title": "How to Run NVIDIA Cosmos 3 on Local AI Devices Using Hugging Face Diffusers",
+      "company": "NVIDIA",
+      "source": "NVIDIA Developer Blog",
+      "url": "https://developer.nvidia.com/blog/how-to-run-nvidia-cosmos-3-on-local-ai-devices-using-hugging-face-diffusers/",
+      "published_utc": "2026-11-24T18:44:05+00:00",
+      "significance": 5,
+      "score": 58.9,
+      "verification": "article page",
+      "explanation": "NVIDIA provides a tutorial on running NVIDIA Cosmos 3 Nano, a video generation foundation model, on local AI devices with limited GPU memory using Hugging Face Diffusers."
     }
   ]
 }
