@@ -1,66 +1,66 @@
 {
-  "generated_at_ist": "2026-11-26T04:41:30+05:30",
+  "generated_at_ist": "2026-11-27T04:38:48+05:30",
   "story_count": 10,
   "stories": [
     {
       "rank": 1,
-      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-      "company": "OpenAI",
-      "source": "OpenAI",
-      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-      "published_utc": "2026-11-24T13:00:00+00:00",
-      "significance": 8,
-      "score": 87.5,
+      "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+      "company": "Other",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "published_utc": "2026-11-25T17:44:51+00:00",
+      "significance": 7,
+      "score": 72.7,
       "verification": "article page",
-      "explanation": "OpenAI's GPT-6 models demonstrate intrinsic protein-design capabilities, designing protein structures and sequences using reasoning and code, with lab tests showing evidence of binding across five targets."
+      "explanation": "The FCC has authorized SpaceX to deploy up to 1 million AI chip-equipped satellites for its 'Starmind' initiative, marking the first approval for a full constellation of AI satellites in space. This represents a significant step towards space-based AI infrastructure."
     },
     {
       "rank": 2,
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "company": "NVIDIA",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "published_utc": "2026-11-26T20:03:54+00:00",
+      "significance": 6,
+      "score": 69.2,
+      "verification": "article page",
+      "explanation": "Nvidia has paused server shipments to Southeast Asian countries as the U.S. tightens export controls on AI chips to prevent them from reaching China. This impacts Nvidia's supply chain and highlights ongoing U.S. efforts to control AI technology access."
+    },
+    {
+      "rank": 3,
+      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "company": "OpenAI",
+      "source": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "published_utc": "2026-11-25T20:03:27+00:00",
+      "significance": 6,
+      "score": 63.2,
+      "verification": "article page",
+      "explanation": "OpenAI is merging ChatGPT's Chat and Work experiences into a single usage meter, which may cause heavy users to hit limits sooner. This change could impact access to advanced models for some subscribers."
+    },
+    {
+      "rank": 4,
+      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "company": "Hugging Face",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "published_utc": "2026-11-26T05:05:36+00:00",
+      "significance": 5,
+      "score": 61.5,
+      "verification": "article page",
+      "explanation": "NVIDIA released new tools for Nemotron 3.5 Parse, a document model, including synthetic training datasets, a fine-tuning recipe, and a DFlash2 speculator for faster inference. This enhances the model's ability to extract structured data from documents for RAG and agents."
+    },
+    {
+      "rank": 5,
       "title": "How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Recycling",
       "company": "NVIDIA",
       "source": "NVIDIA Developer Blog",
       "url": "https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling/",
       "published_utc": "2026-11-25T19:30:00+00:00",
-      "significance": 6,
-      "score": 75.1,
+      "significance": 5,
+      "score": 59.1,
       "verification": "article page",
-      "explanation": "NVIDIA details how to optimize NVFP4 Attention on NVIDIA RTX Blackwell GPUs through register recycling, which improves attention performance for world foundation models by accelerating 4-bit matrix multiplication."
-    },
-    {
-      "rank": 3,
-      "title": "What's going on with the Riemann hypothesis?",
-      "company": "Other",
-      "source": "Ars Technica AI",
-      "url": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
-      "published_utc": "2026-11-24T20:34:53+00:00",
-      "significance": 7,
-      "score": 73.3,
-      "verification": "article page",
-      "explanation": "A mathematician used AI to help prove the Riemann hypothesis, a major mathematical problem. This demonstrates AI's growing capability in complex problem-solving and has caused upset in the field of mathematics."
-    },
-    {
-      "rank": 4,
-      "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
-      "company": "Hugging Face",
-      "source": "Hugging Face Blog",
-      "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
-      "published_utc": "2026-11-25T00:00:00+00:00",
-      "significance": 6,
-      "score": 70.2,
-      "verification": "article page",
-      "explanation": "Hugging Face details how to run Inkling 2 Mini inference on an RTX PRO 6000, showcasing the model's performance and unusual architecture for local AI and smaller open-source models."
-    },
-    {
-      "rank": 5,
-      "title": "What’s new in Microsoft Foundry | Ignite 2026",
-      "company": "Microsoft",
-      "source": "Microsoft Foundry Blog",
-      "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-ignite-2026/",
-      "published_utc": "2026-11-24T16:00:51+00:00",
-      "significance": 6,
-      "score": 68.2,
-      "verification": "article page",
-      "explanation": "Microsoft Foundry announces updates at Ignite 2026 for agents, developer tools, and models, introducing new preview capabilities to connect Insights to Agent Optimizer for continuous improvement of AI agents."
+      "explanation": "NVIDIA detailed how to optimize NVFP4 Attention on NVIDIA RTX Blackwell GPUs through register recycling, addressing attention bottlenecks in serving foundation models. This aims to accelerate attention beyond BF16 by leveraging hardware-accelerated 4-bit matrix multiplication."
     },
     {
       "rank": 6,
@@ -70,57 +70,57 @@
       "url": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
       "published_utc": "2026-11-25T17:10:27+00:00",
       "significance": 5,
-      "score": 64.5,
+      "score": 58.5,
       "verification": "article page",
-      "explanation": "Google Research introduces an evaluation framework based on multi-agent social simulations to quantify how well AI assistants understand social situations from subjective user narratives, addressing challenges in evaluating social reasoning."
+      "explanation": "Google Research introduced an evaluation framework for LLM assistants based on multi-agent social simulations to quantify their social reasoning from subjective user narratives. This framework provides verifiable ground truth for assessing how well AI assistants understand social situations."
     },
     {
       "rank": 7,
-      "title": "Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving",
-      "company": "Anthropic",
+      "title": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
+      "company": "Meta",
       "source": "WIRED AI",
-      "url": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
-      "published_utc": "2026-11-24T16:00:00+00:00",
-      "significance": 6,
-      "score": 62.2,
+      "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
+      "published_utc": "2026-11-26T10:51:27+00:00",
+      "significance": 5,
+      "score": 56.9,
       "verification": "article page",
-      "explanation": "Anthropic developed Siren, a 'honeypot' test that places AI agents in simulated environments to tempt them into misbehaving. This helps evaluate the likelihood of models going rogue and the effectiveness of safety measures."
+      "explanation": "Meta declined a request from the UK's financial regulator to joint-test its Muse personal agent before its UK rollout. This highlights regulatory concerns about AI product compliance and Meta's approach to collaboration with watchdogs."
     },
     {
       "rank": 8,
-      "title": "Migrating our Messages API to Rust",
-      "company": "Anthropic",
-      "source": "Anthropic Research",
-      "url": "https://www.anthropic.com/research/migrating-api-to-rust",
-      "published_utc": "2026-11-25T00:00:00+00:00",
+      "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+      "company": "Other",
+      "source": "The Verge AI",
+      "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "published_utc": "2026-11-26T09:54:40+00:00",
       "significance": 5,
-      "score": 60.2,
+      "score": 56.7,
       "verification": "article page",
-      "explanation": "Anthropic migrated its Messages API to Rust, using Claude agents to verify the new API by tracking and fixing differences between the Python and Rust versions, highlighting the generator-verifier gap in AI projects."
+      "explanation": "A coalition of 42 state attorneys general is trying to stop Character.AI from selling user chat histories, including those of minors, during its Chapter 11 bankruptcy proceedings. This raises significant privacy concerns regarding AI companies and user data."
     },
     {
       "rank": 9,
-      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
-      "company": "OpenAI",
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
-      "published_utc": "2026-11-25T20:03:27+00:00",
-      "significance": 5,
-      "score": 59.2,
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "company": "Hugging Face",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "published_utc": "2026-11-26T11:37:17+00:00",
+      "significance": 4,
+      "score": 53.1,
       "verification": "article page",
-      "explanation": "OpenAI is rolling out a unified Chat and Work experience in ChatGPT, merging usage limits into a single meter. While most users are not expected to be affected, a small fraction of heavy users may hit their limits sooner."
+      "explanation": "Hugging Face released a llama.cpp benchmark dashboard for AMD Ryzen and Radeon hardware, allowing developers to track local inference performance across different builds, models, and quantizations. This helps developers inspect how performance changes over time and compare configurations."
     },
     {
       "rank": 10,
-      "title": "How to Run NVIDIA Cosmos 3 on Local AI Devices Using Hugging Face Diffusers",
-      "company": "NVIDIA",
-      "source": "NVIDIA Developer Blog",
-      "url": "https://developer.nvidia.com/blog/how-to-run-nvidia-cosmos-3-on-local-ai-devices-using-hugging-face-diffusers/",
-      "published_utc": "2026-11-24T18:44:05+00:00",
+      "title": "AI may soon change what it means to be a theoretical physicist",
+      "company": "Other",
+      "source": "Ars Technica AI",
+      "url": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
+      "published_utc": "2026-11-25T12:00:28+00:00",
       "significance": 5,
-      "score": 58.9,
+      "score": 51.2,
       "verification": "article page",
-      "explanation": "NVIDIA provides a tutorial on running NVIDIA Cosmos 3 Nano, a video generation foundation model, on local AI devices with limited GPU memory using Hugging Face Diffusers."
+      "explanation": "A theoretical physicist found that a frontier AI model could solve complex physics problems that had not appeared online. This suggests AI is advancing in its ability to tackle novel scientific challenges, potentially changing theoretical physics research."
     }
   ]
 }

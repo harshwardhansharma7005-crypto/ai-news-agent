@@ -1,46 +1,46 @@
-🤖 AI Breakthroughs: From Protein Design to Proving the Riemann Hypothesis!
-📅 26 Nov 2026 | Daily AI News Roundup
+🤖 SpaceX gets green light for 1 million AI satellites; Nvidia pauses chip shipments
+📅 27 Nov 2026 | Daily AI News Roundup
 
-1. GPT-6 models demonstrate intrinsic protein-design capabilities
-OpenAI's GPT-6 models demonstrate intrinsic protein-design capabilities, designing protein structures and sequences using reasoning and code, with lab tests showing evidence of binding across five targets.
-🔗 Source: OpenAI - https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities
+1. FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space
+The FCC has authorized SpaceX to deploy up to 1 million AI chip-equipped satellites for its 'Starmind' initiative, marking the first approval for a full constellation of AI satellites in space. This represents a significant step towards space-based AI infrastructure.
+🔗 Source: The Verge AI - https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers
 
-2. How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Recycling
-NVIDIA details how to optimize NVFP4 Attention on NVIDIA RTX Blackwell GPUs through register recycling, which improves attention performance for world foundation models by accelerating 4-bit matrix multiplication.
-🔗 Source: NVIDIA Developer Blog - https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling/
+2. Nvidia hits pause on chip shipments to Southeast Asia
+Nvidia has paused server shipments to Southeast Asian countries as the U.S. tightens export controls on AI chips to prevent them from reaching China. This impacts Nvidia's supply chain and highlights ongoing U.S. efforts to control AI technology access.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/
 
-3. What's going on with the Riemann hypothesis?
-A mathematician used AI to help prove the Riemann hypothesis, a major mathematical problem. This demonstrates AI's growing capability in complex problem-solving and has caused upset in the field of mathematics.
-🔗 Source: Ars Technica AI - https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/
-
-4. Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000
-Hugging Face details how to run Inkling 2 Mini inference on an RTX PRO 6000, showcasing the model's performance and unusual architecture for local AI and smaller open-source models.
-🔗 Source: Hugging Face Blog - https://huggingface.co/blog/inkling-2-mini-inference-hillclimb
-
-5. What’s new in Microsoft Foundry | Ignite 2026
-Microsoft Foundry announces updates at Ignite 2026 for agents, developer tools, and models, introducing new preview capabilities to connect Insights to Agent Optimizer for continuous improvement of AI agents.
-🔗 Source: Microsoft Foundry Blog - https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-ignite-2026/
-
-6. Verifiable Social Reasoning for LLM Assistants
-Google Research introduces an evaluation framework based on multi-agent social simulations to quantify how well AI assistants understand social situations from subjective user narratives, addressing challenges in evaluating social reasoning.
-🔗 Source: Google Research - https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/
-
-7. Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving
-Anthropic developed Siren, a 'honeypot' test that places AI agents in simulated environments to tempt them into misbehaving. This helps evaluate the likelihood of models going rogue and the effectiveness of safety measures.
-🔗 Source: WIRED AI - https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/
-
-8. Migrating our Messages API to Rust
-Anthropic migrated its Messages API to Rust, using Claude agents to verify the new API by tracking and fixing differences between the Python and Rust versions, highlighting the generator-verifier gap in AI projects.
-🔗 Source: Anthropic Research - https://www.anthropic.com/research/migrating-api-to-rust
-
-9. OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work
-OpenAI is rolling out a unified Chat and Work experience in ChatGPT, merging usage limits into a single meter. While most users are not expected to be affected, a small fraction of heavy users may hit their limits sooner.
+3. OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work
+OpenAI is merging ChatGPT's Chat and Work experiences into a single usage meter, which may cause heavy users to hit limits sooner. This change could impact access to advanced models for some subscribers.
 🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/
 
-10. How to Run NVIDIA Cosmos 3 on Local AI Devices Using Hugging Face Diffusers
-NVIDIA provides a tutorial on running NVIDIA Cosmos 3 Nano, a video generation foundation model, on local AI devices with limited GPU memory using Hugging Face Diffusers.
-🔗 Source: NVIDIA Developer Blog - https://developer.nvidia.com/blog/how-to-run-nvidia-cosmos-3-on-local-ai-devices-using-hugging-face-diffusers/
+4. Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference
+NVIDIA released new tools for Nemotron 3.5 Parse, a document model, including synthetic training datasets, a fine-tuning recipe, and a DFlash2 speculator for faster inference. This enhances the model's ability to extract structured data from documents for RAG and agents.
+🔗 Source: Hugging Face Blog - https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin
 
-Stay tuned for more exciting AI news tomorrow! Follow us for your daily dose of innovation.
+5. How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Recycling
+NVIDIA detailed how to optimize NVFP4 Attention on NVIDIA RTX Blackwell GPUs through register recycling, addressing attention bottlenecks in serving foundation models. This aims to accelerate attention beyond BF16 by leveraging hardware-accelerated 4-bit matrix multiplication.
+🔗 Source: NVIDIA Developer Blog - https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling/
 
-#AI #ArtificialIntelligence #AINews #TechNews #OpenAI #NVIDIA #HuggingFace #Microsoft #GoogleAI #DeepMind #Anthropic #Claude
+6. Verifiable Social Reasoning for LLM Assistants
+Google Research introduced an evaluation framework for LLM assistants based on multi-agent social simulations to quantify their social reasoning from subjective user narratives. This framework provides verifiable ground truth for assessing how well AI assistants understand social situations.
+🔗 Source: Google Research - https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/
+
+7. Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains
+Meta declined a request from the UK's financial regulator to joint-test its Muse personal agent before its UK rollout. This highlights regulatory concerns about AI product compliance and Meta's approach to collaboration with watchdogs.
+🔗 Source: WIRED AI - https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/
+
+8. 42 state AGs are trying to stop Character.AI from selling users’ chats
+A coalition of 42 state attorneys general is trying to stop Character.AI from selling user chat histories, including those of minors, during its Chapter 11 bankruptcy proceedings. This raises significant privacy concerns regarding AI companies and user data.
+🔗 Source: The Verge AI - https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats
+
+9. Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon
+Hugging Face released a llama.cpp benchmark dashboard for AMD Ryzen and Radeon hardware, allowing developers to track local inference performance across different builds, models, and quantizations. This helps developers inspect how performance changes over time and compare configurations.
+🔗 Source: Hugging Face Blog - https://huggingface.co/blog/ggml-org/llamacpp-amd-bench
+
+10. AI may soon change what it means to be a theoretical physicist
+A theoretical physicist found that a frontier AI model could solve complex physics problems that had not appeared online. This suggests AI is advancing in its ability to tackle novel scientific challenges, potentially changing theoretical physics research.
+🔗 Source: Ars Technica AI - https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/
+
+Stay informed on the latest AI developments! Follow us for tomorrow's update and join the conversation.
+
+#AI #ArtificialIntelligence #AINews #TechNews #NVIDIA #OpenAI #HuggingFace #GoogleAI #DeepMind #MetaAI
