@@ -1,46 +1,46 @@
-🤖 SpaceX gets green light for 1 million AI satellites; Nvidia pauses chip shipments
-📅 27 Nov 2026 | Daily AI News Roundup
+🤖 AI News: SpaceX's Million Satellite Plan, Nvidia's Chip Pause, and New Light-Based Chips
+📅 28 Nov 2026 | Daily AI News Roundup
 
-1. FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space
-The FCC has authorized SpaceX to deploy up to 1 million AI chip-equipped satellites for its 'Starmind' initiative, marking the first approval for a full constellation of AI satellites in space. This represents a significant step towards space-based AI infrastructure.
-🔗 Source: The Verge AI - https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers
-
-2. Nvidia hits pause on chip shipments to Southeast Asia
-Nvidia has paused server shipments to Southeast Asian countries as the U.S. tightens export controls on AI chips to prevent them from reaching China. This impacts Nvidia's supply chain and highlights ongoing U.S. efforts to control AI technology access.
+1. Nvidia hits pause on chip shipments to Southeast Asia
+Nvidia paused server shipments to Southeast Asian countries like Malaysia, Singapore, Thailand, and Indonesia to assess compliance with U.S. export requirements for AI chips. This action is part of the U.S. effort to prevent AI chips from reaching China through remote data centers.
 🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/
 
-3. OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work
-OpenAI is merging ChatGPT's Chat and Work experiences into a single usage meter, which may cause heavy users to hit limits sooner. This change could impact access to advanced models for some subscribers.
-🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/
+2. FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space
+The FCC has authorized SpaceX to deploy up to 1 million AI data center satellites as part of its 'Starmind' initiative. This is the first approval for a full constellation of AI satellites, aiming to power AI capabilities on Earth.
+🔗 Source: The Verge AI - https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers
 
-4. Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference
-NVIDIA released new tools for Nemotron 3.5 Parse, a document model, including synthetic training datasets, a fine-tuning recipe, and a DFlash2 speculator for faster inference. This enhances the model's ability to extract structured data from documents for RAG and agents.
-🔗 Source: Hugging Face Blog - https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin
+3. A New Breed of Chip Runs AI Models Using Waves of Light
+German company Q.ANT is developing photonic processors that use waves of light to run AI models, aiming to reduce energy consumption and cooling requirements. This new chip technology could address the ballooning energy costs associated with increasingly sophisticated AI models.
+🔗 Source: WIRED AI - https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/
 
-5. How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Recycling
-NVIDIA detailed how to optimize NVFP4 Attention on NVIDIA RTX Blackwell GPUs through register recycling, addressing attention bottlenecks in serving foundation models. This aims to accelerate attention beyond BF16 by leveraging hardware-accelerated 4-bit matrix multiplication.
-🔗 Source: NVIDIA Developer Blog - https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling/
+4. Migrating our Messages API to Rust
+Anthropic migrated its Messages API to Rust, using Claude agents to verify and fix differences between the Python and Rust versions. This demonstrates Claude's capability in complex code migration projects by leveraging its ability to verify solutions.
+🔗 Source: Anthropic Research - https://www.anthropic.com/research/migrating-api-to-rust
 
-6. Verifiable Social Reasoning for LLM Assistants
-Google Research introduced an evaluation framework for LLM assistants based on multi-agent social simulations to quantify their social reasoning from subjective user narratives. This framework provides verifiable ground truth for assessing how well AI assistants understand social situations.
-🔗 Source: Google Research - https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/
-
-7. Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains
-Meta declined a request from the UK's financial regulator to joint-test its Muse personal agent before its UK rollout. This highlights regulatory concerns about AI product compliance and Meta's approach to collaboration with watchdogs.
-🔗 Source: WIRED AI - https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/
-
-8. 42 state AGs are trying to stop Character.AI from selling users’ chats
-A coalition of 42 state attorneys general is trying to stop Character.AI from selling user chat histories, including those of minors, during its Chapter 11 bankruptcy proceedings. This raises significant privacy concerns regarding AI companies and user data.
+5. 42 state AGs are trying to stop Character.AI from selling users’ chats
+A coalition of 42 state attorneys general is attempting to prevent Character.AI from selling user data, including private chat histories of minors, during its Chapter 11 bankruptcy proceedings. This highlights significant concerns about data privacy and the protection of minors' information in AI services.
 🔗 Source: The Verge AI - https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats
 
-9. Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon
-Hugging Face released a llama.cpp benchmark dashboard for AMD Ryzen and Radeon hardware, allowing developers to track local inference performance across different builds, models, and quantizations. This helps developers inspect how performance changes over time and compare configurations.
+6. S&P considers Nvidia credit downgrade over governance and ‘key man’ risks
+S&P Global Ratings is considering downgrading Nvidia's credit rating due to concerns about management, governance practices, and 'key man risk' related to CEO Jensen Huang. A downgrade could increase Nvidia's borrowing costs and impact financing for AI infrastructure.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/
+
+7. OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work
+OpenAI is merging ChatGPT's Chat and Work experiences into a single usage meter, which may cause some heavy users to hit limits sooner. This change aims to unify the user experience but has raised concerns among subscribers about reduced access to advanced models.
+🔗 Source: TechCrunch AI - https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/
+
+8. Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains
+Meta declined the UK financial regulator's request for joint testing of its personal AI agent, Muse, ahead of its UK rollout. Regulators are concerned about ensuring AI products comply with consumer protection laws and want to investigate potential interactions with customers.
+🔗 Source: WIRED AI - https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/
+
+9. Taking Trainium3 to the Track: Generating Videos with LTX-2.5
+Hugging Face tested video generation with Lightricks' LTX-2.5 model on an AWS Trainium3 machine, achieving 10-second video clips with sound in 22-23 seconds. This demonstrates the capability of Trainium3 for video generation and Hugging Face's efforts in democratizing AI.
+🔗 Source: Hugging Face Blog - https://huggingface.co/blog/video-trainium3
+
+10. Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon
+Hugging Face launched a llama.cpp benchmark dashboard for AMD Ryzen and Radeon hardware, allowing developers to track local inference performance. This provides a tool for inspecting performance changes as models and builds evolve on AMD hardware.
 🔗 Source: Hugging Face Blog - https://huggingface.co/blog/ggml-org/llamacpp-amd-bench
 
-10. AI may soon change what it means to be a theoretical physicist
-A theoretical physicist found that a frontier AI model could solve complex physics problems that had not appeared online. This suggests AI is advancing in its ability to tackle novel scientific challenges, potentially changing theoretical physics research.
-🔗 Source: Ars Technica AI - https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/
+Stay informed with the latest in AI! Follow us for tomorrow's essential updates and insights.
 
-Stay informed on the latest AI developments! Follow us for tomorrow's update and join the conversation.
-
-#AI #ArtificialIntelligence #AINews #TechNews #NVIDIA #OpenAI #HuggingFace #GoogleAI #DeepMind #MetaAI
+#AI #ArtificialIntelligence #AINews #TechNews #NVIDIA #Anthropic #Claude #OpenAI #MetaAI #HuggingFace
